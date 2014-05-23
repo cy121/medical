@@ -480,7 +480,6 @@
             this.label124 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.BasicInfopanel.SuspendLayout();
             this.BasicInfogroupBox.SuspendLayout();
@@ -4666,7 +4665,6 @@
             // 
             // CurePlanpanel
             // 
-            this.CurePlanpanel.Controls.Add(this.button1);
             this.CurePlanpanel.Controls.Add(this.saveAllBtn);
             this.CurePlanpanel.Controls.Add(this.elserichTextBox);
             this.CurePlanpanel.Controls.Add(this.label139);
@@ -5069,16 +5067,6 @@
             this.label145.Size = new System.Drawing.Size(106, 22);
             this.label145.TabIndex = 82;
             this.label145.Text = "甲状腺吸碘率";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(368, 95);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 120;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // openFileDialog
             // 
@@ -5604,7 +5592,6 @@
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }
