@@ -441,8 +441,8 @@
             this.ETCleftLtextBox = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.CurePlanpanel = new System.Windows.Forms.Panel();
+            this.saveAllBtn = new System.Windows.Forms.Button();
             this.elserichTextBox = new System.Windows.Forms.RichTextBox();
             this.label139 = new System.Windows.Forms.Label();
             this.ElsethingtextBox = new System.Windows.Forms.TextBox();
@@ -480,6 +480,8 @@
             this.label124 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.BasicInfopanel.SuspendLayout();
             this.BasicInfogroupBox.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -3930,6 +3932,7 @@
             this.OpenFilebutton.TabIndex = 113;
             this.OpenFilebutton.Text = "······";
             this.OpenFilebutton.UseVisualStyleBackColor = false;
+            this.OpenFilebutton.Click += new System.EventHandler(this.OpenFilebutton_Click);
             // 
             // label123
             // 
@@ -4661,19 +4664,10 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "治疗计划";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(694, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // CurePlanpanel
             // 
             this.CurePlanpanel.Controls.Add(this.button1);
+            this.CurePlanpanel.Controls.Add(this.saveAllBtn);
             this.CurePlanpanel.Controls.Add(this.elserichTextBox);
             this.CurePlanpanel.Controls.Add(this.label139);
             this.CurePlanpanel.Controls.Add(this.ElsethingtextBox);
@@ -4715,6 +4709,16 @@
             this.CurePlanpanel.Name = "CurePlanpanel";
             this.CurePlanpanel.Size = new System.Drawing.Size(818, 419);
             this.CurePlanpanel.TabIndex = 115;
+            // 
+            // saveAllBtn
+            // 
+            this.saveAllBtn.Location = new System.Drawing.Point(694, 312);
+            this.saveAllBtn.Name = "saveAllBtn";
+            this.saveAllBtn.Size = new System.Drawing.Size(83, 28);
+            this.saveAllBtn.TabIndex = 0;
+            this.saveAllBtn.Text = "保存";
+            this.saveAllBtn.UseVisualStyleBackColor = true;
+            this.saveAllBtn.Click += new System.EventHandler(this.saveAllBtn_Click);
             // 
             // elserichTextBox
             // 
@@ -5065,6 +5069,20 @@
             this.label145.Size = new System.Drawing.Size(106, 22);
             this.label145.TabIndex = 82;
             this.label145.Text = "甲状腺吸碘率";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(368, 95);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 120;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog1";
             // 
             // CureFirst
             // 
@@ -5547,7 +5565,7 @@
         private System.Windows.Forms.Label label125;
         private System.Windows.Forms.TextBox ETCleftLtextBox;
         private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button saveAllBtn;
         private System.Windows.Forms.Panel CurePlanpanel;
         private System.Windows.Forms.RichTextBox elserichTextBox;
         private System.Windows.Forms.Label label139;
@@ -5586,5 +5604,7 @@
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog;
     }
 }

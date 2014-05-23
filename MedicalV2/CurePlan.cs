@@ -126,7 +126,7 @@ namespace MedicalV2
             }
             else
             {
-                string insert_sql = "insert into cure_plan(log_id,twoh_rate,twentyfourh_rate,rate_level,recom_dose" +
+                string insert_sql = "insert into cure_plan(log_id,twoh_rate,twentyfourh_rate,rate_level,recom_dose," +
                 "cal_dose,real_dose,ef_factor,ef_else,else_things) value('" + lid + "'," + twoh_rate + "," + twentyfourh_rate +
                 "," + rate_level + "," + recom_dose + "," + cal_dose + "," + real_dose + "," + ef_factor + ",'" + ef_else + "','" + else_things + "')";
                 MySqlCommand command = new MySqlCommand(insert_sql, con);

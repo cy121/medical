@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using MySql;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace MedicalV2
 {
@@ -312,7 +313,17 @@ namespace MedicalV2
                     trab + "," + wbc + "," + rbc + "," + hb + "," + plt + ",'" + n + "','" + l + "'," + tb + "," + db + "," + alt + "," + ast + "," + alp + "," + ygt + "," + tp + "," + alb + "," + glo + "," +
                     ag + "," + bun + "," + ua + "," + cr + "," + glu + ",'" + lab_else + "','" + handle + "')";
                 MySqlCommand command = new MySqlCommand(insert_sql, con);
-                command.ExecuteNonQuery();
+                try
+                {
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("保存成功！");
+                }
+                catch (MySqlException e)
+                {
+                    e.Message.ToString();
+                    MessageBox.Show("无法保存！");
+                }
                 con.Close();
                 return true;
             }

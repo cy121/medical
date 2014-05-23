@@ -1473,6 +1473,11 @@ namespace MedicalV2
 
         }
 
+        private void LogIDLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
 
 

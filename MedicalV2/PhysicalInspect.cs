@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using MySql;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace MedicalV2
 {
@@ -158,12 +159,22 @@ namespace MedicalV2
             }
             else
             {
-                string insert_sql = "insert into physical_inspect(log_id,thyroid_inspect,thyroid_bigger,thyroid_left,thyroid_right,heart_rate,heart_inspect,noise_level,blood_lpressure," +
-                    "blood_hpressure,eye_inspect,left_eye_out,right_eye_out,eye_distance,eye_inspect) value('" + lid + "'," + thyroid_inspect + "," + thyroid_bigger + "," + thyroid_left + "," + thyroid_right +
+                string insert_sql = "insert into physical_inspect(log_id,thyroid_inspect,thyroid_bigger,thyroid_left,thyroid_right,heart_rate,heart_inspect,noise_level,blood_lpresure," +
+                    "blood_hpresure,eye_inspect,left_eye_out,right_eye_out,eye_distance,else_inspect) value('" + lid + "','" + thyroid_inspect + "'," + thyroid_bigger + "," + thyroid_left + "," + thyroid_right + "," + 
                     heart_rate + ",'" + heart_inspect + "'," + noise_level + "," + blood_lpressure + "," + blood_hpressure + ",'" + eye_inspect + "'," + left_eye_out + "," + right_eye_out + "," + eye_distance +
                     ",'" + else_inspect + "')";
-                MySqlCommand command = new MySqlCommand(insert_sql, con);
-                command.ExecuteNonQuery();
+                MySqlCommand command = new MySqlCommand(insert_sql, con);;
+                try
+                {
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("保存成功！");
+                }
+                catch (MySqlException e)
+                {
+                    e.Message.ToString();
+                    MessageBox.Show("无法保存！");
+                }
                 con.Close();
                 return true;
             }
