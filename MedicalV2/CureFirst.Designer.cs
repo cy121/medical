@@ -63,68 +63,64 @@
             this.NaneLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.PresentHistorypanel = new System.Windows.Forms.Panel();
+            this.PresentHistorygroupBox = new System.Windows.Forms.GroupBox();
+            this.ProcessrichTextBox = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SymptomgroupBox = new System.Windows.Forms.GroupBox();
+            this.OthertextBox = new System.Windows.Forms.TextBox();
+            this.Otherlabel = new System.Windows.Forms.Label();
+            this.Defecatelabel = new System.Windows.Forms.Label();
+            this.DefecatetextBox = new System.Windows.Forms.TextBox();
+            this.DefecatecheckBox = new System.Windows.Forms.CheckBox();
+            this.Flaccidlabel = new System.Windows.Forms.Label();
+            this.FlaccidtextBox = new System.Windows.Forms.TextBox();
+            this.FlaccidcheckBox = new System.Windows.Forms.CheckBox();
+            this.DiscomfortcheckBox = new System.Windows.Forms.CheckBox();
+            this.ZhoucheckBox = new System.Windows.Forms.CheckBox();
+            this.SexlesscheckBox = new System.Windows.Forms.CheckBox();
+            this.ImpotencecheckBox = new System.Windows.Forms.CheckBox();
+            this.MammarycheckBox = new System.Windows.Forms.CheckBox();
+            this.AmenorrhoeacheckBox = new System.Windows.Forms.CheckBox();
+            this.IrregularcheckBox = new System.Windows.Forms.CheckBox();
+            this.StrabismuscheckBox = new System.Windows.Forms.CheckBox();
+            this.DiplopiacheckBox = new System.Windows.Forms.CheckBox();
+            this.EyesightcheckBox = new System.Windows.Forms.CheckBox();
+            this.AsthenopiacheckBox = new System.Windows.Forms.CheckBox();
+            this.StackcheckBox = new System.Windows.Forms.CheckBox();
+            this.TearscheckBox = new System.Windows.Forms.CheckBox();
+            this.PhotophobiacheckBox = new System.Windows.Forms.CheckBox();
+            this.SensationcheckBox = new System.Windows.Forms.CheckBox();
+            this.EyecheckBox = new System.Windows.Forms.CheckBox();
+            this.ExophthalmoscheckBox = new System.Windows.Forms.CheckBox();
+            this.NauseacheckBox = new System.Windows.Forms.CheckBox();
+            this.JaundicecheckBox = new System.Windows.Forms.CheckBox();
+            this.AppetitecheckBox = new System.Windows.Forms.CheckBox();
+            this.HungercheckBox = new System.Windows.Forms.CheckBox();
+            this.PolyphagiacheckBox = new System.Windows.Forms.CheckBox();
+            this.BreathcheckBox = new System.Windows.Forms.CheckBox();
+            this.ChestcheckBox = new System.Windows.Forms.CheckBox();
+            this.PalpitationcheckBox = new System.Windows.Forms.CheckBox();
+            this.ColdcheckBox = new System.Windows.Forms.CheckBox();
+            this.DepressioncheckBox = new System.Windows.Forms.CheckBox();
+            this.IllusioncheckBox = new System.Windows.Forms.CheckBox();
+            this.MemorycheckBox = new System.Windows.Forms.CheckBox();
+            this.AngrycheckBox = new System.Windows.Forms.CheckBox();
+            this.InsomniacheckBox = new System.Windows.Forms.CheckBox();
+            this.NervouscheckBox = new System.Windows.Forms.CheckBox();
+            this.LanguagecheckBox = new System.Windows.Forms.CheckBox();
+            this.ShakecheckBox = new System.Windows.Forms.CheckBox();
+            this.WeightHcheckBox = new System.Windows.Forms.CheckBox();
+            this.WeightLcheckBox = new System.Windows.Forms.CheckBox();
+            this.FeeblecheckBox = new System.Windows.Forms.CheckBox();
+            this.IdrosischeckBox = new System.Windows.Forms.CheckBox();
+            this.HeatcheckBox = new System.Windows.Forms.CheckBox();
+            this.NeckcheckBox = new System.Windows.Forms.CheckBox();
+            this.MainReporttextBox = new System.Windows.Forms.TextBox();
+            this.MainReportLabel = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.PresentHistorygroupBox = new System.Windows.Forms.GroupBox();
-            this.MainReportLabel = new System.Windows.Forms.Label();
-            this.MainReporttextBox = new System.Windows.Forms.TextBox();
-            this.SymptomgroupBox = new System.Windows.Forms.GroupBox();
-            this.NeckcheckBox = new System.Windows.Forms.CheckBox();
-            this.HeatcheckBox = new System.Windows.Forms.CheckBox();
-            this.IdrosischeckBox = new System.Windows.Forms.CheckBox();
-            this.FeeblecheckBox = new System.Windows.Forms.CheckBox();
-            this.WeightLcheckBox = new System.Windows.Forms.CheckBox();
-            this.WeightHcheckBox = new System.Windows.Forms.CheckBox();
-            this.ShakecheckBox = new System.Windows.Forms.CheckBox();
-            this.LanguagecheckBox = new System.Windows.Forms.CheckBox();
-            this.NervouscheckBox = new System.Windows.Forms.CheckBox();
-            this.InsomniacheckBox = new System.Windows.Forms.CheckBox();
-            this.AngrycheckBox = new System.Windows.Forms.CheckBox();
-            this.MemorycheckBox = new System.Windows.Forms.CheckBox();
-            this.IllusioncheckBox = new System.Windows.Forms.CheckBox();
-            this.DepressioncheckBox = new System.Windows.Forms.CheckBox();
-            this.ColdcheckBox = new System.Windows.Forms.CheckBox();
-            this.PalpitationcheckBox = new System.Windows.Forms.CheckBox();
-            this.ChestcheckBox = new System.Windows.Forms.CheckBox();
-            this.BreathcheckBox = new System.Windows.Forms.CheckBox();
-            this.PolyphagiacheckBox = new System.Windows.Forms.CheckBox();
-            this.HungercheckBox = new System.Windows.Forms.CheckBox();
-            this.AppetitecheckBox = new System.Windows.Forms.CheckBox();
-            this.JaundicecheckBox = new System.Windows.Forms.CheckBox();
-            this.NauseacheckBox = new System.Windows.Forms.CheckBox();
-            this.ExophthalmoscheckBox = new System.Windows.Forms.CheckBox();
-            this.EyecheckBox = new System.Windows.Forms.CheckBox();
-            this.SensationcheckBox = new System.Windows.Forms.CheckBox();
-            this.PhotophobiacheckBox = new System.Windows.Forms.CheckBox();
-            this.TearscheckBox = new System.Windows.Forms.CheckBox();
-            this.StackcheckBox = new System.Windows.Forms.CheckBox();
-            this.AsthenopiacheckBox = new System.Windows.Forms.CheckBox();
-            this.EyesightcheckBox = new System.Windows.Forms.CheckBox();
-            this.DiplopiacheckBox = new System.Windows.Forms.CheckBox();
-            this.StrabismuscheckBox = new System.Windows.Forms.CheckBox();
-            this.IrregularcheckBox = new System.Windows.Forms.CheckBox();
-            this.AmenorrhoeacheckBox = new System.Windows.Forms.CheckBox();
-            this.MammarycheckBox = new System.Windows.Forms.CheckBox();
-            this.ImpotencecheckBox = new System.Windows.Forms.CheckBox();
-            this.SexlesscheckBox = new System.Windows.Forms.CheckBox();
-            this.ZhoucheckBox = new System.Windows.Forms.CheckBox();
-            this.DiscomfortcheckBox = new System.Windows.Forms.CheckBox();
-            this.FlaccidcheckBox = new System.Windows.Forms.CheckBox();
-            this.FlaccidtextBox = new System.Windows.Forms.TextBox();
-            this.Flaccidlabel = new System.Windows.Forms.Label();
-            this.DefecatecheckBox = new System.Windows.Forms.CheckBox();
-            this.DefecatetextBox = new System.Windows.Forms.TextBox();
-            this.Defecatelabel = new System.Windows.Forms.Label();
-            this.Otherlabel = new System.Windows.Forms.Label();
-            this.OthertextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.ProcessrichTextBox = new System.Windows.Forms.RichTextBox();
-            this.PresentHistorypanel = new System.Windows.Forms.Panel();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ConstHistorypanel = new System.Windows.Forms.Panel();
             this.ParentgroupBox = new System.Windows.Forms.GroupBox();
             this.ParentHisrichTextBox = new System.Windows.Forms.RichTextBox();
@@ -187,6 +183,7 @@
             this.ResidentcheckBox = new System.Windows.Forms.CheckBox();
             this.PastgroupBox = new System.Windows.Forms.GroupBox();
             this.PastrichTextBox = new System.Windows.Forms.RichTextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.PhysicalInspectpanel = new System.Windows.Forms.Panel();
             this.ElsegroupBox = new System.Windows.Forms.GroupBox();
             this.FaircheckBox = new System.Windows.Forms.CheckBox();
@@ -266,6 +263,7 @@
             this.QuantityFormalcheckBox = new System.Windows.Forms.CheckBox();
             this.QuantityLesscheckBox = new System.Windows.Forms.CheckBox();
             this.BigcheckBox = new System.Windows.Forms.CheckBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.LabInspectpanel = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label94 = new System.Windows.Forms.Label();
@@ -321,11 +319,6 @@
             this.TBtextBox = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.BloodLabgroupBox = new System.Windows.Forms.GroupBox();
-            this.label68 = new System.Windows.Forms.Label();
-            this.LRtextBox = new System.Windows.Forms.TextBox();
-            this.label67 = new System.Windows.Forms.Label();
-            this.LLtextBox = new System.Windows.Forms.TextBox();
-            this.label66 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.NRtextBox = new System.Windows.Forms.TextBox();
             this.label64 = new System.Windows.Forms.Label();
@@ -344,10 +337,15 @@
             this.WBCtextBox = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.ThyroidLabgroupBox = new System.Windows.Forms.GroupBox();
+            this.label68 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
+            this.LRtextBox = new System.Windows.Forms.TextBox();
             this.TRAbtextBox = new System.Windows.Forms.TextBox();
+            this.label67 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
+            this.LLtextBox = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
             this.TgAbtextBox = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -368,6 +366,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.FT3textBox = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.ImageInspectpanel = new System.Windows.Forms.Panel();
             this.OpenFilebutton = new System.Windows.Forms.Button();
             this.label123 = new System.Windows.Forms.Label();
@@ -441,37 +440,79 @@
             this.label125 = new System.Windows.Forms.Label();
             this.ETCleftLtextBox = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.CurePlanpanel = new System.Windows.Forms.Panel();
+            this.elserichTextBox = new System.Windows.Forms.RichTextBox();
+            this.label139 = new System.Windows.Forms.Label();
+            this.ElsethingtextBox = new System.Windows.Forms.TextBox();
+            this.qitacheckBox = new System.Windows.Forms.CheckBox();
+            this.JiejiecheckBox = new System.Windows.Forms.CheckBox();
+            this.JiacheckBox = new System.Windows.Forms.CheckBox();
+            this.fufacheckBox = new System.Windows.Forms.CheckBox();
+            this.ATDcheckBox = new System.Windows.Forms.CheckBox();
+            this.shoushucheckBox = new System.Windows.Forms.CheckBox();
+            this.BingcheckBox = new System.Windows.Forms.CheckBox();
+            this.HecheckBox = new System.Windows.Forms.CheckBox();
+            this.ZhengcheckBox = new System.Windows.Forms.CheckBox();
+            this.AgecheckBox = new System.Windows.Forms.CheckBox();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label137 = new System.Windows.Forms.Label();
+            this.RealtextBox = new System.Windows.Forms.TextBox();
+            this.label136 = new System.Windows.Forms.Label();
+            this.label135 = new System.Windows.Forms.Label();
+            this.CaltextBox = new System.Windows.Forms.TextBox();
+            this.label134 = new System.Windows.Forms.Label();
+            this.label133 = new System.Windows.Forms.Label();
+            this.PlantextBox = new System.Windows.Forms.TextBox();
+            this.label132 = new System.Windows.Forms.Label();
+            this.label131 = new System.Windows.Forms.Label();
+            this.RecomtextBox = new System.Windows.Forms.TextBox();
+            this.label130 = new System.Windows.Forms.Label();
+            this.LesscheckBox = new System.Windows.Forms.CheckBox();
+            this.MorecheckBox = new System.Windows.Forms.CheckBox();
+            this.NormalcheckBox = new System.Windows.Forms.CheckBox();
+            this.label129 = new System.Windows.Forms.Label();
+            this.TwoFhtextBox = new System.Windows.Forms.TextBox();
+            this.label128 = new System.Windows.Forms.Label();
+            this.label127 = new System.Windows.Forms.Label();
+            this.twohtextBox = new System.Windows.Forms.TextBox();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.label145 = new System.Windows.Forms.Label();
             this.BasicInfopanel.SuspendLayout();
             this.BasicInfogroupBox.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.PresentHistorypanel.SuspendLayout();
             this.PresentHistorygroupBox.SuspendLayout();
             this.SymptomgroupBox.SuspendLayout();
-            this.PresentHistorypanel.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.ConstHistorypanel.SuspendLayout();
             this.ParentgroupBox.SuspendLayout();
             this.MenophaniagroupBox.SuspendLayout();
             this.MarriagegroupBox.SuspendLayout();
             this.PersongroupBox.SuspendLayout();
             this.PastgroupBox.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.PhysicalInspectpanel.SuspendLayout();
             this.ElsegroupBox.SuspendLayout();
             this.EyegroupBox.SuspendLayout();
             this.HeartgroupBox.SuspendLayout();
             this.ThyroidgroupBox.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.LabInspectpanel.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.BloodLabgroupBox.SuspendLayout();
             this.ThyroidLabgroupBox.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.ImageInspectpanel.SuspendLayout();
             this.BgroupBox.SuspendLayout();
             this.ETCgroupBox.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.CurePlanpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // BasicInfopanel
@@ -805,36 +846,18 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1181, 407);
+            this.tabPage1.Size = new System.Drawing.Size(1181, 439);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "基本症状";
             // 
-            // tabPage2
+            // PresentHistorypanel
             // 
-            this.tabPage2.Controls.Add(this.ConstHistorypanel);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1181, 407);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "既往史";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(282, -61);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(680, 21);
-            this.textBox4.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(218, -58);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "主述：";
+            this.PresentHistorypanel.BackColor = System.Drawing.SystemColors.Control;
+            this.PresentHistorypanel.Controls.Add(this.PresentHistorygroupBox);
+            this.PresentHistorypanel.Location = new System.Drawing.Point(6, 7);
+            this.PresentHistorypanel.Name = "PresentHistorypanel";
+            this.PresentHistorypanel.Size = new System.Drawing.Size(1169, 371);
+            this.PresentHistorypanel.TabIndex = 7;
             // 
             // PresentHistorygroupBox
             // 
@@ -852,21 +875,22 @@
             this.PresentHistorygroupBox.TabStop = false;
             this.PresentHistorygroupBox.Text = "病人基本症状";
             // 
-            // MainReportLabel
+            // ProcessrichTextBox
             // 
-            this.MainReportLabel.AutoSize = true;
-            this.MainReportLabel.Location = new System.Drawing.Point(17, 36);
-            this.MainReportLabel.Name = "MainReportLabel";
-            this.MainReportLabel.Size = new System.Drawing.Size(58, 21);
-            this.MainReportLabel.TabIndex = 0;
-            this.MainReportLabel.Text = "主述：";
+            this.ProcessrichTextBox.Location = new System.Drawing.Point(152, 311);
+            this.ProcessrichTextBox.Name = "ProcessrichTextBox";
+            this.ProcessrichTextBox.Size = new System.Drawing.Size(605, 41);
+            this.ProcessrichTextBox.TabIndex = 6;
+            this.ProcessrichTextBox.Text = "";
             // 
-            // MainReporttextBox
+            // label2
             // 
-            this.MainReporttextBox.Location = new System.Drawing.Point(81, 33);
-            this.MainReporttextBox.Name = "MainReporttextBox";
-            this.MainReporttextBox.Size = new System.Drawing.Size(680, 29);
-            this.MainReporttextBox.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 311);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(138, 21);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "发病及治疗经过：";
             // 
             // SymptomgroupBox
             // 
@@ -925,431 +949,37 @@
             this.SymptomgroupBox.TabStop = false;
             this.SymptomgroupBox.Text = "症状";
             // 
-            // NeckcheckBox
-            // 
-            this.NeckcheckBox.AutoSize = true;
-            this.NeckcheckBox.Location = new System.Drawing.Point(11, 28);
-            this.NeckcheckBox.Name = "NeckcheckBox";
-            this.NeckcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.NeckcheckBox.TabIndex = 6;
-            this.NeckcheckBox.Text = "颈粗";
-            this.NeckcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // HeatcheckBox
-            // 
-            this.HeatcheckBox.AutoSize = true;
-            this.HeatcheckBox.Location = new System.Drawing.Point(78, 28);
-            this.HeatcheckBox.Name = "HeatcheckBox";
-            this.HeatcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.HeatcheckBox.TabIndex = 7;
-            this.HeatcheckBox.Text = "怕热";
-            this.HeatcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // IdrosischeckBox
-            // 
-            this.IdrosischeckBox.AutoSize = true;
-            this.IdrosischeckBox.Location = new System.Drawing.Point(145, 28);
-            this.IdrosischeckBox.Name = "IdrosischeckBox";
-            this.IdrosischeckBox.Size = new System.Drawing.Size(61, 25);
-            this.IdrosischeckBox.TabIndex = 8;
-            this.IdrosischeckBox.Text = "多汗";
-            this.IdrosischeckBox.UseVisualStyleBackColor = true;
-            // 
-            // FeeblecheckBox
-            // 
-            this.FeeblecheckBox.AutoSize = true;
-            this.FeeblecheckBox.Location = new System.Drawing.Point(212, 28);
-            this.FeeblecheckBox.Name = "FeeblecheckBox";
-            this.FeeblecheckBox.Size = new System.Drawing.Size(61, 25);
-            this.FeeblecheckBox.TabIndex = 9;
-            this.FeeblecheckBox.Text = "乏力";
-            this.FeeblecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // WeightLcheckBox
-            // 
-            this.WeightLcheckBox.AutoSize = true;
-            this.WeightLcheckBox.Location = new System.Drawing.Point(279, 28);
-            this.WeightLcheckBox.Name = "WeightLcheckBox";
-            this.WeightLcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.WeightLcheckBox.TabIndex = 10;
-            this.WeightLcheckBox.Text = "体重减轻";
-            this.WeightLcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // WeightHcheckBox
-            // 
-            this.WeightHcheckBox.AutoSize = true;
-            this.WeightHcheckBox.Location = new System.Drawing.Point(378, 28);
-            this.WeightHcheckBox.Name = "WeightHcheckBox";
-            this.WeightHcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.WeightHcheckBox.TabIndex = 11;
-            this.WeightHcheckBox.Text = "体重增加";
-            this.WeightHcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ShakecheckBox
-            // 
-            this.ShakecheckBox.AutoSize = true;
-            this.ShakecheckBox.Location = new System.Drawing.Point(477, 28);
-            this.ShakecheckBox.Name = "ShakecheckBox";
-            this.ShakecheckBox.Size = new System.Drawing.Size(61, 25);
-            this.ShakecheckBox.TabIndex = 12;
-            this.ShakecheckBox.Text = "手颤";
-            this.ShakecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // LanguagecheckBox
-            // 
-            this.LanguagecheckBox.AutoSize = true;
-            this.LanguagecheckBox.Location = new System.Drawing.Point(544, 28);
-            this.LanguagecheckBox.Name = "LanguagecheckBox";
-            this.LanguagecheckBox.Size = new System.Drawing.Size(93, 25);
-            this.LanguagecheckBox.TabIndex = 13;
-            this.LanguagecheckBox.Text = "多言多动";
-            this.LanguagecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // NervouscheckBox
-            // 
-            this.NervouscheckBox.AutoSize = true;
-            this.NervouscheckBox.Location = new System.Drawing.Point(643, 28);
-            this.NervouscheckBox.Name = "NervouscheckBox";
-            this.NervouscheckBox.Size = new System.Drawing.Size(93, 25);
-            this.NervouscheckBox.TabIndex = 14;
-            this.NervouscheckBox.Text = "紧张多虑";
-            this.NervouscheckBox.UseVisualStyleBackColor = true;
-            // 
-            // InsomniacheckBox
-            // 
-            this.InsomniacheckBox.AutoSize = true;
-            this.InsomniacheckBox.Location = new System.Drawing.Point(11, 59);
-            this.InsomniacheckBox.Name = "InsomniacheckBox";
-            this.InsomniacheckBox.Size = new System.Drawing.Size(61, 25);
-            this.InsomniacheckBox.TabIndex = 15;
-            this.InsomniacheckBox.Text = "失眠";
-            this.InsomniacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // AngrycheckBox
-            // 
-            this.AngrycheckBox.AutoSize = true;
-            this.AngrycheckBox.Location = new System.Drawing.Point(78, 59);
-            this.AngrycheckBox.Name = "AngrycheckBox";
-            this.AngrycheckBox.Size = new System.Drawing.Size(93, 25);
-            this.AngrycheckBox.TabIndex = 16;
-            this.AngrycheckBox.Text = "焦躁易怒";
-            this.AngrycheckBox.UseVisualStyleBackColor = true;
-            // 
-            // MemorycheckBox
-            // 
-            this.MemorycheckBox.AutoSize = true;
-            this.MemorycheckBox.Location = new System.Drawing.Point(177, 59);
-            this.MemorycheckBox.Name = "MemorycheckBox";
-            this.MemorycheckBox.Size = new System.Drawing.Size(109, 25);
-            this.MemorycheckBox.TabIndex = 17;
-            this.MemorycheckBox.Text = "记忆力减退";
-            this.MemorycheckBox.UseVisualStyleBackColor = true;
-            // 
-            // IllusioncheckBox
-            // 
-            this.IllusioncheckBox.AutoSize = true;
-            this.IllusioncheckBox.Location = new System.Drawing.Point(292, 59);
-            this.IllusioncheckBox.Name = "IllusioncheckBox";
-            this.IllusioncheckBox.Size = new System.Drawing.Size(61, 25);
-            this.IllusioncheckBox.TabIndex = 18;
-            this.IllusioncheckBox.Text = "幻觉";
-            this.IllusioncheckBox.UseVisualStyleBackColor = true;
-            // 
-            // DepressioncheckBox
-            // 
-            this.DepressioncheckBox.AutoSize = true;
-            this.DepressioncheckBox.Location = new System.Drawing.Point(359, 59);
-            this.DepressioncheckBox.Name = "DepressioncheckBox";
-            this.DepressioncheckBox.Size = new System.Drawing.Size(93, 25);
-            this.DepressioncheckBox.TabIndex = 19;
-            this.DepressioncheckBox.Text = "寡言抑郁";
-            this.DepressioncheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ColdcheckBox
-            // 
-            this.ColdcheckBox.AutoSize = true;
-            this.ColdcheckBox.Location = new System.Drawing.Point(458, 59);
-            this.ColdcheckBox.Name = "ColdcheckBox";
-            this.ColdcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.ColdcheckBox.TabIndex = 20;
-            this.ColdcheckBox.Text = "神情冷漠";
-            this.ColdcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // PalpitationcheckBox
-            // 
-            this.PalpitationcheckBox.AutoSize = true;
-            this.PalpitationcheckBox.Location = new System.Drawing.Point(557, 59);
-            this.PalpitationcheckBox.Name = "PalpitationcheckBox";
-            this.PalpitationcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.PalpitationcheckBox.TabIndex = 21;
-            this.PalpitationcheckBox.Text = "心悸";
-            this.PalpitationcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ChestcheckBox
-            // 
-            this.ChestcheckBox.AutoSize = true;
-            this.ChestcheckBox.Location = new System.Drawing.Point(624, 59);
-            this.ChestcheckBox.Name = "ChestcheckBox";
-            this.ChestcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.ChestcheckBox.TabIndex = 22;
-            this.ChestcheckBox.Text = "胸闷";
-            this.ChestcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // BreathcheckBox
-            // 
-            this.BreathcheckBox.AutoSize = true;
-            this.BreathcheckBox.Location = new System.Drawing.Point(11, 90);
-            this.BreathcheckBox.Name = "BreathcheckBox";
-            this.BreathcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.BreathcheckBox.TabIndex = 23;
-            this.BreathcheckBox.Text = "气短";
-            this.BreathcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // PolyphagiacheckBox
-            // 
-            this.PolyphagiacheckBox.AutoSize = true;
-            this.PolyphagiacheckBox.Location = new System.Drawing.Point(78, 90);
-            this.PolyphagiacheckBox.Name = "PolyphagiacheckBox";
-            this.PolyphagiacheckBox.Size = new System.Drawing.Size(61, 25);
-            this.PolyphagiacheckBox.TabIndex = 24;
-            this.PolyphagiacheckBox.Text = "多食";
-            this.PolyphagiacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // HungercheckBox
-            // 
-            this.HungercheckBox.AutoSize = true;
-            this.HungercheckBox.Location = new System.Drawing.Point(145, 90);
-            this.HungercheckBox.Name = "HungercheckBox";
-            this.HungercheckBox.Size = new System.Drawing.Size(61, 25);
-            this.HungercheckBox.TabIndex = 25;
-            this.HungercheckBox.Text = "易饥";
-            this.HungercheckBox.UseVisualStyleBackColor = true;
-            // 
-            // AppetitecheckBox
-            // 
-            this.AppetitecheckBox.AutoSize = true;
-            this.AppetitecheckBox.Location = new System.Drawing.Point(212, 90);
-            this.AppetitecheckBox.Name = "AppetitecheckBox";
-            this.AppetitecheckBox.Size = new System.Drawing.Size(93, 25);
-            this.AppetitecheckBox.TabIndex = 26;
-            this.AppetitecheckBox.Text = "食欲减退";
-            this.AppetitecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // JaundicecheckBox
-            // 
-            this.JaundicecheckBox.AutoSize = true;
-            this.JaundicecheckBox.Location = new System.Drawing.Point(311, 90);
-            this.JaundicecheckBox.Name = "JaundicecheckBox";
-            this.JaundicecheckBox.Size = new System.Drawing.Size(61, 25);
-            this.JaundicecheckBox.TabIndex = 27;
-            this.JaundicecheckBox.Text = "黄疸";
-            this.JaundicecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // NauseacheckBox
-            // 
-            this.NauseacheckBox.AutoSize = true;
-            this.NauseacheckBox.Location = new System.Drawing.Point(378, 90);
-            this.NauseacheckBox.Name = "NauseacheckBox";
-            this.NauseacheckBox.Size = new System.Drawing.Size(93, 25);
-            this.NauseacheckBox.TabIndex = 28;
-            this.NauseacheckBox.Text = "恶心呕吐";
-            this.NauseacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ExophthalmoscheckBox
-            // 
-            this.ExophthalmoscheckBox.AutoSize = true;
-            this.ExophthalmoscheckBox.Location = new System.Drawing.Point(477, 91);
-            this.ExophthalmoscheckBox.Name = "ExophthalmoscheckBox";
-            this.ExophthalmoscheckBox.Size = new System.Drawing.Size(61, 25);
-            this.ExophthalmoscheckBox.TabIndex = 29;
-            this.ExophthalmoscheckBox.Text = "突眼";
-            this.ExophthalmoscheckBox.UseVisualStyleBackColor = true;
-            // 
-            // EyecheckBox
-            // 
-            this.EyecheckBox.AutoSize = true;
-            this.EyecheckBox.Location = new System.Drawing.Point(544, 90);
-            this.EyecheckBox.Name = "EyecheckBox";
-            this.EyecheckBox.Size = new System.Drawing.Size(61, 25);
-            this.EyecheckBox.TabIndex = 30;
-            this.EyecheckBox.Text = "眼胀";
-            this.EyecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // SensationcheckBox
-            // 
-            this.SensationcheckBox.AutoSize = true;
-            this.SensationcheckBox.Location = new System.Drawing.Point(611, 90);
-            this.SensationcheckBox.Name = "SensationcheckBox";
-            this.SensationcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.SensationcheckBox.TabIndex = 31;
-            this.SensationcheckBox.Text = "眼异物感";
-            this.SensationcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // PhotophobiacheckBox
-            // 
-            this.PhotophobiacheckBox.AutoSize = true;
-            this.PhotophobiacheckBox.Location = new System.Drawing.Point(11, 119);
-            this.PhotophobiacheckBox.Name = "PhotophobiacheckBox";
-            this.PhotophobiacheckBox.Size = new System.Drawing.Size(61, 25);
-            this.PhotophobiacheckBox.TabIndex = 32;
-            this.PhotophobiacheckBox.Text = "怕光";
-            this.PhotophobiacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // TearscheckBox
-            // 
-            this.TearscheckBox.AutoSize = true;
-            this.TearscheckBox.Location = new System.Drawing.Point(78, 119);
-            this.TearscheckBox.Name = "TearscheckBox";
-            this.TearscheckBox.Size = new System.Drawing.Size(61, 25);
-            this.TearscheckBox.TabIndex = 33;
-            this.TearscheckBox.Text = "流泪";
-            this.TearscheckBox.UseVisualStyleBackColor = true;
-            // 
-            // StackcheckBox
-            // 
-            this.StackcheckBox.AutoSize = true;
-            this.StackcheckBox.Location = new System.Drawing.Point(145, 119);
-            this.StackcheckBox.Name = "StackcheckBox";
-            this.StackcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.StackcheckBox.TabIndex = 34;
-            this.StackcheckBox.Text = "刺痛";
-            this.StackcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // AsthenopiacheckBox
-            // 
-            this.AsthenopiacheckBox.AutoSize = true;
-            this.AsthenopiacheckBox.Location = new System.Drawing.Point(212, 119);
-            this.AsthenopiacheckBox.Name = "AsthenopiacheckBox";
-            this.AsthenopiacheckBox.Size = new System.Drawing.Size(93, 25);
-            this.AsthenopiacheckBox.TabIndex = 35;
-            this.AsthenopiacheckBox.Text = "视力疲劳";
-            this.AsthenopiacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // EyesightcheckBox
-            // 
-            this.EyesightcheckBox.AutoSize = true;
-            this.EyesightcheckBox.Location = new System.Drawing.Point(311, 119);
-            this.EyesightcheckBox.Name = "EyesightcheckBox";
-            this.EyesightcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.EyesightcheckBox.TabIndex = 36;
-            this.EyesightcheckBox.Text = "视力减退";
-            this.EyesightcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // DiplopiacheckBox
-            // 
-            this.DiplopiacheckBox.AutoSize = true;
-            this.DiplopiacheckBox.Location = new System.Drawing.Point(410, 119);
-            this.DiplopiacheckBox.Name = "DiplopiacheckBox";
-            this.DiplopiacheckBox.Size = new System.Drawing.Size(61, 25);
-            this.DiplopiacheckBox.TabIndex = 37;
-            this.DiplopiacheckBox.Text = "复视";
-            this.DiplopiacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // StrabismuscheckBox
-            // 
-            this.StrabismuscheckBox.AutoSize = true;
-            this.StrabismuscheckBox.Location = new System.Drawing.Point(477, 119);
-            this.StrabismuscheckBox.Name = "StrabismuscheckBox";
-            this.StrabismuscheckBox.Size = new System.Drawing.Size(61, 25);
-            this.StrabismuscheckBox.TabIndex = 38;
-            this.StrabismuscheckBox.Text = "斜视";
-            this.StrabismuscheckBox.UseVisualStyleBackColor = true;
-            // 
-            // IrregularcheckBox
-            // 
-            this.IrregularcheckBox.AutoSize = true;
-            this.IrregularcheckBox.Location = new System.Drawing.Point(544, 119);
-            this.IrregularcheckBox.Name = "IrregularcheckBox";
-            this.IrregularcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.IrregularcheckBox.TabIndex = 39;
-            this.IrregularcheckBox.Text = "月经不调";
-            this.IrregularcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // AmenorrhoeacheckBox
-            // 
-            this.AmenorrhoeacheckBox.AutoSize = true;
-            this.AmenorrhoeacheckBox.Location = new System.Drawing.Point(643, 119);
-            this.AmenorrhoeacheckBox.Name = "AmenorrhoeacheckBox";
-            this.AmenorrhoeacheckBox.Size = new System.Drawing.Size(61, 25);
-            this.AmenorrhoeacheckBox.TabIndex = 40;
-            this.AmenorrhoeacheckBox.Text = "闭经";
-            this.AmenorrhoeacheckBox.UseVisualStyleBackColor = true;
-            // 
-            // MammarycheckBox
-            // 
-            this.MammarycheckBox.AutoSize = true;
-            this.MammarycheckBox.Location = new System.Drawing.Point(11, 150);
-            this.MammarycheckBox.Name = "MammarycheckBox";
-            this.MammarycheckBox.Size = new System.Drawing.Size(93, 25);
-            this.MammarycheckBox.TabIndex = 41;
-            this.MammarycheckBox.Text = "乳腺增生";
-            this.MammarycheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ImpotencecheckBox
-            // 
-            this.ImpotencecheckBox.AutoSize = true;
-            this.ImpotencecheckBox.Location = new System.Drawing.Point(110, 150);
-            this.ImpotencecheckBox.Name = "ImpotencecheckBox";
-            this.ImpotencecheckBox.Size = new System.Drawing.Size(61, 25);
-            this.ImpotencecheckBox.TabIndex = 42;
-            this.ImpotencecheckBox.Text = "阳痿";
-            this.ImpotencecheckBox.UseVisualStyleBackColor = true;
-            // 
-            // SexlesscheckBox
-            // 
-            this.SexlesscheckBox.AutoSize = true;
-            this.SexlesscheckBox.Location = new System.Drawing.Point(177, 150);
-            this.SexlesscheckBox.Name = "SexlesscheckBox";
-            this.SexlesscheckBox.Size = new System.Drawing.Size(77, 25);
-            this.SexlesscheckBox.TabIndex = 43;
-            this.SexlesscheckBox.Text = "性冷淡";
-            this.SexlesscheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ZhoucheckBox
-            // 
-            this.ZhoucheckBox.AutoSize = true;
-            this.ZhoucheckBox.Location = new System.Drawing.Point(260, 150);
-            this.ZhoucheckBox.Name = "ZhoucheckBox";
-            this.ZhoucheckBox.Size = new System.Drawing.Size(61, 25);
-            this.ZhoucheckBox.TabIndex = 44;
-            this.ZhoucheckBox.Text = "周麻";
-            this.ZhoucheckBox.UseVisualStyleBackColor = true;
-            // 
-            // DiscomfortcheckBox
-            // 
-            this.DiscomfortcheckBox.AutoSize = true;
-            this.DiscomfortcheckBox.Location = new System.Drawing.Point(327, 150);
-            this.DiscomfortcheckBox.Name = "DiscomfortcheckBox";
-            this.DiscomfortcheckBox.Size = new System.Drawing.Size(93, 25);
-            this.DiscomfortcheckBox.TabIndex = 45;
-            this.DiscomfortcheckBox.Text = "颈前不适";
-            this.DiscomfortcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // FlaccidcheckBox
-            // 
-            this.FlaccidcheckBox.AutoSize = true;
-            this.FlaccidcheckBox.Location = new System.Drawing.Point(426, 150);
-            this.FlaccidcheckBox.Name = "FlaccidcheckBox";
-            this.FlaccidcheckBox.Size = new System.Drawing.Size(61, 25);
-            this.FlaccidcheckBox.TabIndex = 46;
-            this.FlaccidcheckBox.Text = "软瘫";
-            this.FlaccidcheckBox.UseVisualStyleBackColor = true;
-            // 
-            // FlaccidtextBox
-            // 
-            this.FlaccidtextBox.Location = new System.Drawing.Point(489, 148);
-            this.FlaccidtextBox.Name = "FlaccidtextBox";
-            this.FlaccidtextBox.Size = new System.Drawing.Size(45, 29);
-            this.FlaccidtextBox.TabIndex = 47;
-            // 
-            // Flaccidlabel
-            // 
-            this.Flaccidlabel.AutoSize = true;
-            this.Flaccidlabel.Location = new System.Drawing.Point(540, 151);
-            this.Flaccidlabel.Name = "Flaccidlabel";
-            this.Flaccidlabel.Size = new System.Drawing.Size(49, 21);
-            this.Flaccidlabel.TabIndex = 48;
-            this.Flaccidlabel.Text = "次/年";
+            // OthertextBox
+            // 
+            this.OthertextBox.Location = new System.Drawing.Point(352, 182);
+            this.OthertextBox.Name = "OthertextBox";
+            this.OthertextBox.Size = new System.Drawing.Size(369, 29);
+            this.OthertextBox.TabIndex = 53;
+            // 
+            // Otherlabel
+            // 
+            this.Otherlabel.AutoSize = true;
+            this.Otherlabel.Location = new System.Drawing.Point(304, 182);
+            this.Otherlabel.Name = "Otherlabel";
+            this.Otherlabel.Size = new System.Drawing.Size(42, 21);
+            this.Otherlabel.TabIndex = 52;
+            this.Otherlabel.Text = "其他";
+            // 
+            // Defecatelabel
+            // 
+            this.Defecatelabel.AutoSize = true;
+            this.Defecatelabel.Location = new System.Drawing.Point(182, 181);
+            this.Defecatelabel.Name = "Defecatelabel";
+            this.Defecatelabel.Size = new System.Drawing.Size(49, 21);
+            this.Defecatelabel.TabIndex = 51;
+            this.Defecatelabel.Text = "次/年";
+            // 
+            // DefecatetextBox
+            // 
+            this.DefecatetextBox.Location = new System.Drawing.Point(131, 182);
+            this.DefecatetextBox.Name = "DefecatetextBox";
+            this.DefecatetextBox.Size = new System.Drawing.Size(45, 29);
+            this.DefecatetextBox.TabIndex = 50;
             // 
             // DefecatecheckBox
             // 
@@ -1361,106 +991,474 @@
             this.DefecatecheckBox.Text = "大便次数增多";
             this.DefecatecheckBox.UseVisualStyleBackColor = true;
             // 
-            // DefecatetextBox
+            // Flaccidlabel
             // 
-            this.DefecatetextBox.Location = new System.Drawing.Point(131, 182);
-            this.DefecatetextBox.Name = "DefecatetextBox";
-            this.DefecatetextBox.Size = new System.Drawing.Size(45, 29);
-            this.DefecatetextBox.TabIndex = 50;
+            this.Flaccidlabel.AutoSize = true;
+            this.Flaccidlabel.Location = new System.Drawing.Point(540, 151);
+            this.Flaccidlabel.Name = "Flaccidlabel";
+            this.Flaccidlabel.Size = new System.Drawing.Size(49, 21);
+            this.Flaccidlabel.TabIndex = 48;
+            this.Flaccidlabel.Text = "次/年";
             // 
-            // Defecatelabel
+            // FlaccidtextBox
             // 
-            this.Defecatelabel.AutoSize = true;
-            this.Defecatelabel.Location = new System.Drawing.Point(182, 181);
-            this.Defecatelabel.Name = "Defecatelabel";
-            this.Defecatelabel.Size = new System.Drawing.Size(49, 21);
-            this.Defecatelabel.TabIndex = 51;
-            this.Defecatelabel.Text = "次/年";
+            this.FlaccidtextBox.Location = new System.Drawing.Point(489, 148);
+            this.FlaccidtextBox.Name = "FlaccidtextBox";
+            this.FlaccidtextBox.Size = new System.Drawing.Size(45, 29);
+            this.FlaccidtextBox.TabIndex = 47;
             // 
-            // Otherlabel
+            // FlaccidcheckBox
             // 
-            this.Otherlabel.AutoSize = true;
-            this.Otherlabel.Location = new System.Drawing.Point(304, 182);
-            this.Otherlabel.Name = "Otherlabel";
-            this.Otherlabel.Size = new System.Drawing.Size(42, 21);
-            this.Otherlabel.TabIndex = 52;
-            this.Otherlabel.Text = "其他";
+            this.FlaccidcheckBox.AutoSize = true;
+            this.FlaccidcheckBox.Location = new System.Drawing.Point(426, 150);
+            this.FlaccidcheckBox.Name = "FlaccidcheckBox";
+            this.FlaccidcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.FlaccidcheckBox.TabIndex = 46;
+            this.FlaccidcheckBox.Text = "软瘫";
+            this.FlaccidcheckBox.UseVisualStyleBackColor = true;
             // 
-            // OthertextBox
+            // DiscomfortcheckBox
             // 
-            this.OthertextBox.Location = new System.Drawing.Point(352, 182);
-            this.OthertextBox.Name = "OthertextBox";
-            this.OthertextBox.Size = new System.Drawing.Size(369, 29);
-            this.OthertextBox.TabIndex = 53;
+            this.DiscomfortcheckBox.AutoSize = true;
+            this.DiscomfortcheckBox.Location = new System.Drawing.Point(327, 150);
+            this.DiscomfortcheckBox.Name = "DiscomfortcheckBox";
+            this.DiscomfortcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.DiscomfortcheckBox.TabIndex = 45;
+            this.DiscomfortcheckBox.Text = "颈前不适";
+            this.DiscomfortcheckBox.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // ZhoucheckBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 311);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 21);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "发病及治疗经过：";
+            this.ZhoucheckBox.AutoSize = true;
+            this.ZhoucheckBox.Location = new System.Drawing.Point(260, 150);
+            this.ZhoucheckBox.Name = "ZhoucheckBox";
+            this.ZhoucheckBox.Size = new System.Drawing.Size(61, 25);
+            this.ZhoucheckBox.TabIndex = 44;
+            this.ZhoucheckBox.Text = "周麻";
+            this.ZhoucheckBox.UseVisualStyleBackColor = true;
             // 
-            // ProcessrichTextBox
+            // SexlesscheckBox
             // 
-            this.ProcessrichTextBox.Location = new System.Drawing.Point(152, 311);
-            this.ProcessrichTextBox.Name = "ProcessrichTextBox";
-            this.ProcessrichTextBox.Size = new System.Drawing.Size(605, 41);
-            this.ProcessrichTextBox.TabIndex = 6;
-            this.ProcessrichTextBox.Text = "";
+            this.SexlesscheckBox.AutoSize = true;
+            this.SexlesscheckBox.Location = new System.Drawing.Point(177, 150);
+            this.SexlesscheckBox.Name = "SexlesscheckBox";
+            this.SexlesscheckBox.Size = new System.Drawing.Size(77, 25);
+            this.SexlesscheckBox.TabIndex = 43;
+            this.SexlesscheckBox.Text = "性冷淡";
+            this.SexlesscheckBox.UseVisualStyleBackColor = true;
             // 
-            // PresentHistorypanel
+            // ImpotencecheckBox
             // 
-            this.PresentHistorypanel.BackColor = System.Drawing.SystemColors.Control;
-            this.PresentHistorypanel.Controls.Add(this.PresentHistorygroupBox);
-            this.PresentHistorypanel.Location = new System.Drawing.Point(6, 7);
-            this.PresentHistorypanel.Name = "PresentHistorypanel";
-            this.PresentHistorypanel.Size = new System.Drawing.Size(1169, 371);
-            this.PresentHistorypanel.TabIndex = 7;
+            this.ImpotencecheckBox.AutoSize = true;
+            this.ImpotencecheckBox.Location = new System.Drawing.Point(110, 150);
+            this.ImpotencecheckBox.Name = "ImpotencecheckBox";
+            this.ImpotencecheckBox.Size = new System.Drawing.Size(61, 25);
+            this.ImpotencecheckBox.TabIndex = 42;
+            this.ImpotencecheckBox.Text = "阳痿";
+            this.ImpotencecheckBox.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
+            // MammarycheckBox
             // 
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage3.Controls.Add(this.PhysicalInspectpanel);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1181, 407);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "体格检查";
+            this.MammarycheckBox.AutoSize = true;
+            this.MammarycheckBox.Location = new System.Drawing.Point(11, 150);
+            this.MammarycheckBox.Name = "MammarycheckBox";
+            this.MammarycheckBox.Size = new System.Drawing.Size(93, 25);
+            this.MammarycheckBox.TabIndex = 41;
+            this.MammarycheckBox.Text = "乳腺增生";
+            this.MammarycheckBox.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // AmenorrhoeacheckBox
             // 
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage4.Controls.Add(this.LabInspectpanel);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1181, 439);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "化验检查";
+            this.AmenorrhoeacheckBox.AutoSize = true;
+            this.AmenorrhoeacheckBox.Location = new System.Drawing.Point(643, 119);
+            this.AmenorrhoeacheckBox.Name = "AmenorrhoeacheckBox";
+            this.AmenorrhoeacheckBox.Size = new System.Drawing.Size(61, 25);
+            this.AmenorrhoeacheckBox.TabIndex = 40;
+            this.AmenorrhoeacheckBox.Text = "闭经";
+            this.AmenorrhoeacheckBox.UseVisualStyleBackColor = true;
             // 
-            // tabPage5
+            // IrregularcheckBox
             // 
-            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage5.Controls.Add(this.ImageInspectpanel);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1181, 439);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "影像检查";
+            this.IrregularcheckBox.AutoSize = true;
+            this.IrregularcheckBox.Location = new System.Drawing.Point(544, 119);
+            this.IrregularcheckBox.Name = "IrregularcheckBox";
+            this.IrregularcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.IrregularcheckBox.TabIndex = 39;
+            this.IrregularcheckBox.Text = "月经不调";
+            this.IrregularcheckBox.UseVisualStyleBackColor = true;
             // 
-            // tabPage6
+            // StrabismuscheckBox
             // 
-            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1181, 439);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "治疗计划";
+            this.StrabismuscheckBox.AutoSize = true;
+            this.StrabismuscheckBox.Location = new System.Drawing.Point(477, 119);
+            this.StrabismuscheckBox.Name = "StrabismuscheckBox";
+            this.StrabismuscheckBox.Size = new System.Drawing.Size(61, 25);
+            this.StrabismuscheckBox.TabIndex = 38;
+            this.StrabismuscheckBox.Text = "斜视";
+            this.StrabismuscheckBox.UseVisualStyleBackColor = true;
+            // 
+            // DiplopiacheckBox
+            // 
+            this.DiplopiacheckBox.AutoSize = true;
+            this.DiplopiacheckBox.Location = new System.Drawing.Point(410, 119);
+            this.DiplopiacheckBox.Name = "DiplopiacheckBox";
+            this.DiplopiacheckBox.Size = new System.Drawing.Size(61, 25);
+            this.DiplopiacheckBox.TabIndex = 37;
+            this.DiplopiacheckBox.Text = "复视";
+            this.DiplopiacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // EyesightcheckBox
+            // 
+            this.EyesightcheckBox.AutoSize = true;
+            this.EyesightcheckBox.Location = new System.Drawing.Point(311, 119);
+            this.EyesightcheckBox.Name = "EyesightcheckBox";
+            this.EyesightcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.EyesightcheckBox.TabIndex = 36;
+            this.EyesightcheckBox.Text = "视力减退";
+            this.EyesightcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AsthenopiacheckBox
+            // 
+            this.AsthenopiacheckBox.AutoSize = true;
+            this.AsthenopiacheckBox.Location = new System.Drawing.Point(212, 119);
+            this.AsthenopiacheckBox.Name = "AsthenopiacheckBox";
+            this.AsthenopiacheckBox.Size = new System.Drawing.Size(93, 25);
+            this.AsthenopiacheckBox.TabIndex = 35;
+            this.AsthenopiacheckBox.Text = "视力疲劳";
+            this.AsthenopiacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // StackcheckBox
+            // 
+            this.StackcheckBox.AutoSize = true;
+            this.StackcheckBox.Location = new System.Drawing.Point(145, 119);
+            this.StackcheckBox.Name = "StackcheckBox";
+            this.StackcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.StackcheckBox.TabIndex = 34;
+            this.StackcheckBox.Text = "刺痛";
+            this.StackcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // TearscheckBox
+            // 
+            this.TearscheckBox.AutoSize = true;
+            this.TearscheckBox.Location = new System.Drawing.Point(78, 119);
+            this.TearscheckBox.Name = "TearscheckBox";
+            this.TearscheckBox.Size = new System.Drawing.Size(61, 25);
+            this.TearscheckBox.TabIndex = 33;
+            this.TearscheckBox.Text = "流泪";
+            this.TearscheckBox.UseVisualStyleBackColor = true;
+            // 
+            // PhotophobiacheckBox
+            // 
+            this.PhotophobiacheckBox.AutoSize = true;
+            this.PhotophobiacheckBox.Location = new System.Drawing.Point(11, 119);
+            this.PhotophobiacheckBox.Name = "PhotophobiacheckBox";
+            this.PhotophobiacheckBox.Size = new System.Drawing.Size(61, 25);
+            this.PhotophobiacheckBox.TabIndex = 32;
+            this.PhotophobiacheckBox.Text = "怕光";
+            this.PhotophobiacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // SensationcheckBox
+            // 
+            this.SensationcheckBox.AutoSize = true;
+            this.SensationcheckBox.Location = new System.Drawing.Point(611, 90);
+            this.SensationcheckBox.Name = "SensationcheckBox";
+            this.SensationcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.SensationcheckBox.TabIndex = 31;
+            this.SensationcheckBox.Text = "眼异物感";
+            this.SensationcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // EyecheckBox
+            // 
+            this.EyecheckBox.AutoSize = true;
+            this.EyecheckBox.Location = new System.Drawing.Point(544, 90);
+            this.EyecheckBox.Name = "EyecheckBox";
+            this.EyecheckBox.Size = new System.Drawing.Size(61, 25);
+            this.EyecheckBox.TabIndex = 30;
+            this.EyecheckBox.Text = "眼胀";
+            this.EyecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ExophthalmoscheckBox
+            // 
+            this.ExophthalmoscheckBox.AutoSize = true;
+            this.ExophthalmoscheckBox.Location = new System.Drawing.Point(477, 91);
+            this.ExophthalmoscheckBox.Name = "ExophthalmoscheckBox";
+            this.ExophthalmoscheckBox.Size = new System.Drawing.Size(61, 25);
+            this.ExophthalmoscheckBox.TabIndex = 29;
+            this.ExophthalmoscheckBox.Text = "突眼";
+            this.ExophthalmoscheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NauseacheckBox
+            // 
+            this.NauseacheckBox.AutoSize = true;
+            this.NauseacheckBox.Location = new System.Drawing.Point(378, 90);
+            this.NauseacheckBox.Name = "NauseacheckBox";
+            this.NauseacheckBox.Size = new System.Drawing.Size(93, 25);
+            this.NauseacheckBox.TabIndex = 28;
+            this.NauseacheckBox.Text = "恶心呕吐";
+            this.NauseacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // JaundicecheckBox
+            // 
+            this.JaundicecheckBox.AutoSize = true;
+            this.JaundicecheckBox.Location = new System.Drawing.Point(311, 90);
+            this.JaundicecheckBox.Name = "JaundicecheckBox";
+            this.JaundicecheckBox.Size = new System.Drawing.Size(61, 25);
+            this.JaundicecheckBox.TabIndex = 27;
+            this.JaundicecheckBox.Text = "黄疸";
+            this.JaundicecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AppetitecheckBox
+            // 
+            this.AppetitecheckBox.AutoSize = true;
+            this.AppetitecheckBox.Location = new System.Drawing.Point(212, 90);
+            this.AppetitecheckBox.Name = "AppetitecheckBox";
+            this.AppetitecheckBox.Size = new System.Drawing.Size(93, 25);
+            this.AppetitecheckBox.TabIndex = 26;
+            this.AppetitecheckBox.Text = "食欲减退";
+            this.AppetitecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // HungercheckBox
+            // 
+            this.HungercheckBox.AutoSize = true;
+            this.HungercheckBox.Location = new System.Drawing.Point(145, 90);
+            this.HungercheckBox.Name = "HungercheckBox";
+            this.HungercheckBox.Size = new System.Drawing.Size(61, 25);
+            this.HungercheckBox.TabIndex = 25;
+            this.HungercheckBox.Text = "易饥";
+            this.HungercheckBox.UseVisualStyleBackColor = true;
+            // 
+            // PolyphagiacheckBox
+            // 
+            this.PolyphagiacheckBox.AutoSize = true;
+            this.PolyphagiacheckBox.Location = new System.Drawing.Point(78, 90);
+            this.PolyphagiacheckBox.Name = "PolyphagiacheckBox";
+            this.PolyphagiacheckBox.Size = new System.Drawing.Size(61, 25);
+            this.PolyphagiacheckBox.TabIndex = 24;
+            this.PolyphagiacheckBox.Text = "多食";
+            this.PolyphagiacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // BreathcheckBox
+            // 
+            this.BreathcheckBox.AutoSize = true;
+            this.BreathcheckBox.Location = new System.Drawing.Point(11, 90);
+            this.BreathcheckBox.Name = "BreathcheckBox";
+            this.BreathcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.BreathcheckBox.TabIndex = 23;
+            this.BreathcheckBox.Text = "气短";
+            this.BreathcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ChestcheckBox
+            // 
+            this.ChestcheckBox.AutoSize = true;
+            this.ChestcheckBox.Location = new System.Drawing.Point(624, 59);
+            this.ChestcheckBox.Name = "ChestcheckBox";
+            this.ChestcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.ChestcheckBox.TabIndex = 22;
+            this.ChestcheckBox.Text = "胸闷";
+            this.ChestcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // PalpitationcheckBox
+            // 
+            this.PalpitationcheckBox.AutoSize = true;
+            this.PalpitationcheckBox.Location = new System.Drawing.Point(557, 59);
+            this.PalpitationcheckBox.Name = "PalpitationcheckBox";
+            this.PalpitationcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.PalpitationcheckBox.TabIndex = 21;
+            this.PalpitationcheckBox.Text = "心悸";
+            this.PalpitationcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ColdcheckBox
+            // 
+            this.ColdcheckBox.AutoSize = true;
+            this.ColdcheckBox.Location = new System.Drawing.Point(458, 59);
+            this.ColdcheckBox.Name = "ColdcheckBox";
+            this.ColdcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.ColdcheckBox.TabIndex = 20;
+            this.ColdcheckBox.Text = "神情冷漠";
+            this.ColdcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // DepressioncheckBox
+            // 
+            this.DepressioncheckBox.AutoSize = true;
+            this.DepressioncheckBox.Location = new System.Drawing.Point(359, 59);
+            this.DepressioncheckBox.Name = "DepressioncheckBox";
+            this.DepressioncheckBox.Size = new System.Drawing.Size(93, 25);
+            this.DepressioncheckBox.TabIndex = 19;
+            this.DepressioncheckBox.Text = "寡言抑郁";
+            this.DepressioncheckBox.UseVisualStyleBackColor = true;
+            // 
+            // IllusioncheckBox
+            // 
+            this.IllusioncheckBox.AutoSize = true;
+            this.IllusioncheckBox.Location = new System.Drawing.Point(292, 59);
+            this.IllusioncheckBox.Name = "IllusioncheckBox";
+            this.IllusioncheckBox.Size = new System.Drawing.Size(61, 25);
+            this.IllusioncheckBox.TabIndex = 18;
+            this.IllusioncheckBox.Text = "幻觉";
+            this.IllusioncheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MemorycheckBox
+            // 
+            this.MemorycheckBox.AutoSize = true;
+            this.MemorycheckBox.Location = new System.Drawing.Point(177, 59);
+            this.MemorycheckBox.Name = "MemorycheckBox";
+            this.MemorycheckBox.Size = new System.Drawing.Size(109, 25);
+            this.MemorycheckBox.TabIndex = 17;
+            this.MemorycheckBox.Text = "记忆力减退";
+            this.MemorycheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AngrycheckBox
+            // 
+            this.AngrycheckBox.AutoSize = true;
+            this.AngrycheckBox.Location = new System.Drawing.Point(78, 59);
+            this.AngrycheckBox.Name = "AngrycheckBox";
+            this.AngrycheckBox.Size = new System.Drawing.Size(93, 25);
+            this.AngrycheckBox.TabIndex = 16;
+            this.AngrycheckBox.Text = "焦躁易怒";
+            this.AngrycheckBox.UseVisualStyleBackColor = true;
+            // 
+            // InsomniacheckBox
+            // 
+            this.InsomniacheckBox.AutoSize = true;
+            this.InsomniacheckBox.Location = new System.Drawing.Point(11, 59);
+            this.InsomniacheckBox.Name = "InsomniacheckBox";
+            this.InsomniacheckBox.Size = new System.Drawing.Size(61, 25);
+            this.InsomniacheckBox.TabIndex = 15;
+            this.InsomniacheckBox.Text = "失眠";
+            this.InsomniacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NervouscheckBox
+            // 
+            this.NervouscheckBox.AutoSize = true;
+            this.NervouscheckBox.Location = new System.Drawing.Point(643, 28);
+            this.NervouscheckBox.Name = "NervouscheckBox";
+            this.NervouscheckBox.Size = new System.Drawing.Size(93, 25);
+            this.NervouscheckBox.TabIndex = 14;
+            this.NervouscheckBox.Text = "紧张多虑";
+            this.NervouscheckBox.UseVisualStyleBackColor = true;
+            // 
+            // LanguagecheckBox
+            // 
+            this.LanguagecheckBox.AutoSize = true;
+            this.LanguagecheckBox.Location = new System.Drawing.Point(544, 28);
+            this.LanguagecheckBox.Name = "LanguagecheckBox";
+            this.LanguagecheckBox.Size = new System.Drawing.Size(93, 25);
+            this.LanguagecheckBox.TabIndex = 13;
+            this.LanguagecheckBox.Text = "多言多动";
+            this.LanguagecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ShakecheckBox
+            // 
+            this.ShakecheckBox.AutoSize = true;
+            this.ShakecheckBox.Location = new System.Drawing.Point(477, 28);
+            this.ShakecheckBox.Name = "ShakecheckBox";
+            this.ShakecheckBox.Size = new System.Drawing.Size(61, 25);
+            this.ShakecheckBox.TabIndex = 12;
+            this.ShakecheckBox.Text = "手颤";
+            this.ShakecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // WeightHcheckBox
+            // 
+            this.WeightHcheckBox.AutoSize = true;
+            this.WeightHcheckBox.Location = new System.Drawing.Point(378, 28);
+            this.WeightHcheckBox.Name = "WeightHcheckBox";
+            this.WeightHcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.WeightHcheckBox.TabIndex = 11;
+            this.WeightHcheckBox.Text = "体重增加";
+            this.WeightHcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // WeightLcheckBox
+            // 
+            this.WeightLcheckBox.AutoSize = true;
+            this.WeightLcheckBox.Location = new System.Drawing.Point(279, 28);
+            this.WeightLcheckBox.Name = "WeightLcheckBox";
+            this.WeightLcheckBox.Size = new System.Drawing.Size(93, 25);
+            this.WeightLcheckBox.TabIndex = 10;
+            this.WeightLcheckBox.Text = "体重减轻";
+            this.WeightLcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // FeeblecheckBox
+            // 
+            this.FeeblecheckBox.AutoSize = true;
+            this.FeeblecheckBox.Location = new System.Drawing.Point(212, 28);
+            this.FeeblecheckBox.Name = "FeeblecheckBox";
+            this.FeeblecheckBox.Size = new System.Drawing.Size(61, 25);
+            this.FeeblecheckBox.TabIndex = 9;
+            this.FeeblecheckBox.Text = "乏力";
+            this.FeeblecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // IdrosischeckBox
+            // 
+            this.IdrosischeckBox.AutoSize = true;
+            this.IdrosischeckBox.Location = new System.Drawing.Point(145, 28);
+            this.IdrosischeckBox.Name = "IdrosischeckBox";
+            this.IdrosischeckBox.Size = new System.Drawing.Size(61, 25);
+            this.IdrosischeckBox.TabIndex = 8;
+            this.IdrosischeckBox.Text = "多汗";
+            this.IdrosischeckBox.UseVisualStyleBackColor = true;
+            // 
+            // HeatcheckBox
+            // 
+            this.HeatcheckBox.AutoSize = true;
+            this.HeatcheckBox.Location = new System.Drawing.Point(78, 28);
+            this.HeatcheckBox.Name = "HeatcheckBox";
+            this.HeatcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.HeatcheckBox.TabIndex = 7;
+            this.HeatcheckBox.Text = "怕热";
+            this.HeatcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NeckcheckBox
+            // 
+            this.NeckcheckBox.AutoSize = true;
+            this.NeckcheckBox.Location = new System.Drawing.Point(11, 28);
+            this.NeckcheckBox.Name = "NeckcheckBox";
+            this.NeckcheckBox.Size = new System.Drawing.Size(61, 25);
+            this.NeckcheckBox.TabIndex = 6;
+            this.NeckcheckBox.Text = "颈粗";
+            this.NeckcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MainReporttextBox
+            // 
+            this.MainReporttextBox.Location = new System.Drawing.Point(81, 33);
+            this.MainReporttextBox.Name = "MainReporttextBox";
+            this.MainReporttextBox.Size = new System.Drawing.Size(680, 29);
+            this.MainReporttextBox.TabIndex = 3;
+            // 
+            // MainReportLabel
+            // 
+            this.MainReportLabel.AutoSize = true;
+            this.MainReportLabel.Location = new System.Drawing.Point(17, 36);
+            this.MainReportLabel.Name = "MainReportLabel";
+            this.MainReportLabel.Size = new System.Drawing.Size(58, 21);
+            this.MainReportLabel.TabIndex = 0;
+            this.MainReportLabel.Text = "主述：";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(282, -61);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(680, 21);
+            this.textBox4.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(218, -58);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "主述：";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.ConstHistorypanel);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1181, 439);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "既往史";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // ConstHistorypanel
             // 
@@ -2064,6 +2062,17 @@
             this.PastrichTextBox.Size = new System.Drawing.Size(771, 39);
             this.PastrichTextBox.TabIndex = 0;
             this.PastrichTextBox.Text = "";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.PhysicalInspectpanel);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1181, 439);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "体格检查";
             // 
             // PhysicalInspectpanel
             // 
@@ -2882,6 +2891,17 @@
             this.BigcheckBox.Text = "大小正常";
             this.BigcheckBox.UseVisualStyleBackColor = true;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.Controls.Add(this.LabInspectpanel);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1181, 439);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "化验检查";
+            // 
             // LabInspectpanel
             // 
             this.LabInspectpanel.Controls.Add(this.groupBox3);
@@ -3438,48 +3458,6 @@
             this.BloodLabgroupBox.TabStop = false;
             this.BloodLabgroupBox.Text = "血常规";
             // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label68.Location = new System.Drawing.Point(995, 58);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(64, 19);
-            this.label68.TabIndex = 81;
-            this.label68.Text = "╳10^9/L";
-            // 
-            // LRtextBox
-            // 
-            this.LRtextBox.Location = new System.Drawing.Point(939, 53);
-            this.LRtextBox.Name = "LRtextBox";
-            this.LRtextBox.Size = new System.Drawing.Size(50, 29);
-            this.LRtextBox.TabIndex = 80;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(919, 56);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(24, 21);
-            this.label67.TabIndex = 79;
-            this.label67.Text = "%";
-            // 
-            // LLtextBox
-            // 
-            this.LLtextBox.Location = new System.Drawing.Point(869, 53);
-            this.LLtextBox.Name = "LLtextBox";
-            this.LLtextBox.Size = new System.Drawing.Size(50, 29);
-            this.LLtextBox.TabIndex = 78;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(796, 56);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(74, 21);
-            this.label66.TabIndex = 77;
-            this.label66.Text = "淋巴细胞";
-            // 
             // label65
             // 
             this.label65.AutoSize = true;
@@ -3665,6 +3643,16 @@
             this.ThyroidLabgroupBox.TabStop = false;
             this.ThyroidLabgroupBox.Text = "甲状腺";
             // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label68.Location = new System.Drawing.Point(995, 58);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(64, 19);
+            this.label68.TabIndex = 81;
+            this.label68.Text = "╳10^9/L";
+            // 
             // label60
             // 
             this.label60.AutoSize = true;
@@ -3674,12 +3662,28 @@
             this.label60.TabIndex = 63;
             this.label60.Text = "pg/L";
             // 
+            // LRtextBox
+            // 
+            this.LRtextBox.Location = new System.Drawing.Point(939, 53);
+            this.LRtextBox.Name = "LRtextBox";
+            this.LRtextBox.Size = new System.Drawing.Size(50, 29);
+            this.LRtextBox.TabIndex = 80;
+            // 
             // TRAbtextBox
             // 
             this.TRAbtextBox.Location = new System.Drawing.Point(661, 56);
             this.TRAbtextBox.Name = "TRAbtextBox";
             this.TRAbtextBox.Size = new System.Drawing.Size(71, 29);
             this.TRAbtextBox.TabIndex = 62;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(919, 56);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(24, 21);
+            this.label67.TabIndex = 79;
+            this.label67.Text = "%";
             // 
             // label59
             // 
@@ -3690,6 +3694,13 @@
             this.label59.TabIndex = 61;
             this.label59.Text = "TRAb";
             // 
+            // LLtextBox
+            // 
+            this.LLtextBox.Location = new System.Drawing.Point(869, 53);
+            this.LLtextBox.Name = "LLtextBox";
+            this.LLtextBox.Size = new System.Drawing.Size(50, 29);
+            this.LLtextBox.TabIndex = 78;
+            // 
             // label41
             // 
             this.label41.AutoSize = true;
@@ -3698,6 +3709,15 @@
             this.label41.Size = new System.Drawing.Size(53, 21);
             this.label41.TabIndex = 60;
             this.label41.Text = "IU/ml";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(796, 56);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(74, 21);
+            this.label66.TabIndex = 77;
+            this.label66.Text = "淋巴细胞";
             // 
             // TgAbtextBox
             // 
@@ -3864,6 +3884,17 @@
             this.label43.Size = new System.Drawing.Size(37, 21);
             this.label43.TabIndex = 36;
             this.label43.Text = "FT3";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.Controls.Add(this.ImageInspectpanel);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1181, 439);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "影像检查";
             // 
             // ImageInspectpanel
             // 
@@ -4619,6 +4650,422 @@
             this.label126.TabIndex = 82;
             this.label126.Text = "左叶";
             // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage6.Controls.Add(this.CurePlanpanel);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1181, 439);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "治疗计划";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(694, 312);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(83, 28);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // CurePlanpanel
+            // 
+            this.CurePlanpanel.Controls.Add(this.button1);
+            this.CurePlanpanel.Controls.Add(this.elserichTextBox);
+            this.CurePlanpanel.Controls.Add(this.label139);
+            this.CurePlanpanel.Controls.Add(this.ElsethingtextBox);
+            this.CurePlanpanel.Controls.Add(this.qitacheckBox);
+            this.CurePlanpanel.Controls.Add(this.JiejiecheckBox);
+            this.CurePlanpanel.Controls.Add(this.JiacheckBox);
+            this.CurePlanpanel.Controls.Add(this.fufacheckBox);
+            this.CurePlanpanel.Controls.Add(this.ATDcheckBox);
+            this.CurePlanpanel.Controls.Add(this.shoushucheckBox);
+            this.CurePlanpanel.Controls.Add(this.BingcheckBox);
+            this.CurePlanpanel.Controls.Add(this.HecheckBox);
+            this.CurePlanpanel.Controls.Add(this.ZhengcheckBox);
+            this.CurePlanpanel.Controls.Add(this.AgecheckBox);
+            this.CurePlanpanel.Controls.Add(this.label138);
+            this.CurePlanpanel.Controls.Add(this.label137);
+            this.CurePlanpanel.Controls.Add(this.RealtextBox);
+            this.CurePlanpanel.Controls.Add(this.label136);
+            this.CurePlanpanel.Controls.Add(this.label135);
+            this.CurePlanpanel.Controls.Add(this.CaltextBox);
+            this.CurePlanpanel.Controls.Add(this.label134);
+            this.CurePlanpanel.Controls.Add(this.label133);
+            this.CurePlanpanel.Controls.Add(this.PlantextBox);
+            this.CurePlanpanel.Controls.Add(this.label132);
+            this.CurePlanpanel.Controls.Add(this.label131);
+            this.CurePlanpanel.Controls.Add(this.RecomtextBox);
+            this.CurePlanpanel.Controls.Add(this.label130);
+            this.CurePlanpanel.Controls.Add(this.LesscheckBox);
+            this.CurePlanpanel.Controls.Add(this.MorecheckBox);
+            this.CurePlanpanel.Controls.Add(this.NormalcheckBox);
+            this.CurePlanpanel.Controls.Add(this.label129);
+            this.CurePlanpanel.Controls.Add(this.TwoFhtextBox);
+            this.CurePlanpanel.Controls.Add(this.label128);
+            this.CurePlanpanel.Controls.Add(this.label127);
+            this.CurePlanpanel.Controls.Add(this.twohtextBox);
+            this.CurePlanpanel.Controls.Add(this.label124);
+            this.CurePlanpanel.Controls.Add(this.label144);
+            this.CurePlanpanel.Controls.Add(this.label145);
+            this.CurePlanpanel.Location = new System.Drawing.Point(6, 6);
+            this.CurePlanpanel.Name = "CurePlanpanel";
+            this.CurePlanpanel.Size = new System.Drawing.Size(818, 419);
+            this.CurePlanpanel.TabIndex = 115;
+            // 
+            // elserichTextBox
+            // 
+            this.elserichTextBox.Location = new System.Drawing.Point(60, 359);
+            this.elserichTextBox.Name = "elserichTextBox";
+            this.elserichTextBox.Size = new System.Drawing.Size(717, 42);
+            this.elserichTextBox.TabIndex = 119;
+            this.elserichTextBox.Text = "";
+            // 
+            // label139
+            // 
+            this.label139.AutoSize = true;
+            this.label139.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label139.Location = new System.Drawing.Point(53, 330);
+            this.label139.Name = "label139";
+            this.label139.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label139.Size = new System.Drawing.Size(298, 21);
+            this.label139.TabIndex = 118;
+            this.label139.Text = "糖皮质激素、免疫抑制剂、ATD、其他：";
+            // 
+            // ElsethingtextBox
+            // 
+            this.ElsethingtextBox.Location = new System.Drawing.Point(373, 280);
+            this.ElsethingtextBox.Name = "ElsethingtextBox";
+            this.ElsethingtextBox.Size = new System.Drawing.Size(285, 21);
+            this.ElsethingtextBox.TabIndex = 117;
+            // 
+            // qitacheckBox
+            // 
+            this.qitacheckBox.AutoSize = true;
+            this.qitacheckBox.Location = new System.Drawing.Point(319, 284);
+            this.qitacheckBox.Name = "qitacheckBox";
+            this.qitacheckBox.Size = new System.Drawing.Size(48, 16);
+            this.qitacheckBox.TabIndex = 116;
+            this.qitacheckBox.Text = "其他";
+            this.qitacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // JiejiecheckBox
+            // 
+            this.JiejiecheckBox.AutoSize = true;
+            this.JiejiecheckBox.Location = new System.Drawing.Point(252, 284);
+            this.JiejiecheckBox.Name = "JiejiecheckBox";
+            this.JiejiecheckBox.Size = new System.Drawing.Size(48, 16);
+            this.JiejiecheckBox.TabIndex = 115;
+            this.JiejiecheckBox.Text = "结节";
+            this.JiejiecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // JiacheckBox
+            // 
+            this.JiacheckBox.AutoSize = true;
+            this.JiacheckBox.Location = new System.Drawing.Point(144, 284);
+            this.JiacheckBox.Name = "JiacheckBox";
+            this.JiacheckBox.Size = new System.Drawing.Size(84, 16);
+            this.JiacheckBox.TabIndex = 114;
+            this.JiacheckBox.Text = "甲状腺质地";
+            this.JiacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // fufacheckBox
+            // 
+            this.fufacheckBox.AutoSize = true;
+            this.fufacheckBox.Location = new System.Drawing.Point(616, 251);
+            this.fufacheckBox.Name = "fufacheckBox";
+            this.fufacheckBox.Size = new System.Drawing.Size(48, 16);
+            this.fufacheckBox.TabIndex = 113;
+            this.fufacheckBox.Text = "复发";
+            this.fufacheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ATDcheckBox
+            // 
+            this.ATDcheckBox.AutoSize = true;
+            this.ATDcheckBox.Location = new System.Drawing.Point(517, 250);
+            this.ATDcheckBox.Name = "ATDcheckBox";
+            this.ATDcheckBox.Size = new System.Drawing.Size(78, 16);
+            this.ATDcheckBox.TabIndex = 112;
+            this.ATDcheckBox.Text = "ATD治疗史";
+            this.ATDcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // shoushucheckBox
+            // 
+            this.shoushucheckBox.AutoSize = true;
+            this.shoushucheckBox.Location = new System.Drawing.Point(442, 251);
+            this.shoushucheckBox.Name = "shoushucheckBox";
+            this.shoushucheckBox.Size = new System.Drawing.Size(60, 16);
+            this.shoushucheckBox.TabIndex = 111;
+            this.shoushucheckBox.Text = "手术史";
+            this.shoushucheckBox.UseVisualStyleBackColor = true;
+            // 
+            // BingcheckBox
+            // 
+            this.BingcheckBox.AutoSize = true;
+            this.BingcheckBox.Location = new System.Drawing.Point(368, 251);
+            this.BingcheckBox.Name = "BingcheckBox";
+            this.BingcheckBox.Size = new System.Drawing.Size(48, 16);
+            this.BingcheckBox.TabIndex = 110;
+            this.BingcheckBox.Text = "病程";
+            this.BingcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // HecheckBox
+            // 
+            this.HecheckBox.AutoSize = true;
+            this.HecheckBox.Location = new System.Drawing.Point(290, 251);
+            this.HecheckBox.Name = "HecheckBox";
+            this.HecheckBox.Size = new System.Drawing.Size(60, 16);
+            this.HecheckBox.TabIndex = 109;
+            this.HecheckBox.Text = "合并症";
+            this.HecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ZhengcheckBox
+            // 
+            this.ZhengcheckBox.AutoSize = true;
+            this.ZhengcheckBox.Location = new System.Drawing.Point(214, 251);
+            this.ZhengcheckBox.Name = "ZhengcheckBox";
+            this.ZhengcheckBox.Size = new System.Drawing.Size(48, 16);
+            this.ZhengcheckBox.TabIndex = 108;
+            this.ZhengcheckBox.Text = "症状";
+            this.ZhengcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // AgecheckBox
+            // 
+            this.AgecheckBox.AutoSize = true;
+            this.AgecheckBox.Location = new System.Drawing.Point(146, 251);
+            this.AgecheckBox.Name = "AgecheckBox";
+            this.AgecheckBox.Size = new System.Drawing.Size(48, 16);
+            this.AgecheckBox.TabIndex = 107;
+            this.AgecheckBox.Text = "年龄";
+            this.AgecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // label138
+            // 
+            this.label138.AutoSize = true;
+            this.label138.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label138.Location = new System.Drawing.Point(53, 248);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(90, 21);
+            this.label138.TabIndex = 106;
+            this.label138.Text = "影响因子：";
+            // 
+            // label137
+            // 
+            this.label137.AutoSize = true;
+            this.label137.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label137.Location = new System.Drawing.Point(540, 200);
+            this.label137.Name = "label137";
+            this.label137.Size = new System.Drawing.Size(40, 21);
+            this.label137.TabIndex = 105;
+            this.label137.Text = "mCi";
+            // 
+            // RealtextBox
+            // 
+            this.RealtextBox.Location = new System.Drawing.Point(434, 202);
+            this.RealtextBox.Name = "RealtextBox";
+            this.RealtextBox.Size = new System.Drawing.Size(100, 21);
+            this.RealtextBox.TabIndex = 104;
+            // 
+            // label136
+            // 
+            this.label136.AutoSize = true;
+            this.label136.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label136.Location = new System.Drawing.Point(341, 201);
+            this.label136.Name = "label136";
+            this.label136.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label136.Size = new System.Drawing.Size(90, 21);
+            this.label136.TabIndex = 103;
+            this.label136.Text = "实际治疗量";
+            // 
+            // label135
+            // 
+            this.label135.AutoSize = true;
+            this.label135.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label135.Location = new System.Drawing.Point(252, 200);
+            this.label135.Name = "label135";
+            this.label135.Size = new System.Drawing.Size(40, 21);
+            this.label135.TabIndex = 102;
+            this.label135.Text = "mCi";
+            // 
+            // CaltextBox
+            // 
+            this.CaltextBox.Location = new System.Drawing.Point(149, 201);
+            this.CaltextBox.Name = "CaltextBox";
+            this.CaltextBox.Size = new System.Drawing.Size(100, 21);
+            this.CaltextBox.TabIndex = 101;
+            // 
+            // label134
+            // 
+            this.label134.AutoSize = true;
+            this.label134.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label134.Location = new System.Drawing.Point(53, 201);
+            this.label134.Name = "label134";
+            this.label134.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label134.Size = new System.Drawing.Size(90, 21);
+            this.label134.TabIndex = 100;
+            this.label134.Text = "计算治疗量";
+            // 
+            // label133
+            // 
+            this.label133.AutoSize = true;
+            this.label133.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label133.Location = new System.Drawing.Point(658, 155);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(35, 21);
+            this.label133.TabIndex = 99;
+            this.label133.Text = "uCi";
+            // 
+            // PlantextBox
+            // 
+            this.PlantextBox.Location = new System.Drawing.Point(555, 155);
+            this.PlantextBox.Name = "PlantextBox";
+            this.PlantextBox.Size = new System.Drawing.Size(100, 21);
+            this.PlantextBox.TabIndex = 98;
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label132.Location = new System.Drawing.Point(338, 155);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(218, 21);
+            this.label132.TabIndex = 97;
+            this.label132.Text = "每克甲状腺组织计划用量剂量";
+            // 
+            // label131
+            // 
+            this.label131.AutoSize = true;
+            this.label131.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label131.Location = new System.Drawing.Point(228, 155);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(40, 21);
+            this.label131.TabIndex = 96;
+            this.label131.Text = "mCi";
+            // 
+            // RecomtextBox
+            // 
+            this.RecomtextBox.Location = new System.Drawing.Point(129, 155);
+            this.RecomtextBox.Name = "RecomtextBox";
+            this.RecomtextBox.Size = new System.Drawing.Size(100, 21);
+            this.RecomtextBox.TabIndex = 95;
+            // 
+            // label130
+            // 
+            this.label130.AutoSize = true;
+            this.label130.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label130.Location = new System.Drawing.Point(53, 155);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(74, 21);
+            this.label130.TabIndex = 94;
+            this.label130.Text = "推荐剂量";
+            // 
+            // LesscheckBox
+            // 
+            this.LesscheckBox.AutoSize = true;
+            this.LesscheckBox.Location = new System.Drawing.Point(586, 47);
+            this.LesscheckBox.Name = "LesscheckBox";
+            this.LesscheckBox.Size = new System.Drawing.Size(48, 16);
+            this.LesscheckBox.TabIndex = 93;
+            this.LesscheckBox.Text = "减低";
+            this.LesscheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MorecheckBox
+            // 
+            this.MorecheckBox.AutoSize = true;
+            this.MorecheckBox.Location = new System.Drawing.Point(511, 47);
+            this.MorecheckBox.Name = "MorecheckBox";
+            this.MorecheckBox.Size = new System.Drawing.Size(48, 16);
+            this.MorecheckBox.TabIndex = 92;
+            this.MorecheckBox.Text = "增高";
+            this.MorecheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NormalcheckBox
+            // 
+            this.NormalcheckBox.AutoSize = true;
+            this.NormalcheckBox.Location = new System.Drawing.Point(441, 47);
+            this.NormalcheckBox.Name = "NormalcheckBox";
+            this.NormalcheckBox.Size = new System.Drawing.Size(48, 16);
+            this.NormalcheckBox.TabIndex = 91;
+            this.NormalcheckBox.Text = "正常";
+            this.NormalcheckBox.UseVisualStyleBackColor = true;
+            // 
+            // label129
+            // 
+            this.label129.AutoSize = true;
+            this.label129.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label129.Location = new System.Drawing.Point(404, 45);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(24, 21);
+            this.label129.TabIndex = 90;
+            this.label129.Text = "%";
+            // 
+            // TwoFhtextBox
+            // 
+            this.TwoFhtextBox.Location = new System.Drawing.Point(298, 45);
+            this.TwoFhtextBox.Name = "TwoFhtextBox";
+            this.TwoFhtextBox.Size = new System.Drawing.Size(100, 21);
+            this.TwoFhtextBox.TabIndex = 89;
+            // 
+            // label128
+            // 
+            this.label128.AutoSize = true;
+            this.label128.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label128.Location = new System.Drawing.Point(259, 44);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(38, 21);
+            this.label128.TabIndex = 88;
+            this.label128.Text = "24h";
+            // 
+            // label127
+            // 
+            this.label127.AutoSize = true;
+            this.label127.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label127.Location = new System.Drawing.Point(191, 44);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(24, 21);
+            this.label127.TabIndex = 87;
+            this.label127.Text = "%";
+            // 
+            // twohtextBox
+            // 
+            this.twohtextBox.Location = new System.Drawing.Point(83, 44);
+            this.twohtextBox.Name = "twohtextBox";
+            this.twohtextBox.Size = new System.Drawing.Size(100, 21);
+            this.twohtextBox.TabIndex = 86;
+            // 
+            // label124
+            // 
+            this.label124.AutoSize = true;
+            this.label124.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label124.Location = new System.Drawing.Point(53, 44);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(29, 21);
+            this.label124.TabIndex = 85;
+            this.label124.Text = "2h";
+            // 
+            // label144
+            // 
+            this.label144.AutoSize = true;
+            this.label144.Font = new System.Drawing.Font("微软雅黑", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label144.Location = new System.Drawing.Point(16, 117);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(74, 22);
+            this.label144.TabIndex = 84;
+            this.label144.Text = "治疗计划";
+            // 
+            // label145
+            // 
+            this.label145.AutoSize = true;
+            this.label145.Font = new System.Drawing.Font("微软雅黑", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label145.Location = new System.Drawing.Point(14, 14);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(106, 22);
+            this.label145.TabIndex = 82;
+            this.label145.Text = "甲状腺吸碘率";
+            // 
             // CureFirst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -4627,7 +5074,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.BasicInfopanel);
             this.Name = "CureFirst";
-            this.Text = "CureFirst";
+            this.Text = "初治";
             this.Load += new System.EventHandler(this.CureFirst_Load);
             this.BasicInfopanel.ResumeLayout(false);
             this.BasicInfogroupBox.ResumeLayout(false);
@@ -4635,15 +5082,12 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
+            this.PresentHistorypanel.ResumeLayout(false);
             this.PresentHistorygroupBox.ResumeLayout(false);
             this.PresentHistorygroupBox.PerformLayout();
             this.SymptomgroupBox.ResumeLayout(false);
             this.SymptomgroupBox.PerformLayout();
-            this.PresentHistorypanel.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ConstHistorypanel.ResumeLayout(false);
             this.ParentgroupBox.ResumeLayout(false);
             this.MenophaniagroupBox.ResumeLayout(false);
@@ -4653,6 +5097,7 @@
             this.PersongroupBox.ResumeLayout(false);
             this.PersongroupBox.PerformLayout();
             this.PastgroupBox.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
             this.PhysicalInspectpanel.ResumeLayout(false);
             this.ElsegroupBox.ResumeLayout(false);
             this.ElsegroupBox.PerformLayout();
@@ -4662,6 +5107,7 @@
             this.HeartgroupBox.PerformLayout();
             this.ThyroidgroupBox.ResumeLayout(false);
             this.ThyroidgroupBox.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
             this.LabInspectpanel.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -4672,12 +5118,16 @@
             this.BloodLabgroupBox.PerformLayout();
             this.ThyroidLabgroupBox.ResumeLayout(false);
             this.ThyroidLabgroupBox.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
             this.ImageInspectpanel.ResumeLayout(false);
             this.ImageInspectpanel.PerformLayout();
             this.BgroupBox.ResumeLayout(false);
             this.BgroupBox.PerformLayout();
             this.ETCgroupBox.ResumeLayout(false);
             this.ETCgroupBox.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.CurePlanpanel.ResumeLayout(false);
+            this.CurePlanpanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -5097,5 +5547,44 @@
         private System.Windows.Forms.Label label125;
         private System.Windows.Forms.TextBox ETCleftLtextBox;
         private System.Windows.Forms.Label label126;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel CurePlanpanel;
+        private System.Windows.Forms.RichTextBox elserichTextBox;
+        private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.TextBox ElsethingtextBox;
+        private System.Windows.Forms.CheckBox qitacheckBox;
+        private System.Windows.Forms.CheckBox JiejiecheckBox;
+        private System.Windows.Forms.CheckBox JiacheckBox;
+        private System.Windows.Forms.CheckBox fufacheckBox;
+        private System.Windows.Forms.CheckBox ATDcheckBox;
+        private System.Windows.Forms.CheckBox shoushucheckBox;
+        private System.Windows.Forms.CheckBox BingcheckBox;
+        private System.Windows.Forms.CheckBox HecheckBox;
+        private System.Windows.Forms.CheckBox ZhengcheckBox;
+        private System.Windows.Forms.CheckBox AgecheckBox;
+        private System.Windows.Forms.Label label138;
+        private System.Windows.Forms.Label label137;
+        private System.Windows.Forms.TextBox RealtextBox;
+        private System.Windows.Forms.Label label136;
+        private System.Windows.Forms.Label label135;
+        private System.Windows.Forms.TextBox CaltextBox;
+        private System.Windows.Forms.Label label134;
+        private System.Windows.Forms.Label label133;
+        private System.Windows.Forms.TextBox PlantextBox;
+        private System.Windows.Forms.Label label132;
+        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.TextBox RecomtextBox;
+        private System.Windows.Forms.Label label130;
+        private System.Windows.Forms.CheckBox LesscheckBox;
+        private System.Windows.Forms.CheckBox MorecheckBox;
+        private System.Windows.Forms.CheckBox NormalcheckBox;
+        private System.Windows.Forms.Label label129;
+        private System.Windows.Forms.TextBox TwoFhtextBox;
+        private System.Windows.Forms.Label label128;
+        private System.Windows.Forms.Label label127;
+        private System.Windows.Forms.TextBox twohtextBox;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.Label label145;
     }
 }
