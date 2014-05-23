@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BasicInfopanel = new System.Windows.Forms.Panel();
             this.BasicInfogroupBox = new System.Windows.Forms.GroupBox();
             this.MarriedcomboBox = new System.Windows.Forms.ComboBox();
@@ -481,6 +482,7 @@
             this.label144 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.BasicInfopanel.SuspendLayout();
             this.BasicInfogroupBox.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -514,6 +516,7 @@
             this.ETCgroupBox.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.CurePlanpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // BasicInfopanel
@@ -981,6 +984,7 @@
             this.DefecatetextBox.Name = "DefecatetextBox";
             this.DefecatetextBox.Size = new System.Drawing.Size(45, 29);
             this.DefecatetextBox.TabIndex = 50;
+            this.DefecatetextBox.Leave += new System.EventHandler(this.DefecatetextBox_Leave);
             // 
             // DefecatecheckBox
             // 
@@ -1007,6 +1011,7 @@
             this.FlaccidtextBox.Name = "FlaccidtextBox";
             this.FlaccidtextBox.Size = new System.Drawing.Size(45, 29);
             this.FlaccidtextBox.TabIndex = 47;
+            this.FlaccidtextBox.Leave += new System.EventHandler(this.FlaccidtextBox_Leave);
             // 
             // FlaccidcheckBox
             // 
@@ -5072,6 +5077,10 @@
             // 
             this.openFileDialog.FileName = "openFileDialog1";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // CureFirst
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -5134,6 +5143,7 @@
             this.tabPage6.ResumeLayout(false);
             this.CurePlanpanel.ResumeLayout(false);
             this.CurePlanpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5593,5 +5603,6 @@
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.Label label145;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

@@ -1227,6 +1227,27 @@ namespace MedicalV2
             }
         }
 
+        private void FlaccidtextBox_Leave(object sender, EventArgs e)
+        {
+            if (FlaccidtextBox.Text == string.Empty)
+            {
+                errorProvider1.SetError(FlaccidcheckBox, "不能为空");
+            }
+            else
+                errorProvider1.Clear();
+           
+        }
+
+        private void DefecatetextBox_Leave(object sender, EventArgs e)
+        {
+            if (DefecatetextBox.Text == string.Empty)
+            {
+                errorProvider1.SetError(DefecatetextBox, "不能为空");
+            }
+            else
+                errorProvider1.Clear();
+        }
+
        
     }
 }
