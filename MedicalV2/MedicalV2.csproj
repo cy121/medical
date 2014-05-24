@@ -72,6 +72,12 @@
     <Compile Include="BasicInfoForm.Designer.cs">
       <DependentUpon>BasicInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FollowVisitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FollowVisitForm.Designer.cs">
+      <DependentUpon>FollowVisitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ImageInspect.cs" />
     <Compile Include="LabInspect.cs" />
     <Compile Include="Main.cs">
@@ -90,11 +96,26 @@
     <Compile Include="RandomVisit.Designer.cs">
       <DependentUpon>RandomVisit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test121.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Test121.Designer.cs">
+      <DependentUpon>Test121.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BasicInfoForm.resx">
       <DependentUpon>BasicInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CureFirst.resx">
       <DependentUpon>CureFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FollowVisitForm.resx">
+      <DependentUpon>FollowVisitForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -108,6 +129,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RandomVisit.resx">
+      <DependentUpon>RandomVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test121.resx">
+      <DependentUpon>Test121.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
