@@ -16,22 +16,24 @@ namespace MedicalV2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CureFirstBtn_Click(object sender, EventArgs e)
         {
             CureFirst cf = new CureFirst();
             cf.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void RandomVisitBtn_Click(object sender, EventArgs e)
         {
-            CureSecond cs = new CureSecond();
-            cs.Show();
+            SearchForm sf = new SearchForm();
+            sf.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void CureSecondBtn_Click(object sender, EventArgs e)
         {
-            RandomVisit rv = new RandomVisit();
-            rv.Show();
+            SearchForm sf = new SearchForm();
+            sf.Show();
         }
+
+        
     }
 }

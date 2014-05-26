@@ -90,6 +90,7 @@ namespace MedicalV2
             }
             else
             {
+                con.Open();
                 MySqlCommand command = new MySqlCommand("select * from cure_plan where log_id='" + lid + "'", con);
                 MySqlDataReader reader = command.ExecuteReader();
 

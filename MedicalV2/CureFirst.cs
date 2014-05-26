@@ -829,13 +829,6 @@ namespace MedicalV2
             else
                 eye[8] = '0';
 
-            if (JofforycheckBox.Checked)
-            {
-                eye[9] = '1';
-            }
-            else
-                eye[9] = '0';
-
             if (MobiuscheckBox.Checked)
             {
                 eye[9] = '1';

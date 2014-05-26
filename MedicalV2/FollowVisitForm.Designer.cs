@@ -38,6 +38,11 @@
             this.TeletextBox = new System.Windows.Forms.TextBox();
             this.TeleLabel = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.ShowtabControl = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.ShowtabControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // SuicideLabel
@@ -103,7 +108,7 @@
             // 
             // TeletextBox
             // 
-            this.TeletextBox.Location = new System.Drawing.Point(542, 15);
+            this.TeletextBox.Location = new System.Drawing.Point(641, 15);
             this.TeletextBox.Name = "TeletextBox";
             this.TeletextBox.Size = new System.Drawing.Size(171, 21);
             this.TeletextBox.TabIndex = 26;
@@ -111,7 +116,7 @@
             // TeleLabel
             // 
             this.TeleLabel.AutoSize = true;
-            this.TeleLabel.Location = new System.Drawing.Point(471, 18);
+            this.TeleLabel.Location = new System.Drawing.Point(517, 18);
             this.TeleLabel.Name = "TeleLabel";
             this.TeleLabel.Size = new System.Drawing.Size(65, 12);
             this.TeleLabel.TabIndex = 25;
@@ -119,7 +124,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(604, 347);
+            this.button1.Location = new System.Drawing.Point(923, 550);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 45);
             this.button1.TabIndex = 27;
@@ -127,11 +132,53 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ShowtabControl
+            // 
+            this.ShowtabControl.Controls.Add(this.tabPage1);
+            this.ShowtabControl.Controls.Add(this.tabPage2);
+            this.ShowtabControl.Controls.Add(this.tabPage3);
+            this.ShowtabControl.Location = new System.Drawing.Point(12, 57);
+            this.ShowtabControl.Name = "ShowtabControl";
+            this.ShowtabControl.SelectedIndex = 0;
+            this.ShowtabControl.Size = new System.Drawing.Size(1025, 487);
+            this.ShowtabControl.TabIndex = 28;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1017, 461);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1017, 461);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1017, 461);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // FollowVisitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 404);
+            this.ClientSize = new System.Drawing.Size(1061, 607);
+            this.Controls.Add(this.ShowtabControl);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TeletextBox);
             this.Controls.Add(this.TeleLabel);
@@ -144,6 +191,7 @@
             this.Controls.Add(this.NaneLabel);
             this.Name = "FollowVisitForm";
             this.Text = "随访";
+            this.ShowtabControl.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,5 +209,9 @@
         private System.Windows.Forms.TextBox TeletextBox;
         private System.Windows.Forms.Label TeleLabel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabControl ShowtabControl;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }

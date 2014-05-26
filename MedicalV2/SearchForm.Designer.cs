@@ -1,6 +1,6 @@
 ﻿namespace MedicalV2
 {
-    partial class RandomVisit
+    partial class SearchForm
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,7 @@
             this.SearchBtn.UseVisualStyleBackColor = true;
             this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
             // 
-            // RandomVisit
+            // SearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -67,8 +67,8 @@
             this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.LogIdLabel);
             this.Controls.Add(this.LogIdTextBox);
-            this.Name = "RandomVisit";
-            this.Text = "随访查询";
+            this.Name = "SearchForm";
+            this.Text = "查询";
             this.ResumeLayout(false);
             this.PerformLayout();
 

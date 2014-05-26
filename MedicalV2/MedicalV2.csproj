@@ -52,6 +52,36 @@
     <Compile Include="BasicInfo.cs" />
     <Compile Include="CommonFunc.cs" />
     <Compile Include="ConstHistory.cs" />
+    <Compile Include="Controls\ConstHistoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConstHistoryControl.Designer.cs">
+      <DependentUpon>ConstHistoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CurePlanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CurePlanControl.Designer.cs">
+      <DependentUpon>CurePlanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LabInspectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LabInspectControl.Designer.cs">
+      <DependentUpon>LabInspectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PhysicalInspectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PhysicalInspectControl.Designer.cs">
+      <DependentUpon>PhysicalInspectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PresentHistoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PresentHistoryControl.Designer.cs">
+      <DependentUpon>PresentHistoryControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="CureFirst.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,11 +120,11 @@
     <Compile Include="PresentHistory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomVisit.cs">
+    <Compile Include="SearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RandomVisit.Designer.cs">
-      <DependentUpon>RandomVisit.cs</DependentUpon>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Test.cs">
       <SubType>Form</SubType>
@@ -102,14 +132,29 @@
     <Compile Include="Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test121.cs">
+    <Compile Include="Controls\Test121.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Test121.Designer.cs">
+    <Compile Include="Controls\Test121.Designer.cs">
       <DependentUpon>Test121.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="BasicInfoForm.resx">
       <DependentUpon>BasicInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConstHistoryControl.resx">
+      <DependentUpon>ConstHistoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CurePlanControl.resx">
+      <DependentUpon>CurePlanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LabInspectControl.resx">
+      <DependentUpon>LabInspectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PhysicalInspectControl.resx">
+      <DependentUpon>PhysicalInspectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PresentHistoryControl.resx">
+      <DependentUpon>PresentHistoryControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CureFirst.resx">
       <DependentUpon>CureFirst.cs</DependentUpon>
@@ -129,13 +174,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RandomVisit.resx">
-      <DependentUpon>RandomVisit.cs</DependentUpon>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Test121.resx">
+    <EmbeddedResource Include="Controls\Test121.resx">
       <DependentUpon>Test121.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
@@ -152,6 +197,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

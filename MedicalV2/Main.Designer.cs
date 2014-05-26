@@ -41,7 +41,7 @@
             this.CureFirstBtn.TabIndex = 0;
             this.CureFirstBtn.Text = "初治";
             this.CureFirstBtn.UseVisualStyleBackColor = true;
-            this.CureFirstBtn.Click += new System.EventHandler(this.button1_Click);
+            this.CureFirstBtn.Click += new System.EventHandler(this.CureFirstBtn_Click);
             // 
             // RandomVisitBtn
             // 
@@ -51,7 +51,7 @@
             this.RandomVisitBtn.TabIndex = 1;
             this.RandomVisitBtn.Text = "随访";
             this.RandomVisitBtn.UseVisualStyleBackColor = true;
-            this.RandomVisitBtn.Click += new System.EventHandler(this.button2_Click);
+            this.RandomVisitBtn.Click += new System.EventHandler(this.RandomVisitBtn_Click);
             // 
             // CureSecondBtn
             // 
@@ -61,7 +61,7 @@
             this.CureSecondBtn.TabIndex = 2;
             this.CureSecondBtn.Text = "复治";
             this.CureSecondBtn.UseVisualStyleBackColor = true;
-            this.CureSecondBtn.Click += new System.EventHandler(this.button3_Click);
+            this.CureSecondBtn.Click += new System.EventHandler(this.CureSecondBtn_Click);
             // 
             // Main
             // 

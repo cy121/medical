@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace MedicalV2
 {
-    public partial class RandomVisit : Form
+    public partial class SearchForm : Form
     {
-        public RandomVisit()
+        public SearchForm()
         {
             InitializeComponent();
         }

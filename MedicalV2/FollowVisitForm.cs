@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MedicalV2.Controls;
 
 namespace MedicalV2
 {
@@ -27,7 +28,13 @@ namespace MedicalV2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Controls.Add(new Test121(id));
+            Control phc = new PresentHistoryControl(id);
+            Control pic = new PhysicalInspectControl(id);
+            Control cpc = new CurePlanControl(id);
+            this.tabPage1.Controls.Add(phc);
+            this.tabPage2.Controls.Add(pic);
+            this.tabPage3.Controls.Add(cpc);
+
         }
 
         
