@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace MedicalV2
 {
-    public partial class FollowVisitForm : Form
+    public partial class SearchFollowVisitForm : Form
     {
-        public FollowVisitForm()
+        public SearchFollowVisitForm()
         {
             InitializeComponent();
         }

@@ -245,6 +245,7 @@ namespace MedicalV2
             }
             else
             {
+                con.Open();
                 MySqlCommand command = new MySqlCommand("select * from lab_inspect where log_id='" + lid + "'", con);
                 MySqlDataReader reader = command.ExecuteReader();
 
@@ -338,8 +339,19 @@ namespace MedicalV2
                     ",tgab=" + tgab + ",trab=" + trab + ",wbc=" + wbc + ",rbc=" + rbc + ",hb=" + hb + ",plt=" + plt + ",n='" + n + "',l='" + l + "',tb=" + tb +
                     ",db=" + db + ",alt=" + alt + ",ast=" + ast + ",alp=" + alp + ",ygt=" + ygt + ",tp=" + tp + ",alb=" + alb + ",glo=" + glo + ",ag=" + ag + ",bun=" + bun + ",ua=" + ua +
                     ",cr=" + cr + ",glu=" + glu + ",else_inspect='" + else_inspect + "',sc="+ sc +",k="+ k +",p="+ p +" where log_id='" + lid + "'";
+                
                 MySqlCommand command = new MySqlCommand(update_sql, con);
-                command.ExecuteNonQuery();
+                try
+                {
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("更新成功！");
+                }
+                catch (MySqlException e)
+                {
+                    e.Message.ToString();
+                    MessageBox.Show("更新失败！");
+                }
                 con.Close();
                 return true;
             }

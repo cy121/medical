@@ -1,6 +1,6 @@
 ﻿namespace MedicalV2
 {
-    partial class SearchForm
+    partial class SearchUpdateForm
     {
         /// <summary>
         /// Required designer variable.

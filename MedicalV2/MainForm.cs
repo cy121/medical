@@ -9,29 +9,33 @@ using System.Windows.Forms;
 
 namespace MedicalV2
 {
-    public partial class Main : Form
+    public partial class MainForm : Form
     {
-        public Main()
+        public MainForm()
         {
             InitializeComponent();
         }
 
         private void CureFirstBtn_Click(object sender, EventArgs e)
         {
-            CureFirst cf = new CureFirst();
-            cf.Show();
+            //CureFirst cf = new CureFirst();
+            //cf.Show();
+            AddForm af = new AddForm();
+            af.Show();
         }
 
         private void RandomVisitBtn_Click(object sender, EventArgs e)
         {
-            SearchForm sf = new SearchForm();
-            sf.Show();
+            SearchUpdateForm suf = new SearchUpdateForm();
+            suf.Show();
         }
 
-        private void CureSecondBtn_Click(object sender, EventArgs e)
+        
+
+        private void SearchFollowVisitBtn_Click(object sender, EventArgs e)
         {
-            SearchForm sf = new SearchForm();
-            sf.Show();
+            SearchFollowVisitForm sfvf = new SearchFollowVisitForm();
+            sfvf.Show();
         }
 
         

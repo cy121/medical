@@ -179,6 +179,7 @@ namespace MedicalV2
             }
             else
             {
+                con.Open();
                 MySqlCommand command = new MySqlCommand("select * from const_history where log_id='" + lid + "'", con);
                 MySqlDataReader reader = command.ExecuteReader();
 

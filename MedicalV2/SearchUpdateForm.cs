@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace MedicalV2
 {
-    public partial class SearchForm : Form
+    public partial class SearchUpdateForm : Form
     {
-        public SearchForm()
+        public SearchUpdateForm()
         {
             InitializeComponent();
         }
@@ -19,7 +19,7 @@ namespace MedicalV2
         private void SearchBtn_Click(object sender, EventArgs e)
         {
             string id = LogIdTextBox.Text;
-            FollowVisitForm fvf = new FollowVisitForm(id);
+            UpdateForm fvf = new UpdateForm(id);
             fvf.Show();
             this.Hide();
         }

@@ -129,7 +129,7 @@ namespace MedicalV2
             {
                 string insert_sql = "insert into cure_plan(log_id,twoh_rate,twentyfourh_rate,rate_level,recom_dose," +
                 "cal_dose,real_dose,ef_factor,ef_else,else_things) value('" + lid + "'," + twoh_rate + "," + twentyfourh_rate +
-                "," + rate_level + "," + recom_dose + "," + cal_dose + "," + real_dose + "," + ef_factor + ",'" + ef_else + "','" + else_things + "')";
+                "," + rate_level + "," + recom_dose + "," + cal_dose + "," + real_dose + ",'" + ef_factor + "','" + ef_else + "','" + else_things + "')";
                 MySqlCommand command = new MySqlCommand(insert_sql, con);
                 try
                 {
@@ -157,10 +157,21 @@ namespace MedicalV2
             else
             {
                 string update_sql = "update cure_plan set twoh_rate=" + twoh_rate + ", twentyfourh_rate=" + twentyfourh_rate + ",rate_level=" + rate_level +
-                    ",recom_dose=" + recom_dose + ",cal_dose=" + cal_dose + ",real_dose=" + real_dose + ",ef_factor=" + ef_factor + ",ef_else='" + ef_else + "',else_things='" +
+                    ",recom_dose=" + recom_dose + ",cal_dose=" + cal_dose + ",real_dose=" + real_dose + ",ef_factor='" + ef_factor + "',ef_else='" + ef_else + "',else_things='" +
                     else_things + "' where log_id='" + lid + "'";
+                
                 MySqlCommand command = new MySqlCommand(update_sql, con);
-                command.ExecuteNonQuery();
+                try
+                {
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("更新成功！");
+                }
+                catch (MySqlException e)
+                {
+                    e.Message.ToString();
+                    MessageBox.Show("更新失败！");
+                }
                 con.Close();
                 return true;
             }

@@ -191,10 +191,21 @@ namespace MedicalV2
             else
             {
                 string update_sql = "update physical_inspect set thyroid_inspect='" + thyroid_inspect + "', thyroid_bigger=" + thyroid_bigger + ",thyroid_left=" + thyroid_left + ",thyroid_right=" + thyroid_right + 
-                    ",heart_rate=" + heart_rate + ",heart_inspect='" + heart_inspect + "',noise_level=" + noise_level + ",blood_lpressure=" + blood_lpressure + ",blood_hpressure=" + blood_hpressure + ",eye_inspect='" + eye_inspect +
-                    "',left_eye_out=" + left_eye_out + ",right_eye_ut=" + right_eye_out + ",eye_distance=" + eye_distance + ",else_inspect='" + else_inspect + "' where log_id='" + lid + "'";
+                    ",heart_rate=" + heart_rate + ",heart_inspect='" + heart_inspect + "',noise_level=" + noise_level + ",blood_lpresure=" + blood_lpressure + ",blood_hpresure=" + blood_hpressure + ",eye_inspect='" + eye_inspect +
+                    "',left_eye_out=" + left_eye_out + ",right_eye_out=" + right_eye_out + ",eye_distance=" + eye_distance + ",else_inspect='" + else_inspect + "' where log_id='" + lid + "'";
+                
                 MySqlCommand command = new MySqlCommand(update_sql, con);
-                command.ExecuteNonQuery();
+                try
+                {
+                    con.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("更新成功！");
+                }
+                catch (MySqlException e)
+                {
+                    e.Message.ToString();
+                    MessageBox.Show("更新失败！");
+                }
                 con.Close();
                 return true;
             }

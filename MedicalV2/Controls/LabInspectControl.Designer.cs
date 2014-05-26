@@ -147,7 +147,7 @@
             this.LabInspectpanel.Controls.Add(this.ThyroidLabgroupBox);
             this.LabInspectpanel.Location = new System.Drawing.Point(3, 3);
             this.LabInspectpanel.Name = "LabInspectpanel";
-            this.LabInspectpanel.Size = new System.Drawing.Size(1172, 427);
+            this.LabInspectpanel.Size = new System.Drawing.Size(1275, 423);
             this.LabInspectpanel.TabIndex = 38;
             // 
             // groupBox3
@@ -164,7 +164,7 @@
             this.groupBox3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox3.Location = new System.Drawing.Point(7, 279);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(1151, 59);
+            this.groupBox3.Size = new System.Drawing.Size(1253, 59);
             this.groupBox3.TabIndex = 29;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "电解质";
@@ -265,7 +265,7 @@
             // 
             this.ElseThingrichTextBox.Location = new System.Drawing.Point(14, 24);
             this.ElseThingrichTextBox.Name = "ElseThingrichTextBox";
-            this.ElseThingrichTextBox.Size = new System.Drawing.Size(1098, 38);
+            this.ElseThingrichTextBox.Size = new System.Drawing.Size(1239, 38);
             this.ElseThingrichTextBox.TabIndex = 0;
             this.ElseThingrichTextBox.Text = "";
             // 
@@ -277,28 +277,26 @@
             this.groupBox2.Controls.Add(this.CRtextBox);
             this.groupBox2.Controls.Add(this.label86);
             this.groupBox2.Controls.Add(this.label85);
+            this.groupBox2.Controls.Add(this.label81);
             this.groupBox2.Controls.Add(this.UatextBox);
             this.groupBox2.Controls.Add(this.label84);
-            this.groupBox2.Controls.Add(this.label83);
-            this.groupBox2.Controls.Add(this.BUNtextBox);
-            this.groupBox2.Controls.Add(this.label82);
-            this.groupBox2.Controls.Add(this.label81);
             this.groupBox2.Controls.Add(this.GLOtextBox);
-            this.groupBox2.Controls.Add(this.label80);
-            this.groupBox2.Controls.Add(this.label79);
-            this.groupBox2.Controls.Add(this.ALBtextBox);
-            this.groupBox2.Controls.Add(this.label78);
+            this.groupBox2.Controls.Add(this.label83);
             this.groupBox2.Controls.Add(this.label77);
             this.groupBox2.Controls.Add(this.TPtextBox);
+            this.groupBox2.Controls.Add(this.label80);
+            this.groupBox2.Controls.Add(this.BUNtextBox);
             this.groupBox2.Controls.Add(this.label76);
+            this.groupBox2.Controls.Add(this.label79);
             this.groupBox2.Controls.Add(this.label75);
+            this.groupBox2.Controls.Add(this.label82);
             this.groupBox2.Controls.Add(this.yGTtextBox);
+            this.groupBox2.Controls.Add(this.ALBtextBox);
             this.groupBox2.Controls.Add(this.label74);
             this.groupBox2.Controls.Add(this.label73);
+            this.groupBox2.Controls.Add(this.label78);
             this.groupBox2.Controls.Add(this.ALPtextBox);
             this.groupBox2.Controls.Add(this.label72);
-            this.groupBox2.Controls.Add(this.AGtextBox);
-            this.groupBox2.Controls.Add(this.label71);
             this.groupBox2.Controls.Add(this.label70);
             this.groupBox2.Controls.Add(this.ASTtextBox);
             this.groupBox2.Controls.Add(this.label69);
@@ -309,12 +307,14 @@
             this.groupBox2.Controls.Add(this.DBtextBox);
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.label71);
+            this.groupBox2.Controls.Add(this.AGtextBox);
             this.groupBox2.Controls.Add(this.TBtextBox);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.Location = new System.Drawing.Point(8, 177);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1154, 96);
+            this.groupBox2.Size = new System.Drawing.Size(1252, 96);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "肝肾功能";
@@ -322,7 +322,7 @@
             // GLUtextBox
             // 
             this.GLUtextBox.AcceptsReturn = true;
-            this.GLUtextBox.Location = new System.Drawing.Point(1067, 61);
+            this.GLUtextBox.Location = new System.Drawing.Point(1119, 59);
             this.GLUtextBox.Name = "GLUtextBox";
             this.GLUtextBox.Size = new System.Drawing.Size(50, 29);
             this.GLUtextBox.TabIndex = 119;
@@ -330,7 +330,7 @@
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(1035, 65);
+            this.label88.Location = new System.Drawing.Point(1087, 63);
             this.label88.Name = "label88";
             this.label88.Size = new System.Drawing.Size(36, 21);
             this.label88.TabIndex = 118;
@@ -340,7 +340,7 @@
             // 
             this.label87.AutoSize = true;
             this.label87.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label87.Location = new System.Drawing.Point(956, 66);
+            this.label87.Location = new System.Drawing.Point(1008, 64);
             this.label87.Name = "label87";
             this.label87.Size = new System.Drawing.Size(57, 20);
             this.label87.TabIndex = 117;
@@ -349,7 +349,7 @@
             // CRtextBox
             // 
             this.CRtextBox.AcceptsReturn = true;
-            this.CRtextBox.Location = new System.Drawing.Point(903, 63);
+            this.CRtextBox.Location = new System.Drawing.Point(955, 61);
             this.CRtextBox.Name = "CRtextBox";
             this.CRtextBox.Size = new System.Drawing.Size(50, 29);
             this.CRtextBox.TabIndex = 116;
@@ -357,7 +357,7 @@
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(831, 65);
+            this.label86.Location = new System.Drawing.Point(883, 63);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(74, 21);
             this.label86.TabIndex = 115;
@@ -367,7 +367,7 @@
             // 
             this.label85.AutoSize = true;
             this.label85.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label85.Location = new System.Drawing.Point(1100, 26);
+            this.label85.Location = new System.Drawing.Point(807, 64);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(57, 20);
             this.label85.TabIndex = 114;
@@ -376,7 +376,7 @@
             // UatextBox
             // 
             this.UatextBox.AcceptsReturn = true;
-            this.UatextBox.Location = new System.Drawing.Point(1050, 23);
+            this.UatextBox.Location = new System.Drawing.Point(757, 61);
             this.UatextBox.Name = "UatextBox";
             this.UatextBox.Size = new System.Drawing.Size(50, 29);
             this.UatextBox.TabIndex = 113;
@@ -384,7 +384,7 @@
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(1006, 26);
+            this.label84.Location = new System.Drawing.Point(713, 64);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(42, 21);
             this.label84.TabIndex = 112;
@@ -394,7 +394,7 @@
             // 
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label83.Location = new System.Drawing.Point(907, 26);
+            this.label83.Location = new System.Drawing.Point(614, 64);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(61, 20);
             this.label83.TabIndex = 111;
@@ -403,7 +403,7 @@
             // BUNtextBox
             // 
             this.BUNtextBox.AcceptsReturn = true;
-            this.BUNtextBox.Location = new System.Drawing.Point(855, 22);
+            this.BUNtextBox.Location = new System.Drawing.Point(562, 60);
             this.BUNtextBox.Name = "BUNtextBox";
             this.BUNtextBox.Size = new System.Drawing.Size(50, 29);
             this.BUNtextBox.TabIndex = 110;
@@ -411,7 +411,7 @@
             // label82
             // 
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(796, 26);
+            this.label82.Location = new System.Drawing.Point(503, 64);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(58, 21);
             this.label82.TabIndex = 109;
@@ -421,7 +421,7 @@
             // 
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label81.Location = new System.Drawing.Point(769, 64);
+            this.label81.Location = new System.Drawing.Point(276, 64);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(31, 20);
             this.label81.TabIndex = 108;
@@ -429,7 +429,7 @@
             // 
             // GLOtextBox
             // 
-            this.GLOtextBox.Location = new System.Drawing.Point(718, 60);
+            this.GLOtextBox.Location = new System.Drawing.Point(225, 60);
             this.GLOtextBox.Name = "GLOtextBox";
             this.GLOtextBox.Size = new System.Drawing.Size(50, 29);
             this.GLOtextBox.TabIndex = 107;
@@ -437,7 +437,7 @@
             // label80
             // 
             this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(663, 64);
+            this.label80.Location = new System.Drawing.Point(170, 64);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(58, 21);
             this.label80.TabIndex = 106;
@@ -447,7 +447,7 @@
             // 
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label79.Location = new System.Drawing.Point(621, 64);
+            this.label79.Location = new System.Drawing.Point(128, 64);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(31, 20);
             this.label79.TabIndex = 105;
@@ -455,7 +455,7 @@
             // 
             // ALBtextBox
             // 
-            this.ALBtextBox.Location = new System.Drawing.Point(569, 60);
+            this.ALBtextBox.Location = new System.Drawing.Point(76, 60);
             this.ALBtextBox.Name = "ALBtextBox";
             this.ALBtextBox.Size = new System.Drawing.Size(50, 29);
             this.ALBtextBox.TabIndex = 104;
@@ -463,7 +463,7 @@
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(513, 64);
+            this.label78.Location = new System.Drawing.Point(20, 64);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(58, 21);
             this.label78.TabIndex = 103;
@@ -473,7 +473,7 @@
             // 
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label77.Location = new System.Drawing.Point(465, 65);
+            this.label77.Location = new System.Drawing.Point(1143, 27);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(31, 20);
             this.label77.TabIndex = 102;
@@ -481,7 +481,7 @@
             // 
             // TPtextBox
             // 
-            this.TPtextBox.Location = new System.Drawing.Point(416, 61);
+            this.TPtextBox.Location = new System.Drawing.Point(1094, 23);
             this.TPtextBox.Name = "TPtextBox";
             this.TPtextBox.Size = new System.Drawing.Size(50, 29);
             this.TPtextBox.TabIndex = 101;
@@ -490,7 +490,7 @@
             // 
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label76.Location = new System.Drawing.Point(300, 65);
+            this.label76.Location = new System.Drawing.Point(978, 27);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(32, 20);
             this.label76.TabIndex = 100;
@@ -499,7 +499,7 @@
             // label75
             // 
             this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(361, 64);
+            this.label75.Location = new System.Drawing.Point(1039, 26);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(58, 21);
             this.label75.TabIndex = 99;
@@ -507,7 +507,7 @@
             // 
             // yGTtextBox
             // 
-            this.yGTtextBox.Location = new System.Drawing.Point(248, 60);
+            this.yGTtextBox.Location = new System.Drawing.Point(926, 22);
             this.yGTtextBox.Name = "yGTtextBox";
             this.yGTtextBox.Size = new System.Drawing.Size(50, 29);
             this.yGTtextBox.TabIndex = 98;
@@ -515,7 +515,7 @@
             // label74
             // 
             this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(204, 63);
+            this.label74.Location = new System.Drawing.Point(882, 25);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(47, 21);
             this.label74.TabIndex = 97;
@@ -525,7 +525,7 @@
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label73.Location = new System.Drawing.Point(154, 65);
+            this.label73.Location = new System.Drawing.Point(832, 27);
             this.label73.Name = "label73";
             this.label73.Size = new System.Drawing.Size(32, 20);
             this.label73.TabIndex = 96;
@@ -533,7 +533,7 @@
             // 
             // ALPtextBox
             // 
-            this.ALPtextBox.Location = new System.Drawing.Point(102, 61);
+            this.ALPtextBox.Location = new System.Drawing.Point(780, 23);
             this.ALPtextBox.Name = "ALPtextBox";
             this.ALPtextBox.Size = new System.Drawing.Size(50, 29);
             this.ALPtextBox.TabIndex = 95;
@@ -541,7 +541,7 @@
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(15, 64);
+            this.label72.Location = new System.Drawing.Point(693, 26);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(90, 21);
             this.label72.TabIndex = 94;
@@ -549,7 +549,7 @@
             // 
             // AGtextBox
             // 
-            this.AGtextBox.Location = new System.Drawing.Point(738, 22);
+            this.AGtextBox.Location = new System.Drawing.Point(445, 60);
             this.AGtextBox.Name = "AGtextBox";
             this.AGtextBox.Size = new System.Drawing.Size(50, 29);
             this.AGtextBox.TabIndex = 93;
@@ -557,7 +557,7 @@
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(698, 26);
+            this.label71.Location = new System.Drawing.Point(405, 64);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(40, 21);
             this.label71.TabIndex = 92;
@@ -669,14 +669,19 @@
             // 
             // BloodLabgroupBox
             // 
+            this.BloodLabgroupBox.Controls.Add(this.label68);
             this.BloodLabgroupBox.Controls.Add(this.label65);
             this.BloodLabgroupBox.Controls.Add(this.NRtextBox);
+            this.BloodLabgroupBox.Controls.Add(this.LRtextBox);
             this.BloodLabgroupBox.Controls.Add(this.label64);
             this.BloodLabgroupBox.Controls.Add(this.NLtextBox);
+            this.BloodLabgroupBox.Controls.Add(this.label67);
             this.BloodLabgroupBox.Controls.Add(this.label63);
             this.BloodLabgroupBox.Controls.Add(this.label35);
+            this.BloodLabgroupBox.Controls.Add(this.LLtextBox);
             this.BloodLabgroupBox.Controls.Add(this.PLTtextBox);
             this.BloodLabgroupBox.Controls.Add(this.label34);
+            this.BloodLabgroupBox.Controls.Add(this.label66);
             this.BloodLabgroupBox.Controls.Add(this.label33);
             this.BloodLabgroupBox.Controls.Add(this.HbtextBox);
             this.BloodLabgroupBox.Controls.Add(this.label32);
@@ -689,7 +694,7 @@
             this.BloodLabgroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BloodLabgroupBox.Location = new System.Drawing.Point(7, 102);
             this.BloodLabgroupBox.Name = "BloodLabgroupBox";
-            this.BloodLabgroupBox.Size = new System.Drawing.Size(1152, 69);
+            this.BloodLabgroupBox.Size = new System.Drawing.Size(1253, 69);
             this.BloodLabgroupBox.TabIndex = 1;
             this.BloodLabgroupBox.TabStop = false;
             this.BloodLabgroupBox.Text = "血常规";
@@ -698,7 +703,7 @@
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label65.Location = new System.Drawing.Point(981, 28);
+            this.label65.Location = new System.Drawing.Point(897, 31);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(64, 19);
             this.label65.TabIndex = 76;
@@ -706,15 +711,15 @@
             // 
             // NRtextBox
             // 
-            this.NRtextBox.Location = new System.Drawing.Point(925, 23);
+            this.NRtextBox.Location = new System.Drawing.Point(845, 26);
             this.NRtextBox.Name = "NRtextBox";
-            this.NRtextBox.Size = new System.Drawing.Size(50, 29);
+            this.NRtextBox.Size = new System.Drawing.Size(47, 29);
             this.NRtextBox.TabIndex = 75;
             // 
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(904, 26);
+            this.label64.Location = new System.Drawing.Point(817, 29);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(24, 21);
             this.label64.TabIndex = 74;
@@ -722,15 +727,15 @@
             // 
             // NLtextBox
             // 
-            this.NLtextBox.Location = new System.Drawing.Point(854, 23);
+            this.NLtextBox.Location = new System.Drawing.Point(774, 26);
             this.NLtextBox.Name = "NLtextBox";
-            this.NLtextBox.Size = new System.Drawing.Size(50, 29);
+            this.NLtextBox.Size = new System.Drawing.Size(44, 29);
             this.NLtextBox.TabIndex = 73;
             // 
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(767, 26);
+            this.label63.Location = new System.Drawing.Point(678, 29);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(90, 21);
             this.label63.TabIndex = 72;
@@ -740,7 +745,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label35.Location = new System.Drawing.Point(680, 31);
+            this.label35.Location = new System.Drawing.Point(609, 31);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(64, 19);
             this.label35.TabIndex = 71;
@@ -748,15 +753,15 @@
             // 
             // PLTtextBox
             // 
-            this.PLTtextBox.Location = new System.Drawing.Point(628, 26);
+            this.PLTtextBox.Location = new System.Drawing.Point(567, 26);
             this.PLTtextBox.Name = "PLTtextBox";
-            this.PLTtextBox.Size = new System.Drawing.Size(50, 29);
+            this.PLTtextBox.Size = new System.Drawing.Size(36, 29);
             this.PLTtextBox.TabIndex = 70;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(576, 29);
+            this.label34.Location = new System.Drawing.Point(507, 29);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(58, 21);
             this.label34.TabIndex = 69;
@@ -766,7 +771,7 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label33.Location = new System.Drawing.Point(521, 31);
+            this.label33.Location = new System.Drawing.Point(478, 31);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(30, 19);
             this.label33.TabIndex = 68;
@@ -774,15 +779,15 @@
             // 
             // HbtextBox
             // 
-            this.HbtextBox.Location = new System.Drawing.Point(470, 26);
+            this.HbtextBox.Location = new System.Drawing.Point(440, 26);
             this.HbtextBox.Name = "HbtextBox";
-            this.HbtextBox.Size = new System.Drawing.Size(50, 29);
+            this.HbtextBox.Size = new System.Drawing.Size(32, 29);
             this.HbtextBox.TabIndex = 67;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(402, 29);
+            this.label32.Location = new System.Drawing.Point(360, 29);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(74, 21);
             this.label32.TabIndex = 66;
@@ -792,7 +797,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label62.Location = new System.Drawing.Point(310, 31);
+            this.label62.Location = new System.Drawing.Point(283, 31);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(72, 19);
             this.label62.TabIndex = 65;
@@ -800,15 +805,15 @@
             // 
             // RBCtextBox
             // 
-            this.RBCtextBox.Location = new System.Drawing.Point(258, 26);
+            this.RBCtextBox.Location = new System.Drawing.Point(242, 26);
             this.RBCtextBox.Name = "RBCtextBox";
-            this.RBCtextBox.Size = new System.Drawing.Size(50, 29);
+            this.RBCtextBox.Size = new System.Drawing.Size(35, 29);
             this.RBCtextBox.TabIndex = 64;
             // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(203, 29);
+            this.label61.Location = new System.Drawing.Point(178, 29);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(58, 21);
             this.label61.TabIndex = 63;
@@ -818,7 +823,7 @@
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label36.Location = new System.Drawing.Point(117, 31);
+            this.label36.Location = new System.Drawing.Point(112, 31);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(64, 19);
             this.label36.TabIndex = 43;
@@ -828,13 +833,13 @@
             // 
             this.WBCtextBox.Location = new System.Drawing.Point(66, 26);
             this.WBCtextBox.Name = "WBCtextBox";
-            this.WBCtextBox.Size = new System.Drawing.Size(50, 29);
+            this.WBCtextBox.Size = new System.Drawing.Size(40, 29);
             this.WBCtextBox.TabIndex = 43;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(13, 29);
+            this.label37.Location = new System.Drawing.Point(10, 29);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(58, 21);
             this.label37.TabIndex = 43;
@@ -842,15 +847,10 @@
             // 
             // ThyroidLabgroupBox
             // 
-            this.ThyroidLabgroupBox.Controls.Add(this.label68);
             this.ThyroidLabgroupBox.Controls.Add(this.label60);
-            this.ThyroidLabgroupBox.Controls.Add(this.LRtextBox);
             this.ThyroidLabgroupBox.Controls.Add(this.TRAbtextBox);
-            this.ThyroidLabgroupBox.Controls.Add(this.label67);
             this.ThyroidLabgroupBox.Controls.Add(this.label59);
-            this.ThyroidLabgroupBox.Controls.Add(this.LLtextBox);
             this.ThyroidLabgroupBox.Controls.Add(this.label41);
-            this.ThyroidLabgroupBox.Controls.Add(this.label66);
             this.ThyroidLabgroupBox.Controls.Add(this.TgAbtextBox);
             this.ThyroidLabgroupBox.Controls.Add(this.label40);
             this.ThyroidLabgroupBox.Controls.Add(this.label39);
@@ -874,7 +874,7 @@
             this.ThyroidLabgroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ThyroidLabgroupBox.Location = new System.Drawing.Point(8, 3);
             this.ThyroidLabgroupBox.Name = "ThyroidLabgroupBox";
-            this.ThyroidLabgroupBox.Size = new System.Drawing.Size(1151, 93);
+            this.ThyroidLabgroupBox.Size = new System.Drawing.Size(1252, 93);
             this.ThyroidLabgroupBox.TabIndex = 0;
             this.ThyroidLabgroupBox.TabStop = false;
             this.ThyroidLabgroupBox.Text = "甲状腺";
@@ -883,7 +883,7 @@
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("微软雅黑", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label68.Location = new System.Drawing.Point(995, 58);
+            this.label68.Location = new System.Drawing.Point(1166, 31);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(64, 19);
             this.label68.TabIndex = 81;
@@ -892,7 +892,7 @@
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(734, 60);
+            this.label60.Location = new System.Drawing.Point(542, 61);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(45, 21);
             this.label60.TabIndex = 63;
@@ -900,14 +900,14 @@
             // 
             // LRtextBox
             // 
-            this.LRtextBox.Location = new System.Drawing.Point(939, 53);
+            this.LRtextBox.Location = new System.Drawing.Point(1110, 26);
             this.LRtextBox.Name = "LRtextBox";
             this.LRtextBox.Size = new System.Drawing.Size(50, 29);
             this.LRtextBox.TabIndex = 80;
             // 
             // TRAbtextBox
             // 
-            this.TRAbtextBox.Location = new System.Drawing.Point(661, 56);
+            this.TRAbtextBox.Location = new System.Drawing.Point(469, 57);
             this.TRAbtextBox.Name = "TRAbtextBox";
             this.TRAbtextBox.Size = new System.Drawing.Size(71, 29);
             this.TRAbtextBox.TabIndex = 62;
@@ -915,7 +915,7 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(919, 56);
+            this.label67.Location = new System.Drawing.Point(1090, 29);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(24, 21);
             this.label67.TabIndex = 79;
@@ -924,7 +924,7 @@
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(613, 60);
+            this.label59.Location = new System.Drawing.Point(421, 61);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(50, 21);
             this.label59.TabIndex = 61;
@@ -932,7 +932,7 @@
             // 
             // LLtextBox
             // 
-            this.LLtextBox.Location = new System.Drawing.Point(869, 53);
+            this.LLtextBox.Location = new System.Drawing.Point(1040, 26);
             this.LLtextBox.Name = "LLtextBox";
             this.LLtextBox.Size = new System.Drawing.Size(50, 29);
             this.LLtextBox.TabIndex = 78;
@@ -940,7 +940,7 @@
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(535, 60);
+            this.label41.Location = new System.Drawing.Point(343, 61);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(53, 21);
             this.label41.TabIndex = 60;
@@ -949,7 +949,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(796, 56);
+            this.label66.Location = new System.Drawing.Point(967, 31);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(74, 21);
             this.label66.TabIndex = 77;
@@ -957,7 +957,7 @@
             // 
             // TgAbtextBox
             // 
-            this.TgAbtextBox.Location = new System.Drawing.Point(464, 56);
+            this.TgAbtextBox.Location = new System.Drawing.Point(272, 57);
             this.TgAbtextBox.Name = "TgAbtextBox";
             this.TgAbtextBox.Size = new System.Drawing.Size(71, 29);
             this.TgAbtextBox.TabIndex = 59;
@@ -965,7 +965,7 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(418, 60);
+            this.label40.Location = new System.Drawing.Point(226, 61);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(50, 21);
             this.label40.TabIndex = 58;
@@ -974,7 +974,7 @@
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(339, 60);
+            this.label39.Location = new System.Drawing.Point(147, 61);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(53, 21);
             this.label39.TabIndex = 57;
@@ -982,7 +982,7 @@
             // 
             // TPOAbtextBox
             // 
-            this.TPOAbtextBox.Location = new System.Drawing.Point(266, 57);
+            this.TPOAbtextBox.Location = new System.Drawing.Point(74, 58);
             this.TPOAbtextBox.Name = "TPOAbtextBox";
             this.TPOAbtextBox.Size = new System.Drawing.Size(71, 29);
             this.TPOAbtextBox.TabIndex = 56;
@@ -990,7 +990,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(207, 60);
+            this.label38.Location = new System.Drawing.Point(15, 61);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(63, 21);
             this.label38.TabIndex = 55;
@@ -999,7 +999,7 @@
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(127, 59);
+            this.label58.Location = new System.Drawing.Point(896, 24);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(45, 21);
             this.label58.TabIndex = 54;
@@ -1007,7 +1007,7 @@
             // 
             // TT4textBox
             // 
-            this.TT4textBox.Location = new System.Drawing.Point(51, 57);
+            this.TT4textBox.Location = new System.Drawing.Point(820, 22);
             this.TT4textBox.Name = "TT4textBox";
             this.TT4textBox.Size = new System.Drawing.Size(71, 29);
             this.TT4textBox.TabIndex = 53;
@@ -1015,7 +1015,7 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(13, 60);
+            this.label57.Location = new System.Drawing.Point(782, 25);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(37, 21);
             this.label57.TabIndex = 52;
@@ -1127,7 +1127,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.LabInspectpanel);
             this.Name = "LabInspectControl";
-            this.Size = new System.Drawing.Size(1190, 446);
+            this.Size = new System.Drawing.Size(1281, 438);
             this.LabInspectpanel.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

@@ -49,9 +49,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddFollowVisitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFollowVisitForm.Designer.cs">
+      <DependentUpon>AddFollowVisitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BasicInfo.cs" />
     <Compile Include="CommonFunc.cs" />
     <Compile Include="ConstHistory.cs" />
+    <Compile Include="Controls\AllControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AllControl.Designer.cs">
+      <DependentUpon>AllControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\ConstHistoryControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -63,6 +81,12 @@
     </Compile>
     <Compile Include="Controls\CurePlanControl.Designer.cs">
       <DependentUpon>CurePlanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageInspectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageInspectControl.Designer.cs">
+      <DependentUpon>ImageInspectControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\LabInspectControl.cs">
       <SubType>UserControl</SubType>
@@ -81,6 +105,12 @@
     </Compile>
     <Compile Include="Controls\PresentHistoryControl.Designer.cs">
       <DependentUpon>PresentHistoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AllTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AllTabControl.Designer.cs">
+      <DependentUpon>AllTabControl.cs</DependentUpon>
     </Compile>
     <Compile Include="CureFirst.cs">
       <SubType>Form</SubType>
@@ -108,29 +138,35 @@
     <Compile Include="FollowVisitForm.Designer.cs">
       <DependentUpon>FollowVisitForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ImageInspect.cs" />
-    <Compile Include="LabInspect.cs" />
-    <Compile Include="Main.cs">
+    <Compile Include="SearchFollowVisitForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="SearchFollowVisitForm.Designer.cs">
+      <DependentUpon>SearchFollowVisitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageInspect.cs" />
+    <Compile Include="LabInspect.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="PhysicalInspect.cs" />
     <Compile Include="PresentHistory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchForm.cs">
+    <Compile Include="SearchUpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchForm.Designer.cs">
-      <DependentUpon>SearchForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
+    <Compile Include="SearchUpdateForm.Designer.cs">
+      <DependentUpon>SearchUpdateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\Test121.cs">
       <SubType>UserControl</SubType>
@@ -138,14 +174,29 @@
     <Compile Include="Controls\Test121.Designer.cs">
       <DependentUpon>Test121.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddFollowVisitForm.resx">
+      <DependentUpon>AddFollowVisitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BasicInfoForm.resx">
       <DependentUpon>BasicInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AllControl.resx">
+      <DependentUpon>AllControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AllTabControl.resx">
+      <DependentUpon>AllTabControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\ConstHistoryControl.resx">
       <DependentUpon>ConstHistoryControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\CurePlanControl.resx">
       <DependentUpon>CurePlanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImageInspectControl.resx">
+      <DependentUpon>ImageInspectControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\LabInspectControl.resx">
       <DependentUpon>LabInspectControl.cs</DependentUpon>
@@ -159,11 +210,14 @@
     <EmbeddedResource Include="CureFirst.resx">
       <DependentUpon>CureFirst.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FollowVisitForm.resx">
-      <DependentUpon>FollowVisitForm.cs</DependentUpon>
+    <EmbeddedResource Include="SearchFollowVisitForm.resx">
+      <DependentUpon>SearchFollowVisitForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -174,11 +228,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SearchForm.resx">
-      <DependentUpon>SearchForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test.resx">
-      <DependentUpon>Test.cs</DependentUpon>
+    <EmbeddedResource Include="SearchUpdateForm.resx">
+      <DependentUpon>SearchUpdateForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Test121.resx">
       <DependentUpon>Test121.cs</DependentUpon>

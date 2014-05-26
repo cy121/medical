@@ -1,6 +1,6 @@
 ﻿namespace MedicalV2
 {
-    partial class FollowVisitForm
+    partial class AddForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AddForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "SearchFollowVisitForm";
+            this.ClientSize = new System.Drawing.Size(1252, 680);
+            this.Name = "AddForm";
+            this.Text = "AddForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

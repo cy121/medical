@@ -124,7 +124,7 @@ namespace MedicalV2
             }
             else
             {
-                string update_sql = "update present_history set main_report='" + main_report + "', symptom=" + symptom + ",stool_times=" + stool_times + ",palsy_times=" + palsy_times +
+                string update_sql = "update present_history set main_report='" + main_report + "', symptom='" + symptom + "',stool_times=" + stool_times + ",palsy_times=" + palsy_times +
                     ",else_things='" + else_things + "',treat_process='" + treat_process + "' where log_id='" + lid + "'";
                 MySqlCommand command = new MySqlCommand(update_sql, con);
                 try
