@@ -68,7 +68,6 @@
             this.AddFVBtn.TabIndex = 6;
             this.AddFVBtn.Text = "填写随访";
             this.AddFVBtn.UseVisualStyleBackColor = true;
-            this.AddFVBtn.Click += new System.EventHandler(this.AddFVBtn_Click);
             // 
             // SearchFollowVisitForm
             // 
@@ -80,7 +79,7 @@
             this.Controls.Add(this.LogIdLabel);
             this.Controls.Add(this.LogIdTextBox);
             this.Name = "SearchFollowVisitForm";
-            this.Text = "查询随访病历";
+            this.Text = "查询";
             this.ResumeLayout(false);
             this.PerformLayout();
 

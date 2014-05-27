@@ -19,14 +19,12 @@ namespace MedicalV2
         private void FVSearchBtn_Click(object sender, EventArgs e)
         {
             string id = this.LogIdTextBox.Text;
-            new AddFollowVisitForm(id).Show();
+            SearchResultForm uf = new SearchResultForm(id, 0);
+            uf.Show();
             //this.Hide();
         }
 
-        private void AddFVBtn_Click(object sender, EventArgs e)
-        {
-            new AddFollowVisitForm().Show();
-        }
+        
 
         
 

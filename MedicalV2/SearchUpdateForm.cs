@@ -19,7 +19,7 @@ namespace MedicalV2
         private void SearchBtn_Click(object sender, EventArgs e)
         {
             string id = LogIdTextBox.Text;
-            UpdateForm fvf = new UpdateForm(id);
+            SearchResultForm fvf = new SearchResultForm(id, 1);
             fvf.Show();
             this.Hide();
         }
