@@ -18,10 +18,10 @@ namespace MedicalV2
 
         private void CureFirstBtn_Click(object sender, EventArgs e)
         {
-            //CureFirst cf = new CureFirst();
-            //cf.Show();
-            AddForm af = new AddForm();
-            af.Show();
+            CureFirst cf = new CureFirst();
+            cf.Show();
+            //AddForm af = new AddForm();
+            //af.Show();
         }
 
         private void RandomVisitBtn_Click(object sender, EventArgs e)

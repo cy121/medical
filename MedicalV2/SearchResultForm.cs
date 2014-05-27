@@ -117,13 +117,14 @@ namespace MedicalV2
                                 "JiacheckBox",
                                 "JiejiecheckBox",
                                 "qitacheckBox" };
-
+        private int b;
 
         public SearchResultForm(String logId, int n)
         {
             InitializeComponent();
-            if (n == 1) this.UpdateBtn.Visible = true;
-            else if (n == 0) this.AddFVBtn.Visible = true;
+            b = n;
+            if (n == 0) this.UpdateBtn.Visible = false;
+            else if (n == 1) this.AddFVBtn.Visible = false;
             this.Text = "登记号：" + logId;
             BasicInfo bi = new BasicInfo();
             id = logId;
@@ -296,13 +297,16 @@ namespace MedicalV2
 
         private AllTabControl allTabControl;
 
+        
+
         private void ShowAllBtn_Click(object sender, EventArgs e)
         {
             
             allTabControl = new AllTabControl(id);
             this.tabControlAll.Visible = false;
             this.ShowPanel.Controls.Add(allTabControl);
-
+            if (b == 0) this.UpdateBtn.Visible = false;
+            else if (b == 1) this.AddFVBtn.Visible = false;
             //Control iic = new ImageInspectControl(id);
             //Control lic = new LabInspectControl(id);
             //Control chc = new ConstHistoryControl(id);
@@ -327,7 +331,7 @@ namespace MedicalV2
 
         private void AddFVBtn_Click(object sender, EventArgs e)
         {
-            new AddFollowVisitForm().Show();
+            new AddFollowVisitForm(id).Show();
             this.Close();
         }
 

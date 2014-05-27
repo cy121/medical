@@ -635,7 +635,7 @@ namespace MedicalV2
             else
                 thyroid[14] = '0';
 
-            if (DissymmetrycheckBox54.Checked)
+            if (DissymmetrycheckBox.Checked)
             {
                 thyroid[15] = '1';
             }
@@ -1239,6 +1239,20 @@ namespace MedicalV2
             }
             else
                 errorProvider1.Clear();
+        }
+
+        private void openFileDialog_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void OpenFilebutton_Click_1(object sender, EventArgs e)
+        {
+            DialogResult result = openFileDialog.ShowDialog();
+            if (result == DialogResult.OK) // Test result.
+            {
+                ECGtextBox.Text = openFileDialog.FileName;
+            }
         }
 
        

@@ -86,7 +86,7 @@
             this.MainReportLabel = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.PresentHistroyTabPage = new System.Windows.Forms.TabPage();
             this.ConstHistorypanel = new System.Windows.Forms.Panel();
             this.ParentgroupBox = new System.Windows.Forms.GroupBox();
             this.ParentHisrichTextBox = new System.Windows.Forms.RichTextBox();
@@ -149,7 +149,7 @@
             this.ResidentcheckBox = new System.Windows.Forms.CheckBox();
             this.PastgroupBox = new System.Windows.Forms.GroupBox();
             this.PastrichTextBox = new System.Windows.Forms.RichTextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.PhysicalTabPage = new System.Windows.Forms.TabPage();
             this.PhysicalInspectpanel = new System.Windows.Forms.Panel();
             this.ElsegroupBox = new System.Windows.Forms.GroupBox();
             this.FaircheckBox = new System.Windows.Forms.CheckBox();
@@ -229,7 +229,7 @@
             this.QuantityFormalcheckBox = new System.Windows.Forms.CheckBox();
             this.QuantityLesscheckBox = new System.Windows.Forms.CheckBox();
             this.BigcheckBox = new System.Windows.Forms.CheckBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.LabTabPage4 = new System.Windows.Forms.TabPage();
             this.LabInspectpanel = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label94 = new System.Windows.Forms.Label();
@@ -332,7 +332,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.FT3textBox = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.ImageTabPage = new System.Windows.Forms.TabPage();
             this.ImageInspectpanel = new System.Windows.Forms.Panel();
             this.OpenFilebutton = new System.Windows.Forms.Button();
             this.label123 = new System.Windows.Forms.Label();
@@ -406,7 +406,7 @@
             this.label125 = new System.Windows.Forms.Label();
             this.ETCleftLtextBox = new System.Windows.Forms.TextBox();
             this.label126 = new System.Windows.Forms.Label();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.PlanTabPage = new System.Windows.Forms.TabPage();
             this.CurePlanpanel = new System.Windows.Forms.Panel();
             this.elserichTextBox = new System.Windows.Forms.RichTextBox();
             this.label139 = new System.Windows.Forms.Label();
@@ -449,42 +449,42 @@
             this.PresentHistorytabPage.SuspendLayout();
             this.PresentHistorygroupBox.SuspendLayout();
             this.SymptomgroupBox.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.PresentHistroyTabPage.SuspendLayout();
             this.ConstHistorypanel.SuspendLayout();
             this.ParentgroupBox.SuspendLayout();
             this.MenophaniagroupBox.SuspendLayout();
             this.MarriagegroupBox.SuspendLayout();
             this.PersongroupBox.SuspendLayout();
             this.PastgroupBox.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.PhysicalTabPage.SuspendLayout();
             this.PhysicalInspectpanel.SuspendLayout();
             this.ElsegroupBox.SuspendLayout();
             this.EyegroupBox.SuspendLayout();
             this.HeartgroupBox.SuspendLayout();
             this.ThyroidgroupBox.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            this.LabTabPage4.SuspendLayout();
             this.LabInspectpanel.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.BloodLabgroupBox.SuspendLayout();
             this.ThyroidLabgroupBox.SuspendLayout();
-            this.tabPage5.SuspendLayout();
+            this.ImageTabPage.SuspendLayout();
             this.ImageInspectpanel.SuspendLayout();
             this.BgroupBox.SuspendLayout();
             this.ETCgroupBox.SuspendLayout();
-            this.tabPage6.SuspendLayout();
+            this.PlanTabPage.SuspendLayout();
             this.CurePlanpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlAll
             // 
             this.tabControlAll.Controls.Add(this.PresentHistorytabPage);
-            this.tabControlAll.Controls.Add(this.tabPage2);
-            this.tabControlAll.Controls.Add(this.tabPage3);
-            this.tabControlAll.Controls.Add(this.tabPage4);
-            this.tabControlAll.Controls.Add(this.tabPage5);
-            this.tabControlAll.Controls.Add(this.tabPage6);
+            this.tabControlAll.Controls.Add(this.PresentHistroyTabPage);
+            this.tabControlAll.Controls.Add(this.PhysicalTabPage);
+            this.tabControlAll.Controls.Add(this.LabTabPage4);
+            this.tabControlAll.Controls.Add(this.ImageTabPage);
+            this.tabControlAll.Controls.Add(this.PlanTabPage);
             this.tabControlAll.Location = new System.Drawing.Point(3, 3);
             this.tabControlAll.Name = "tabControlAll";
             this.tabControlAll.SelectedIndex = 0;
@@ -493,6 +493,7 @@
             // 
             // PresentHistorytabPage
             // 
+            this.PresentHistorytabPage.AutoScroll = true;
             this.PresentHistorytabPage.BackColor = System.Drawing.SystemColors.Control;
             this.PresentHistorytabPage.Controls.Add(this.PresentHistorygroupBox);
             this.PresentHistorytabPage.Controls.Add(this.textBox4);
@@ -513,9 +514,9 @@
             this.PresentHistorygroupBox.Controls.Add(this.MainReporttextBox);
             this.PresentHistorygroupBox.Controls.Add(this.MainReportLabel);
             this.PresentHistorygroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.PresentHistorygroupBox.Location = new System.Drawing.Point(6, 6);
+            this.PresentHistorygroupBox.Location = new System.Drawing.Point(6, 9);
             this.PresentHistorygroupBox.Name = "PresentHistorygroupBox";
-            this.PresentHistorygroupBox.Size = new System.Drawing.Size(632, 638);
+            this.PresentHistorygroupBox.Size = new System.Drawing.Size(673, 654);
             this.PresentHistorygroupBox.TabIndex = 34;
             this.PresentHistorygroupBox.TabStop = false;
             this.PresentHistorygroupBox.Text = "病人基本症状";
@@ -1095,16 +1096,17 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "主述：";
             // 
-            // tabPage2
+            // PresentHistroyTabPage
             // 
-            this.tabPage2.Controls.Add(this.ConstHistorypanel);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(694, 650);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "既往史";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.PresentHistroyTabPage.AutoScroll = true;
+            this.PresentHistroyTabPage.Controls.Add(this.ConstHistorypanel);
+            this.PresentHistroyTabPage.Location = new System.Drawing.Point(4, 22);
+            this.PresentHistroyTabPage.Name = "PresentHistroyTabPage";
+            this.PresentHistroyTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.PresentHistroyTabPage.Size = new System.Drawing.Size(694, 650);
+            this.PresentHistroyTabPage.TabIndex = 1;
+            this.PresentHistroyTabPage.Text = "既往史";
+            this.PresentHistroyTabPage.UseVisualStyleBackColor = true;
             // 
             // ConstHistorypanel
             // 
@@ -1710,16 +1712,17 @@
             this.PastrichTextBox.TabIndex = 0;
             this.PastrichTextBox.Text = "";
             // 
-            // tabPage3
+            // PhysicalTabPage
             // 
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage3.Controls.Add(this.PhysicalInspectpanel);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(694, 650);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "体格检查";
+            this.PhysicalTabPage.AutoScroll = true;
+            this.PhysicalTabPage.BackColor = System.Drawing.SystemColors.Control;
+            this.PhysicalTabPage.Controls.Add(this.PhysicalInspectpanel);
+            this.PhysicalTabPage.Location = new System.Drawing.Point(4, 22);
+            this.PhysicalTabPage.Name = "PhysicalTabPage";
+            this.PhysicalTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.PhysicalTabPage.Size = new System.Drawing.Size(694, 650);
+            this.PhysicalTabPage.TabIndex = 2;
+            this.PhysicalTabPage.Text = "体格检查";
             // 
             // PhysicalInspectpanel
             // 
@@ -2538,16 +2541,17 @@
             this.BigcheckBox.Text = "大小正常";
             this.BigcheckBox.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // LabTabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage4.Controls.Add(this.LabInspectpanel);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(694, 650);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "化验检查";
+            this.LabTabPage4.AutoScroll = true;
+            this.LabTabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.LabTabPage4.Controls.Add(this.LabInspectpanel);
+            this.LabTabPage4.Location = new System.Drawing.Point(4, 22);
+            this.LabTabPage4.Name = "LabTabPage4";
+            this.LabTabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.LabTabPage4.Size = new System.Drawing.Size(694, 650);
+            this.LabTabPage4.TabIndex = 3;
+            this.LabTabPage4.Text = "化验检查";
             // 
             // LabInspectpanel
             // 
@@ -3533,16 +3537,17 @@
             this.label43.TabIndex = 36;
             this.label43.Text = "FT3";
             // 
-            // tabPage5
+            // ImageTabPage
             // 
-            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage5.Controls.Add(this.ImageInspectpanel);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(694, 650);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "影像检查";
+            this.ImageTabPage.AutoScroll = true;
+            this.ImageTabPage.BackColor = System.Drawing.SystemColors.Control;
+            this.ImageTabPage.Controls.Add(this.ImageInspectpanel);
+            this.ImageTabPage.Location = new System.Drawing.Point(4, 22);
+            this.ImageTabPage.Name = "ImageTabPage";
+            this.ImageTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.ImageTabPage.Size = new System.Drawing.Size(694, 650);
+            this.ImageTabPage.TabIndex = 4;
+            this.ImageTabPage.Text = "影像检查";
             // 
             // ImageInspectpanel
             // 
@@ -4298,16 +4303,17 @@
             this.label126.TabIndex = 82;
             this.label126.Text = "左叶";
             // 
-            // tabPage6
+            // PlanTabPage
             // 
-            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage6.Controls.Add(this.CurePlanpanel);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(694, 650);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "治疗计划";
+            this.PlanTabPage.AutoScroll = true;
+            this.PlanTabPage.BackColor = System.Drawing.SystemColors.Control;
+            this.PlanTabPage.Controls.Add(this.CurePlanpanel);
+            this.PlanTabPage.Location = new System.Drawing.Point(4, 22);
+            this.PlanTabPage.Name = "PlanTabPage";
+            this.PlanTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.PlanTabPage.Size = new System.Drawing.Size(694, 650);
+            this.PlanTabPage.TabIndex = 5;
+            this.PlanTabPage.Text = "治疗计划";
             // 
             // CurePlanpanel
             // 
@@ -4717,7 +4723,7 @@
             this.PresentHistorygroupBox.PerformLayout();
             this.SymptomgroupBox.ResumeLayout(false);
             this.SymptomgroupBox.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
+            this.PresentHistroyTabPage.ResumeLayout(false);
             this.ConstHistorypanel.ResumeLayout(false);
             this.ParentgroupBox.ResumeLayout(false);
             this.MenophaniagroupBox.ResumeLayout(false);
@@ -4727,7 +4733,7 @@
             this.PersongroupBox.ResumeLayout(false);
             this.PersongroupBox.PerformLayout();
             this.PastgroupBox.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
+            this.PhysicalTabPage.ResumeLayout(false);
             this.PhysicalInspectpanel.ResumeLayout(false);
             this.ElsegroupBox.ResumeLayout(false);
             this.ElsegroupBox.PerformLayout();
@@ -4737,7 +4743,7 @@
             this.HeartgroupBox.PerformLayout();
             this.ThyroidgroupBox.ResumeLayout(false);
             this.ThyroidgroupBox.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
+            this.LabTabPage4.ResumeLayout(false);
             this.LabInspectpanel.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -4748,14 +4754,14 @@
             this.BloodLabgroupBox.PerformLayout();
             this.ThyroidLabgroupBox.ResumeLayout(false);
             this.ThyroidLabgroupBox.PerformLayout();
-            this.tabPage5.ResumeLayout(false);
+            this.ImageTabPage.ResumeLayout(false);
             this.ImageInspectpanel.ResumeLayout(false);
             this.ImageInspectpanel.PerformLayout();
             this.BgroupBox.ResumeLayout(false);
             this.BgroupBox.PerformLayout();
             this.ETCgroupBox.ResumeLayout(false);
             this.ETCgroupBox.PerformLayout();
-            this.tabPage6.ResumeLayout(false);
+            this.PlanTabPage.ResumeLayout(false);
             this.CurePlanpanel.ResumeLayout(false);
             this.CurePlanpanel.PerformLayout();
             this.ResumeLayout(false);
@@ -4822,7 +4828,7 @@
         private System.Windows.Forms.Label MainReportLabel;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage PresentHistroyTabPage;
         private System.Windows.Forms.Panel ConstHistorypanel;
         private System.Windows.Forms.GroupBox ParentgroupBox;
         private System.Windows.Forms.RichTextBox ParentHisrichTextBox;
@@ -4885,7 +4891,7 @@
         private System.Windows.Forms.CheckBox ResidentcheckBox;
         private System.Windows.Forms.GroupBox PastgroupBox;
         private System.Windows.Forms.RichTextBox PastrichTextBox;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage PhysicalTabPage;
         private System.Windows.Forms.Panel PhysicalInspectpanel;
         private System.Windows.Forms.GroupBox ElsegroupBox;
         private System.Windows.Forms.CheckBox FaircheckBox;
@@ -4965,7 +4971,7 @@
         private System.Windows.Forms.CheckBox QuantityFormalcheckBox;
         private System.Windows.Forms.CheckBox QuantityLesscheckBox;
         private System.Windows.Forms.CheckBox BigcheckBox;
-        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage LabTabPage4;
         private System.Windows.Forms.Panel LabInspectpanel;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label94;
@@ -5068,7 +5074,7 @@
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.TextBox FT3textBox;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage ImageTabPage;
         private System.Windows.Forms.Panel ImageInspectpanel;
         private System.Windows.Forms.Button OpenFilebutton;
         private System.Windows.Forms.Label label123;
@@ -5142,7 +5148,7 @@
         private System.Windows.Forms.Label label125;
         private System.Windows.Forms.TextBox ETCleftLtextBox;
         private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TabPage PlanTabPage;
         private System.Windows.Forms.Panel CurePlanpanel;
         private System.Windows.Forms.RichTextBox elserichTextBox;
         private System.Windows.Forms.Label label139;

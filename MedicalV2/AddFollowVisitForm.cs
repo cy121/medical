@@ -68,14 +68,14 @@ namespace MedicalV2
         public AddFollowVisitForm(string id)
         {
             InitializeComponent();
-            this.LabInspectpanel.Hide();
-            this.PresentHistorygroupBox.Hide();
-            PresentHistoryControl phc = new PresentHistoryControl(id);
-            LabInspectControl lic = new LabInspectControl(id);
-            this.PresentTabPage.Controls.Add(phc);
-            this.LabInspecttabPage.Controls.Add(lic);
-            BasicInfo bi = new BasicInfo();
+            DateTime dt = DateTime.Now;
             
+            datetime = dt;
+            //cfId = string.Format("{0:yyyyMMddHHmm}", dt);
+            cfId = id;
+            BasicInfo bi = new BasicInfo();
+           
+            this.Text = "登记号" + cfId;
             bi.readBasicInfoById(id);
             this.NametextBox.Text= bi.P_name;
             this.SexcomboBox.Text = Convert.ToString(bi.P_sex);
@@ -85,19 +85,56 @@ namespace MedicalV2
             
         }
 
-        private void SaveFVBtn_Click(object sender, EventArgs e)
+        
+
+        private void FinishBtn_Click(object sender, EventArgs e)
         {
             FollowVisit fv = new FollowVisit();
-            PresentHistory ph = new PresentHistory();
-            
-            fv.Fv_id = cfId;
-            fv.Log_id = cfId;
 
+            fv.Fv_id = cfId;
+            //fv.Log_id = cfId;
+            fv.Main_report = this.MainReportTextBox.Text;
             fv.Fv_date = datetime.ToString();
             fv.Heavy_thing = this.HeavyTextBox.Text;
             fv.Light_thing = this.LightTextBox.Text;
             fv.Heart_rate = Convert.ToInt32(this.HeartRatetextBox.Text);
-
+            if (this.HeartRythmCheckBox.Checked)
+                fv.Heart_rythm = 1;
+            else fv.Heart_rythm = 0;
+            fv.Thyroid_size = Convert.ToInt32(this.ThyroidSizeTextBox.Text);
+            fv.Thyroid_grain = this.ThyroidGrainTextBox.Text;
+            fv.Ph_else = this.phElseTextBox.Text;
+            fv.Ft3 = Convert.ToDouble(FT3textBox.Text.Trim());
+            fv.Ft4 = Convert.ToDouble(FT4textBox.Text.Trim());
+            fv.Tsh = Convert.ToDouble(TSHtextBox.Text.Trim());
+            fv.Tt3 = Convert.ToDouble(TT3textBox.Text.Trim());
+            fv.Tt4 = Convert.ToDouble(TT4textBox.Text.Trim());
+            fv.Tpoab = Convert.ToDouble(TPOAbtextBox.Text.Trim());
+            fv.Tgab = Convert.ToDouble(TgAbtextBox.Text.Trim());
+            fv.Trab = Convert.ToDouble(TRAbtextBox.Text.Trim());
+            fv.Wbc = Convert.ToDouble(WBCtextBox.Text.Trim());
+            fv.Rbc = Convert.ToDouble(RBCtextBox.Text.Trim());
+            fv.Hb = Convert.ToDouble(HbtextBox.Text.Trim());
+            fv.Plt = Convert.ToDouble(PLTtextBox.Text.Trim());
+            fv.N = NLtextBox.Text.Trim() + "%" + NRtextBox.Text.Trim();
+            fv.L = LLtextBox.Text.Trim() + "%" + LRtextBox.Text.Trim();
+            fv.Tb = Convert.ToDouble(TBtextBox.Text.Trim());
+            fv.Db = Convert.ToDouble(DBtextBox.Text.Trim());
+            fv.Alt = Convert.ToDouble(ALTtextBox.Text.Trim());
+            fv.Ast = Convert.ToDouble(ASTtextBox.Text.Trim());
+            fv.Alp = Convert.ToDouble(ALPtextBox.Text.Trim());
+            fv.Ygt = Convert.ToDouble(yGTtextBox.Text.Trim());
+            fv.Tp = Convert.ToDouble(TPtextBox.Text.Trim());
+            fv.Alb = Convert.ToDouble(ALBtextBox.Text.Trim());
+            fv.Glo = Convert.ToDouble(GLOtextBox.Text.Trim());
+            fv.Ag = Convert.ToDouble(AgetextBox.Text.Trim());
+            fv.Bun = Convert.ToDouble(BUNtextBox.Text.Trim());
+            fv.Ua = Convert.ToDouble(UatextBox.Text.Trim());
+            fv.Cr = Convert.ToDouble(CRtextBox.Text.Trim());
+            fv.Glu = Convert.ToDouble(GLUtextBox.Text.Trim());
+            fv.Lab_else = ElseThingrichTextBox.Text.Trim();
+            fv.Handle = this.HandleTextBox.Text;
+            fv.insertFollowVisit(cfId);
         }
     }
 }

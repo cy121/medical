@@ -31,14 +31,13 @@
             this.FVSearchBtn = new System.Windows.Forms.Button();
             this.LogIdLabel = new System.Windows.Forms.Label();
             this.LogIdTextBox = new System.Windows.Forms.TextBox();
-            this.AddFVBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FVSearchBtn
             // 
             this.FVSearchBtn.Location = new System.Drawing.Point(104, 151);
             this.FVSearchBtn.Name = "FVSearchBtn";
-            this.FVSearchBtn.Size = new System.Drawing.Size(75, 23);
+            this.FVSearchBtn.Size = new System.Drawing.Size(88, 39);
             this.FVSearchBtn.TabIndex = 5;
             this.FVSearchBtn.Text = "查询";
             this.FVSearchBtn.UseVisualStyleBackColor = true;
@@ -60,21 +59,11 @@
             this.LogIdTextBox.Size = new System.Drawing.Size(150, 21);
             this.LogIdTextBox.TabIndex = 3;
             // 
-            // AddFVBtn
-            // 
-            this.AddFVBtn.Location = new System.Drawing.Point(104, 207);
-            this.AddFVBtn.Name = "AddFVBtn";
-            this.AddFVBtn.Size = new System.Drawing.Size(75, 23);
-            this.AddFVBtn.TabIndex = 6;
-            this.AddFVBtn.Text = "填写随访";
-            this.AddFVBtn.UseVisualStyleBackColor = true;
-            // 
             // SearchFollowVisitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.AddFVBtn);
             this.Controls.Add(this.FVSearchBtn);
             this.Controls.Add(this.LogIdLabel);
             this.Controls.Add(this.LogIdTextBox);
@@ -90,6 +79,5 @@
         private System.Windows.Forms.Button FVSearchBtn;
         private System.Windows.Forms.Label LogIdLabel;
         private System.Windows.Forms.TextBox LogIdTextBox;
-        private System.Windows.Forms.Button AddFVBtn;
     }
 }

@@ -118,6 +118,12 @@
     <Compile Include="Controls\AllTabControl.Designer.cs">
       <DependentUpon>AllTabControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\UpdateControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -227,6 +233,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\PresentHistoryControl.resx">
       <DependentUpon>PresentHistoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\UpdateControl.resx">
       <DependentUpon>UpdateControl.cs</DependentUpon>
