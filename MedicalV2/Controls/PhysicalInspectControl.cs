@@ -9,8 +9,14 @@ using System.Windows.Forms;
 
 namespace MedicalV2.Controls
 {
+    
+
+
     public partial class PhysicalInspectControl : UserControl
     {
+
+        
+
 
         private string[] thyroidCheck = {"BigcheckBox",
                                 "QuantityLesscheckBox",

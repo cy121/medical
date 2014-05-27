@@ -28,44 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SearchBtn = new System.Windows.Forms.Button();
-            this.FVIdLabel = new System.Windows.Forms.Label();
-            this.FVIdTextBox = new System.Windows.Forms.TextBox();
+            this.FVSearchBtn = new System.Windows.Forms.Button();
+            this.LogIdLabel = new System.Windows.Forms.Label();
+            this.LogIdTextBox = new System.Windows.Forms.TextBox();
+            this.AddFVBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SearchBtn
+            // FVSearchBtn
             // 
-            this.SearchBtn.Location = new System.Drawing.Point(104, 151);
-            this.SearchBtn.Name = "SearchBtn";
-            this.SearchBtn.Size = new System.Drawing.Size(75, 23);
-            this.SearchBtn.TabIndex = 5;
-            this.SearchBtn.Text = "查询";
-            this.SearchBtn.UseVisualStyleBackColor = true;
+            this.FVSearchBtn.Location = new System.Drawing.Point(104, 151);
+            this.FVSearchBtn.Name = "FVSearchBtn";
+            this.FVSearchBtn.Size = new System.Drawing.Size(75, 23);
+            this.FVSearchBtn.TabIndex = 5;
+            this.FVSearchBtn.Text = "查询";
+            this.FVSearchBtn.UseVisualStyleBackColor = true;
+            this.FVSearchBtn.Click += new System.EventHandler(this.FVSearchBtn_Click);
             // 
-            // FVIdLabel
+            // LogIdLabel
             // 
-            this.FVIdLabel.AutoSize = true;
-            this.FVIdLabel.Location = new System.Drawing.Point(31, 91);
-            this.FVIdLabel.Name = "FVIdLabel";
-            this.FVIdLabel.Size = new System.Drawing.Size(65, 12);
-            this.FVIdLabel.TabIndex = 4;
-            this.FVIdLabel.Text = "随访病历号";
+            this.LogIdLabel.AutoSize = true;
+            this.LogIdLabel.Location = new System.Drawing.Point(31, 91);
+            this.LogIdLabel.Name = "LogIdLabel";
+            this.LogIdLabel.Size = new System.Drawing.Size(41, 12);
+            this.LogIdLabel.TabIndex = 4;
+            this.LogIdLabel.Text = "登记号";
             // 
-            // FVIdTextBox
+            // LogIdTextBox
             // 
-            this.FVIdTextBox.Location = new System.Drawing.Point(104, 88);
-            this.FVIdTextBox.Name = "FVIdTextBox";
-            this.FVIdTextBox.Size = new System.Drawing.Size(150, 21);
-            this.FVIdTextBox.TabIndex = 3;
+            this.LogIdTextBox.Location = new System.Drawing.Point(104, 88);
+            this.LogIdTextBox.Name = "LogIdTextBox";
+            this.LogIdTextBox.Size = new System.Drawing.Size(150, 21);
+            this.LogIdTextBox.TabIndex = 3;
+            // 
+            // AddFVBtn
+            // 
+            this.AddFVBtn.Location = new System.Drawing.Point(104, 207);
+            this.AddFVBtn.Name = "AddFVBtn";
+            this.AddFVBtn.Size = new System.Drawing.Size(75, 23);
+            this.AddFVBtn.TabIndex = 6;
+            this.AddFVBtn.Text = "填写随访";
+            this.AddFVBtn.UseVisualStyleBackColor = true;
+            this.AddFVBtn.Click += new System.EventHandler(this.AddFVBtn_Click);
             // 
             // SearchFollowVisitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.SearchBtn);
-            this.Controls.Add(this.FVIdLabel);
-            this.Controls.Add(this.FVIdTextBox);
+            this.Controls.Add(this.AddFVBtn);
+            this.Controls.Add(this.FVSearchBtn);
+            this.Controls.Add(this.LogIdLabel);
+            this.Controls.Add(this.LogIdTextBox);
             this.Name = "SearchFollowVisitForm";
             this.Text = "查询随访病历";
             this.ResumeLayout(false);
@@ -75,8 +88,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SearchBtn;
-        private System.Windows.Forms.Label FVIdLabel;
-        private System.Windows.Forms.TextBox FVIdTextBox;
+        private System.Windows.Forms.Button FVSearchBtn;
+        private System.Windows.Forms.Label LogIdLabel;
+        private System.Windows.Forms.TextBox LogIdTextBox;
+        private System.Windows.Forms.Button AddFVBtn;
     }
 }
