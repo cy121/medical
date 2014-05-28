@@ -18,7 +18,10 @@ namespace MedicalV2
             InitializeComponent();
             DateTime dt = DateTime.Now;
             cfId = string.Format("{0:yyyyMMddHHmm}", dt);
+            string hostId = string.Format("{0:HHmm}", dt);
             this.Text = "初治" + cfId;
+            this.HosIDtextBox.Text = hostId;
+            this.HosIDtextBox.ReadOnly = true;
         }
 
         private void BasicInfogroupBox_Enter(object sender, EventArgs e)
@@ -46,7 +49,7 @@ namespace MedicalV2
                 basicinfo.P_sex = '0';
             }
             basicinfo.P_age = Convert.ToInt32(AgetextBox.Text.Trim());
-            if (MarriedcomboBox.Text.Trim().Equals("是"))
+            if (MarriedcomboBox.Text.Trim().Equals("已婚"))
             {
                 basicinfo.P_married = '1';
             }
@@ -458,61 +461,69 @@ namespace MedicalV2
 
 
             /*婚育史*/
-            consthistory.Mari_age = Convert.ToInt32(MenophaniaAgetextBox.Text.Trim());  //结婚年龄
-            consthistory.Preg_times = Convert.ToInt32(PregtextBox.Text.Trim());
-            consthistory.Bear_times = Convert.ToInt32(BeartextBox.Text.Trim());
-            consthistory.Nat_bear = Convert.ToInt32(NatBeartextBox.Text.Trim());
-            consthistory.Op_abort = Convert.ToInt32(OpBeartextBox.Text.Trim());
-            consthistory.Nat_abort = Convert.ToInt32(NatAborttextBox.Text.Trim());
-            consthistory.Op_abort = Convert.ToInt32(OpAborttextBox.Text.Trim());
-            consthistory.Early_bear = Convert.ToInt32(EarlyBeartextBox.Text.Trim());
-            consthistory.Dead_bear = Convert.ToInt32(DeadBeartextBox.Text.Trim());
+            if (this.MarriedcomboBox.Text == "已婚" && this.SexcomboBox.Text == "女")
+            {
+                consthistory.Mari_age = Convert.ToInt32(MenophaniaAgetextBox.Text.Trim());  //结婚年龄
+                consthistory.Preg_times = Convert.ToInt32(PregtextBox.Text.Trim());
+                consthistory.Bear_times = Convert.ToInt32(BeartextBox.Text.Trim());
+                consthistory.Nat_bear = Convert.ToInt32(NatBeartextBox.Text.Trim());
+                consthistory.Op_abort = Convert.ToInt32(OpBeartextBox.Text.Trim());
+                consthistory.Nat_abort = Convert.ToInt32(NatAborttextBox.Text.Trim());
+                consthistory.Op_abort = Convert.ToInt32(OpAborttextBox.Text.Trim());
+                consthistory.Early_bear = Convert.ToInt32(EarlyBeartextBox.Text.Trim());
+                consthistory.Dead_bear = Convert.ToInt32(DeadBeartextBox.Text.Trim());
+            }
+            
 
 
             /*月经史*/
-            consthistory.Menophania_age = Convert.ToInt32(MenophaniaAgetextBox.Text.Trim());
-            consthistory.Period = Convert.ToInt32(PeriodtextBox.Text.Trim());
-            consthistory.Cycle_day = Convert.ToInt32(CycletextBox.Text.Trim());
-            consthistory.Menopause_y = Convert.ToInt32(MenopauseYtextBox.Text.Trim());
-            consthistory.Menopause_m = Convert.ToInt32(MenopauseMtextBox.Text.Trim());
+            if (this.SexcomboBox.Text == "女")
+            {
+                consthistory.Menophania_age = Convert.ToInt32(MenophaniaAgetextBox.Text.Trim());
+                consthistory.Period = Convert.ToInt32(PeriodtextBox.Text.Trim());
+                consthistory.Cycle_day = Convert.ToInt32(CycletextBox.Text.Trim());
+                consthistory.Menopause_y = Convert.ToInt32(MenopauseYtextBox.Text.Trim());
+                consthistory.Menopause_m = Convert.ToInt32(MenopauseMtextBox.Text.Trim());
 
 
-            //经量
-            if (BleedFormalcheckBox.Checked)
-            {
-                consthistory.Bleed_amount = 0;
-            }
+                //经量
+                if (BleedFormalcheckBox.Checked)
+                {
+                    consthistory.Bleed_amount = 0;
+                }
 
-            if (BleedMorecheckBox.Checked)
-            {
-                consthistory.Bleed_amount = 1;
-            }
+                else if (BleedMorecheckBox.Checked)
+                {
+                    consthistory.Bleed_amount = 1;
+                }
 
-            if (BleedLesscheckBox.Checked)
-            {
-                consthistory.Bleed_amount = 2;
-            }
+                else if (BleedLesscheckBox.Checked)
+                {
+                    consthistory.Bleed_amount = 2;
+                }
 
-            //痛经
-            if (MenoPainNonecheckBox.Checked)
-            {
-                consthistory.Meno_pain = 0;
-            }
-            if (MenoPainHascheckBox.Checked)
-            {
-                consthistory.Meno_pain = 1;
-            }
+                //痛经
+                if (MenoPainNonecheckBox.Checked)
+                {
+                    consthistory.Meno_pain = 0;
+                }
+                else if (MenoPainHascheckBox.Checked)
+                {
+                    consthistory.Meno_pain = 1;
+                }
 
-            //经期不规则
-            if (MenoIrregularNonecheckBox.Checked)
-            {
-                consthistory.Meno_irregular = 0;
-            }
+                //经期不规则
+                if (MenoIrregularNonecheckBox.Checked)
+                {
+                    consthistory.Meno_irregular = 0;
+                }
 
-            if (MenoIrregularHascheckBox.Checked)
-            {
-                consthistory.Meno_irregular = 1;
+                else if (MenoIrregularHascheckBox.Checked)
+                {
+                    consthistory.Meno_irregular = 1;
+                }
             }
+            
 
 
             /*家族史*/
@@ -527,15 +538,19 @@ namespace MedicalV2
              * 甲状腺检查
              ***************************/
 
-            physical.Thyroid_bigger = Convert.ToInt32(BiggertextBox.Text.Trim());
-            physical.Thyroid_left = Convert.ToInt32(LefttextBox.Text.Trim());
+            
+           
             char[] thyroid = new char[16];
             if (BigcheckBox.Checked)
             {
                 thyroid[0] = '1';
             }
-            else
+            else {
                 thyroid[0] = '0';
+                physical.Thyroid_bigger = Convert.ToInt32(BiggertextBox.Text.Trim());
+
+            }
+               
 
             if (QuantityLesscheckBox.Checked)
             {
@@ -638,6 +653,8 @@ namespace MedicalV2
             if (DissymmetrycheckBox.Checked)
             {
                 thyroid[15] = '1';
+                physical.Thyroid_left = Convert.ToInt32(LefttextBox.Text.Trim());
+                physical.Thyroid_right = Convert.ToInt32(RighttextBox.Text.Trim());
             }
             else
                 thyroid[15] = '0';
@@ -650,7 +667,7 @@ namespace MedicalV2
              * 心血管肺
              **********************************/
             physical.Heart_rate = Convert.ToInt32(HeartRatetextBox.Text.Trim());
-            physical.Noise_level = Convert.ToInt32(NoiseLeveltextBox.Text.Trim());
+            
             physical.Blood_hpressure = Convert.ToInt32(BloodHightextBox.Text.Trim());
             physical.Blood_lpressure = Convert.ToInt32(BloodLowtextBox.Text.Trim());
 
@@ -686,6 +703,7 @@ namespace MedicalV2
             if (NoiseHascheckBox.Checked)
             {
                 heart[4] = '1';
+                physical.Noise_level = Convert.ToInt32(NoiseLeveltextBox.Text.Trim());
             }
             else
                 heart[4] = '0';
@@ -761,14 +779,15 @@ namespace MedicalV2
             /*******************************
             * 眼征
             *********************************/
-            physical.Left_eye_out = Convert.ToDouble(EyeLefttextBox.Text.Trim());
-            physical.Right_eye_out = Convert.ToDouble(EyeRighttextBox.Text.Trim());
-            physical.Eye_distance = Convert.ToDouble(EyeDistancetextBox.Text.Trim());
+            
 
             char[] eye = new char[10];
             if (EyeTucheckBox.Checked)
             {
                 eye[0] = '1';
+                physical.Left_eye_out = Convert.ToDouble(EyeLefttextBox.Text.Trim());
+                physical.Right_eye_out = Convert.ToDouble(EyeRighttextBox.Text.Trim());
+                physical.Eye_distance = Convert.ToDouble(EyeDistancetextBox.Text.Trim());
             }
             else
                 eye[0] = '0';
@@ -939,7 +958,7 @@ namespace MedicalV2
             imageinspect.Ect_area = Convert.ToDouble(ETCAreatextBox.Text.Trim());
             imageinspect.Ect_tb = Convert.ToDouble(ETCTBtextBox.Text.Trim());
             imageinspect.Ect_weight = Convert.ToDouble(ETCWeighttextBox.Text.Trim());
-            imageinspect.Ect_nodule = ETCNoduleLtextBox.Text.Trim() + "×" + ETCNoduleRtextBox.Text.Trim();
+            
             char[] etc = new char[8];
             if (ETCNodeNonecheckBox.Checked)
             {
@@ -947,6 +966,7 @@ namespace MedicalV2
             }
             else
                 etc[0] = '0';
+                imageinspect.Ect_nodule = ETCNoduleLtextBox.Text.Trim() + "×" + ETCNoduleRtextBox.Text.Trim();
 
             if (ETCNodeLesscheckBox.Checked)
             {
@@ -1003,7 +1023,7 @@ namespace MedicalV2
             imageinspect.B_right = Convert.ToString(BRightLtextBox.Text.Trim()) + "×" + Convert.ToString(BRightRtextBox.Text.Trim());
             imageinspect.B_area = Convert.ToDouble(BAreatextBox.Text.Trim());
             imageinspect.B_weight = Convert.ToDouble(BWeighttextBox.Text.Trim());
-            imageinspect.B_nodule = Convert.ToString(BNoduleLtextBox.Text.Trim()) + "×" + Convert.ToString(BNoduleRighttextBox.Text.Trim());
+            
 
 
             char[] b = new char[8];
@@ -1013,6 +1033,7 @@ namespace MedicalV2
             }
             else 
                 b[0] = '0';
+                imageinspect.B_nodule = Convert.ToString(BNoduleLtextBox.Text.Trim()) + "×" + Convert.ToString(BNoduleRighttextBox.Text.Trim());
 
             if(BNoduleLesscheckBox.Checked)
             {
@@ -1254,6 +1275,82 @@ namespace MedicalV2
                 ECGtextBox.Text = openFileDialog.FileName;
             }
         }
+
+        private void SexcomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.SexcomboBox.Text == "男")
+            {
+                this.MenophaniagroupBox.Visible = false;
+                this.MarriagegroupBox.Visible = false;
+            }
+
+            else {
+                this.MenophaniagroupBox.Visible = true;
+                this.MarriagegroupBox.Visible = true;
+            } 
+        }
+
+        private void MarriedcomboBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (this.MarriedcomboBox.Text == "未婚" || this.SexcomboBox.Text == "男")
+                this.MarriagegroupBox.Visible = false;
+            else
+                this.MarriagegroupBox.Visible = true;
+        }
+
+        private void BigcheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.BigcheckBox.Checked)
+                this.BiggerPanel.Visible = false;
+            else this.BiggerPanel.Visible = true;
+        }
+
+        private void DissymmetrycheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (DissymmetrycheckBox.Checked)
+                this.DissPanel.Visible = true;
+            else this.DissPanel.Visible = false;
+        }
+
+        private void NoiseHascheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.NoiseHascheckBox.Checked)
+                this.NoiseNonecheckBox.Visible = false;
+            else this.NoiseNonecheckBox.Visible = true;
+        }
+
+        private void NoiseNonecheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.NoiseNonecheckBox.Checked)
+            
+                this.NoisePanel.Visible = false;
+            
+               
+            else this.NoisePanel.Visible = true;
+        }
+
+        private void EyeTucheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (EyeTucheckBox.Checked)
+                this.EyePanel.Visible = true;
+            else this.EyePanel.Visible = false;
+        }
+
+        private void ETCNodeNonecheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.ETCNodeNonecheckBox.Checked)
+                this.ECTPanel.Visible = false;
+            else this.ECTPanel.Visible = true;
+        }
+
+        private void BNoduleNonecheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.BNoduleNonecheckBox.Checked)
+                this.BPanel.Visible = false;
+            else this.BPanel.Visible = true;
+        }
+
+        
 
        
     }

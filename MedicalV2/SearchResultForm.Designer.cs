@@ -248,6 +248,7 @@
             // 
             this.AgetextBox.Location = new System.Drawing.Point(237, 10);
             this.AgetextBox.Name = "AgetextBox";
+            this.AgetextBox.ReadOnly = true;
             this.AgetextBox.Size = new System.Drawing.Size(47, 21);
             this.AgetextBox.TabIndex = 14;
             // 
@@ -284,6 +285,7 @@
             // 
             this.NametextBox.Location = new System.Drawing.Point(46, 12);
             this.NametextBox.Name = "NametextBox";
+            this.NametextBox.ReadOnly = true;
             this.NametextBox.Size = new System.Drawing.Size(54, 21);
             this.NametextBox.TabIndex = 10;
             // 
@@ -300,6 +302,7 @@
             // 
             this.TeletextBox.Location = new System.Drawing.Point(544, 9);
             this.TeletextBox.Name = "TeletextBox";
+            this.TeletextBox.ReadOnly = true;
             this.TeletextBox.Size = new System.Drawing.Size(84, 21);
             this.TeletextBox.TabIndex = 26;
             // 
@@ -316,6 +319,7 @@
             // 
             this.HosIDtextBox.Location = new System.Drawing.Point(383, 9);
             this.HosIDtextBox.Name = "HosIDtextBox";
+            this.HosIDtextBox.ReadOnly = true;
             this.HosIDtextBox.Size = new System.Drawing.Size(56, 21);
             this.HosIDtextBox.TabIndex = 30;
             // 
@@ -343,10 +347,10 @@
             this.tabControlAll.Controls.Add(this.PresentHistorytabPage);
             this.tabControlAll.Controls.Add(this.tabPage3);
             this.tabControlAll.Controls.Add(this.tabPage6);
-            this.tabControlAll.Location = new System.Drawing.Point(3, 3);
+            this.tabControlAll.Location = new System.Drawing.Point(3, 6);
             this.tabControlAll.Name = "tabControlAll";
             this.tabControlAll.SelectedIndex = 0;
-            this.tabControlAll.Size = new System.Drawing.Size(702, 669);
+            this.tabControlAll.Size = new System.Drawing.Size(702, 666);
             this.tabControlAll.TabIndex = 6;
             // 
             // PresentHistorytabPage
@@ -358,7 +362,7 @@
             this.PresentHistorytabPage.Location = new System.Drawing.Point(4, 22);
             this.PresentHistorytabPage.Name = "PresentHistorytabPage";
             this.PresentHistorytabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.PresentHistorytabPage.Size = new System.Drawing.Size(694, 643);
+            this.PresentHistorytabPage.Size = new System.Drawing.Size(694, 640);
             this.PresentHistorytabPage.TabIndex = 0;
             this.PresentHistorytabPage.Text = "基本症状";
             // 
@@ -382,6 +386,7 @@
             // 
             this.ProcessrichTextBox.Location = new System.Drawing.Point(141, 531);
             this.ProcessrichTextBox.Name = "ProcessrichTextBox";
+            this.ProcessrichTextBox.ReadOnly = true;
             this.ProcessrichTextBox.Size = new System.Drawing.Size(474, 93);
             this.ProcessrichTextBox.TabIndex = 6;
             this.ProcessrichTextBox.Text = "";
@@ -456,6 +461,7 @@
             // 
             this.OthertextBox.Location = new System.Drawing.Point(55, 319);
             this.OthertextBox.Name = "OthertextBox";
+            this.OthertextBox.ReadOnly = true;
             this.OthertextBox.Size = new System.Drawing.Size(369, 29);
             this.OthertextBox.TabIndex = 53;
             // 
@@ -481,11 +487,13 @@
             // 
             this.DefecatetextBox.Location = new System.Drawing.Point(375, 272);
             this.DefecatetextBox.Name = "DefecatetextBox";
+            this.DefecatetextBox.ReadOnly = true;
             this.DefecatetextBox.Size = new System.Drawing.Size(45, 29);
             this.DefecatetextBox.TabIndex = 50;
             // 
             // DefecatecheckBox
             // 
+            this.DefecatecheckBox.AutoCheck = false;
             this.DefecatecheckBox.AutoSize = true;
             this.DefecatecheckBox.Location = new System.Drawing.Point(255, 271);
             this.DefecatecheckBox.Name = "DefecatecheckBox";
@@ -507,11 +515,13 @@
             // 
             this.FlaccidtextBox.Location = new System.Drawing.Point(89, 271);
             this.FlaccidtextBox.Name = "FlaccidtextBox";
+            this.FlaccidtextBox.ReadOnly = true;
             this.FlaccidtextBox.Size = new System.Drawing.Size(45, 29);
             this.FlaccidtextBox.TabIndex = 47;
             // 
             // FlaccidcheckBox
             // 
+            this.FlaccidcheckBox.AutoCheck = false;
             this.FlaccidcheckBox.AutoSize = true;
             this.FlaccidcheckBox.Location = new System.Drawing.Point(11, 275);
             this.FlaccidcheckBox.Name = "FlaccidcheckBox";
@@ -522,6 +532,7 @@
             // 
             // DiscomfortcheckBox
             // 
+            this.DiscomfortcheckBox.AutoCheck = false;
             this.DiscomfortcheckBox.AutoSize = true;
             this.DiscomfortcheckBox.Location = new System.Drawing.Point(504, 234);
             this.DiscomfortcheckBox.Name = "DiscomfortcheckBox";
@@ -532,6 +543,7 @@
             // 
             // ZhoucheckBox
             // 
+            this.ZhoucheckBox.AutoCheck = false;
             this.ZhoucheckBox.AutoSize = true;
             this.ZhoucheckBox.Location = new System.Drawing.Point(437, 234);
             this.ZhoucheckBox.Name = "ZhoucheckBox";
@@ -542,6 +554,7 @@
             // 
             // SexlesscheckBox
             // 
+            this.SexlesscheckBox.AutoCheck = false;
             this.SexlesscheckBox.AutoSize = true;
             this.SexlesscheckBox.Location = new System.Drawing.Point(354, 234);
             this.SexlesscheckBox.Name = "SexlesscheckBox";
@@ -552,6 +565,7 @@
             // 
             // ImpotencecheckBox
             // 
+            this.ImpotencecheckBox.AutoCheck = false;
             this.ImpotencecheckBox.AutoSize = true;
             this.ImpotencecheckBox.Location = new System.Drawing.Point(287, 234);
             this.ImpotencecheckBox.Name = "ImpotencecheckBox";
@@ -562,6 +576,7 @@
             // 
             // MammarycheckBox
             // 
+            this.MammarycheckBox.AutoCheck = false;
             this.MammarycheckBox.AutoSize = true;
             this.MammarycheckBox.Location = new System.Drawing.Point(188, 234);
             this.MammarycheckBox.Name = "MammarycheckBox";
@@ -572,6 +587,7 @@
             // 
             // AmenorrhoeacheckBox
             // 
+            this.AmenorrhoeacheckBox.AutoCheck = false;
             this.AmenorrhoeacheckBox.AutoSize = true;
             this.AmenorrhoeacheckBox.Location = new System.Drawing.Point(110, 234);
             this.AmenorrhoeacheckBox.Name = "AmenorrhoeacheckBox";
@@ -582,6 +598,7 @@
             // 
             // IrregularcheckBox
             // 
+            this.IrregularcheckBox.AutoCheck = false;
             this.IrregularcheckBox.AutoSize = true;
             this.IrregularcheckBox.Location = new System.Drawing.Point(11, 234);
             this.IrregularcheckBox.Name = "IrregularcheckBox";
@@ -592,6 +609,7 @@
             // 
             // StrabismuscheckBox
             // 
+            this.StrabismuscheckBox.AutoCheck = false;
             this.StrabismuscheckBox.AutoSize = true;
             this.StrabismuscheckBox.Location = new System.Drawing.Point(477, 192);
             this.StrabismuscheckBox.Name = "StrabismuscheckBox";
@@ -602,6 +620,7 @@
             // 
             // DiplopiacheckBox
             // 
+            this.DiplopiacheckBox.AutoCheck = false;
             this.DiplopiacheckBox.AutoSize = true;
             this.DiplopiacheckBox.Location = new System.Drawing.Point(410, 192);
             this.DiplopiacheckBox.Name = "DiplopiacheckBox";
@@ -612,6 +631,7 @@
             // 
             // EyesightcheckBox
             // 
+            this.EyesightcheckBox.AutoCheck = false;
             this.EyesightcheckBox.AutoSize = true;
             this.EyesightcheckBox.Location = new System.Drawing.Point(311, 192);
             this.EyesightcheckBox.Name = "EyesightcheckBox";
@@ -622,6 +642,7 @@
             // 
             // AsthenopiacheckBox
             // 
+            this.AsthenopiacheckBox.AutoCheck = false;
             this.AsthenopiacheckBox.AutoSize = true;
             this.AsthenopiacheckBox.Location = new System.Drawing.Point(212, 192);
             this.AsthenopiacheckBox.Name = "AsthenopiacheckBox";
@@ -632,6 +653,7 @@
             // 
             // StackcheckBox
             // 
+            this.StackcheckBox.AutoCheck = false;
             this.StackcheckBox.AutoSize = true;
             this.StackcheckBox.Location = new System.Drawing.Point(145, 192);
             this.StackcheckBox.Name = "StackcheckBox";
@@ -642,6 +664,7 @@
             // 
             // TearscheckBox
             // 
+            this.TearscheckBox.AutoCheck = false;
             this.TearscheckBox.AutoSize = true;
             this.TearscheckBox.Location = new System.Drawing.Point(78, 192);
             this.TearscheckBox.Name = "TearscheckBox";
@@ -652,6 +675,7 @@
             // 
             // PhotophobiacheckBox
             // 
+            this.PhotophobiacheckBox.AutoCheck = false;
             this.PhotophobiacheckBox.AutoSize = true;
             this.PhotophobiacheckBox.Location = new System.Drawing.Point(11, 192);
             this.PhotophobiacheckBox.Name = "PhotophobiacheckBox";
@@ -662,6 +686,7 @@
             // 
             // SensationcheckBox
             // 
+            this.SensationcheckBox.AutoCheck = false;
             this.SensationcheckBox.AutoSize = true;
             this.SensationcheckBox.Location = new System.Drawing.Point(477, 152);
             this.SensationcheckBox.Name = "SensationcheckBox";
@@ -672,6 +697,7 @@
             // 
             // EyecheckBox
             // 
+            this.EyecheckBox.AutoCheck = false;
             this.EyecheckBox.AutoSize = true;
             this.EyecheckBox.Location = new System.Drawing.Point(410, 152);
             this.EyecheckBox.Name = "EyecheckBox";
@@ -682,6 +708,7 @@
             // 
             // ExophthalmoscheckBox
             // 
+            this.ExophthalmoscheckBox.AutoCheck = false;
             this.ExophthalmoscheckBox.AutoSize = true;
             this.ExophthalmoscheckBox.Location = new System.Drawing.Point(343, 153);
             this.ExophthalmoscheckBox.Name = "ExophthalmoscheckBox";
@@ -692,6 +719,7 @@
             // 
             // NauseacheckBox
             // 
+            this.NauseacheckBox.AutoCheck = false;
             this.NauseacheckBox.AutoSize = true;
             this.NauseacheckBox.Location = new System.Drawing.Point(244, 152);
             this.NauseacheckBox.Name = "NauseacheckBox";
@@ -702,6 +730,7 @@
             // 
             // JaundicecheckBox
             // 
+            this.JaundicecheckBox.AutoCheck = false;
             this.JaundicecheckBox.AutoSize = true;
             this.JaundicecheckBox.Location = new System.Drawing.Point(177, 152);
             this.JaundicecheckBox.Name = "JaundicecheckBox";
@@ -712,6 +741,7 @@
             // 
             // AppetitecheckBox
             // 
+            this.AppetitecheckBox.AutoCheck = false;
             this.AppetitecheckBox.AutoSize = true;
             this.AppetitecheckBox.Location = new System.Drawing.Point(78, 152);
             this.AppetitecheckBox.Name = "AppetitecheckBox";
@@ -722,6 +752,7 @@
             // 
             // HungercheckBox
             // 
+            this.HungercheckBox.AutoCheck = false;
             this.HungercheckBox.AutoSize = true;
             this.HungercheckBox.Location = new System.Drawing.Point(11, 152);
             this.HungercheckBox.Name = "HungercheckBox";
@@ -732,6 +763,7 @@
             // 
             // PolyphagiacheckBox
             // 
+            this.PolyphagiacheckBox.AutoCheck = false;
             this.PolyphagiacheckBox.AutoSize = true;
             this.PolyphagiacheckBox.Location = new System.Drawing.Point(504, 109);
             this.PolyphagiacheckBox.Name = "PolyphagiacheckBox";
@@ -742,6 +774,7 @@
             // 
             // BreathcheckBox
             // 
+            this.BreathcheckBox.AutoCheck = false;
             this.BreathcheckBox.AutoSize = true;
             this.BreathcheckBox.Location = new System.Drawing.Point(437, 109);
             this.BreathcheckBox.Name = "BreathcheckBox";
@@ -752,6 +785,7 @@
             // 
             // ChestcheckBox
             // 
+            this.ChestcheckBox.AutoCheck = false;
             this.ChestcheckBox.AutoSize = true;
             this.ChestcheckBox.Location = new System.Drawing.Point(343, 109);
             this.ChestcheckBox.Name = "ChestcheckBox";
@@ -762,6 +796,7 @@
             // 
             // PalpitationcheckBox
             // 
+            this.PalpitationcheckBox.AutoCheck = false;
             this.PalpitationcheckBox.AutoSize = true;
             this.PalpitationcheckBox.Location = new System.Drawing.Point(276, 109);
             this.PalpitationcheckBox.Name = "PalpitationcheckBox";
@@ -772,6 +807,7 @@
             // 
             // ColdcheckBox
             // 
+            this.ColdcheckBox.AutoCheck = false;
             this.ColdcheckBox.AutoSize = true;
             this.ColdcheckBox.Location = new System.Drawing.Point(177, 109);
             this.ColdcheckBox.Name = "ColdcheckBox";
@@ -782,6 +818,7 @@
             // 
             // DepressioncheckBox
             // 
+            this.DepressioncheckBox.AutoCheck = false;
             this.DepressioncheckBox.AutoSize = true;
             this.DepressioncheckBox.Location = new System.Drawing.Point(78, 109);
             this.DepressioncheckBox.Name = "DepressioncheckBox";
@@ -792,6 +829,7 @@
             // 
             // IllusioncheckBox
             // 
+            this.IllusioncheckBox.AutoCheck = false;
             this.IllusioncheckBox.AutoSize = true;
             this.IllusioncheckBox.Location = new System.Drawing.Point(11, 109);
             this.IllusioncheckBox.Name = "IllusioncheckBox";
@@ -802,6 +840,7 @@
             // 
             // MemorycheckBox
             // 
+            this.MemorycheckBox.AutoCheck = false;
             this.MemorycheckBox.AutoSize = true;
             this.MemorycheckBox.Location = new System.Drawing.Point(447, 69);
             this.MemorycheckBox.Name = "MemorycheckBox";
@@ -812,6 +851,7 @@
             // 
             // AngrycheckBox
             // 
+            this.AngrycheckBox.AutoCheck = false;
             this.AngrycheckBox.AutoSize = true;
             this.AngrycheckBox.Location = new System.Drawing.Point(348, 69);
             this.AngrycheckBox.Name = "AngrycheckBox";
@@ -822,6 +862,7 @@
             // 
             // InsomniacheckBox
             // 
+            this.InsomniacheckBox.AutoCheck = false;
             this.InsomniacheckBox.AutoSize = true;
             this.InsomniacheckBox.Location = new System.Drawing.Point(281, 69);
             this.InsomniacheckBox.Name = "InsomniacheckBox";
@@ -832,6 +873,7 @@
             // 
             // NervouscheckBox
             // 
+            this.NervouscheckBox.AutoCheck = false;
             this.NervouscheckBox.AutoSize = true;
             this.NervouscheckBox.Location = new System.Drawing.Point(177, 69);
             this.NervouscheckBox.Name = "NervouscheckBox";
@@ -842,6 +884,7 @@
             // 
             // LanguagecheckBox
             // 
+            this.LanguagecheckBox.AutoCheck = false;
             this.LanguagecheckBox.AutoSize = true;
             this.LanguagecheckBox.Location = new System.Drawing.Point(78, 69);
             this.LanguagecheckBox.Name = "LanguagecheckBox";
@@ -852,6 +895,7 @@
             // 
             // ShakecheckBox
             // 
+            this.ShakecheckBox.AutoCheck = false;
             this.ShakecheckBox.AutoSize = true;
             this.ShakecheckBox.Location = new System.Drawing.Point(11, 69);
             this.ShakecheckBox.Name = "ShakecheckBox";
@@ -862,6 +906,7 @@
             // 
             // WeightHcheckBox
             // 
+            this.WeightHcheckBox.AutoCheck = false;
             this.WeightHcheckBox.AutoSize = true;
             this.WeightHcheckBox.Location = new System.Drawing.Point(378, 28);
             this.WeightHcheckBox.Name = "WeightHcheckBox";
@@ -872,6 +917,7 @@
             // 
             // WeightLcheckBox
             // 
+            this.WeightLcheckBox.AutoCheck = false;
             this.WeightLcheckBox.AutoSize = true;
             this.WeightLcheckBox.Location = new System.Drawing.Point(279, 28);
             this.WeightLcheckBox.Name = "WeightLcheckBox";
@@ -882,6 +928,7 @@
             // 
             // FeeblecheckBox
             // 
+            this.FeeblecheckBox.AutoCheck = false;
             this.FeeblecheckBox.AutoSize = true;
             this.FeeblecheckBox.Location = new System.Drawing.Point(212, 28);
             this.FeeblecheckBox.Name = "FeeblecheckBox";
@@ -892,6 +939,7 @@
             // 
             // IdrosischeckBox
             // 
+            this.IdrosischeckBox.AutoCheck = false;
             this.IdrosischeckBox.AutoSize = true;
             this.IdrosischeckBox.Location = new System.Drawing.Point(145, 28);
             this.IdrosischeckBox.Name = "IdrosischeckBox";
@@ -902,6 +950,7 @@
             // 
             // HeatcheckBox
             // 
+            this.HeatcheckBox.AutoCheck = false;
             this.HeatcheckBox.AutoSize = true;
             this.HeatcheckBox.Location = new System.Drawing.Point(78, 28);
             this.HeatcheckBox.Name = "HeatcheckBox";
@@ -912,6 +961,7 @@
             // 
             // NeckcheckBox
             // 
+            this.NeckcheckBox.AutoCheck = false;
             this.NeckcheckBox.AutoSize = true;
             this.NeckcheckBox.Location = new System.Drawing.Point(11, 28);
             this.NeckcheckBox.Name = "NeckcheckBox";
@@ -925,6 +975,7 @@
             this.MainReporttextBox.Location = new System.Drawing.Point(55, 33);
             this.MainReporttextBox.Multiline = true;
             this.MainReporttextBox.Name = "MainReporttextBox";
+            this.MainReporttextBox.ReadOnly = true;
             this.MainReporttextBox.Size = new System.Drawing.Size(560, 102);
             this.MainReporttextBox.TabIndex = 3;
             // 
@@ -960,7 +1011,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(694, 643);
+            this.tabPage3.Size = new System.Drawing.Size(694, 640);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "体格检查";
             // 
@@ -994,6 +1045,7 @@
             // 
             // FaircheckBox
             // 
+            this.FaircheckBox.AutoCheck = false;
             this.FaircheckBox.AutoSize = true;
             this.FaircheckBox.Location = new System.Drawing.Point(174, 62);
             this.FaircheckBox.Name = "FaircheckBox";
@@ -1004,6 +1056,7 @@
             // 
             // WatercheckBox
             // 
+            this.WatercheckBox.AutoCheck = false;
             this.WatercheckBox.AutoSize = true;
             this.WatercheckBox.Location = new System.Drawing.Point(13, 62);
             this.WatercheckBox.Name = "WatercheckBox";
@@ -1014,6 +1067,7 @@
             // 
             // PointcheckBox
             // 
+            this.PointcheckBox.AutoCheck = false;
             this.PointcheckBox.AutoSize = true;
             this.PointcheckBox.Location = new System.Drawing.Point(401, 31);
             this.PointcheckBox.Name = "PointcheckBox";
@@ -1024,6 +1078,7 @@
             // 
             // SweetcheckBox
             // 
+            this.SweetcheckBox.AutoCheck = false;
             this.SweetcheckBox.AutoSize = true;
             this.SweetcheckBox.Location = new System.Drawing.Point(289, 31);
             this.SweetcheckBox.Name = "SweetcheckBox";
@@ -1034,6 +1089,7 @@
             // 
             // YellowcheckBox
             // 
+            this.YellowcheckBox.AutoCheck = false;
             this.YellowcheckBox.AutoSize = true;
             this.YellowcheckBox.Location = new System.Drawing.Point(135, 31);
             this.YellowcheckBox.Name = "YellowcheckBox";
@@ -1044,6 +1100,7 @@
             // 
             // PachylosischeckBox
             // 
+            this.PachylosischeckBox.AutoCheck = false;
             this.PachylosischeckBox.AutoSize = true;
             this.PachylosischeckBox.Location = new System.Drawing.Point(13, 31);
             this.PachylosischeckBox.Name = "PachylosischeckBox";
@@ -1083,6 +1140,7 @@
             // 
             // MobiuscheckBox
             // 
+            this.MobiuscheckBox.AutoCheck = false;
             this.MobiuscheckBox.AutoSize = true;
             this.MobiuscheckBox.Location = new System.Drawing.Point(429, 108);
             this.MobiuscheckBox.Name = "MobiuscheckBox";
@@ -1093,6 +1151,7 @@
             // 
             // JofforycheckBox
             // 
+            this.JofforycheckBox.AutoCheck = false;
             this.JofforycheckBox.AutoSize = true;
             this.JofforycheckBox.Location = new System.Drawing.Point(304, 108);
             this.JofforycheckBox.Name = "JofforycheckBox";
@@ -1103,6 +1162,7 @@
             // 
             // VoncheckBox
             // 
+            this.VoncheckBox.AutoCheck = false;
             this.VoncheckBox.AutoSize = true;
             this.VoncheckBox.Location = new System.Drawing.Point(134, 108);
             this.VoncheckBox.Name = "VoncheckBox";
@@ -1113,6 +1173,7 @@
             // 
             // FullBloodcheckBox
             // 
+            this.FullBloodcheckBox.AutoCheck = false;
             this.FullBloodcheckBox.AutoSize = true;
             this.FullBloodcheckBox.Location = new System.Drawing.Point(13, 108);
             this.FullBloodcheckBox.Name = "FullBloodcheckBox";
@@ -1123,6 +1184,7 @@
             // 
             // ConjunctivacheckBox
             // 
+            this.ConjunctivacheckBox.AutoCheck = false;
             this.ConjunctivacheckBox.AutoSize = true;
             this.ConjunctivacheckBox.Location = new System.Drawing.Point(351, 66);
             this.ConjunctivacheckBox.Name = "ConjunctivacheckBox";
@@ -1133,6 +1195,7 @@
             // 
             // EyelidMorecheckBox
             // 
+            this.EyelidMorecheckBox.AutoCheck = false;
             this.EyelidMorecheckBox.AutoSize = true;
             this.EyelidMorecheckBox.Location = new System.Drawing.Point(229, 66);
             this.EyelidMorecheckBox.Name = "EyelidMorecheckBox";
@@ -1143,6 +1206,7 @@
             // 
             // EyelidLowcheckBox
             // 
+            this.EyelidLowcheckBox.AutoCheck = false;
             this.EyelidLowcheckBox.AutoSize = true;
             this.EyelidLowcheckBox.Location = new System.Drawing.Point(117, 67);
             this.EyelidLowcheckBox.Name = "EyelidLowcheckBox";
@@ -1153,6 +1217,7 @@
             // 
             // FaceMorecheckBox
             // 
+            this.FaceMorecheckBox.AutoCheck = false;
             this.FaceMorecheckBox.AutoSize = true;
             this.FaceMorecheckBox.Location = new System.Drawing.Point(18, 66);
             this.FaceMorecheckBox.Name = "FaceMorecheckBox";
@@ -1163,6 +1228,7 @@
             // 
             // FlashcheckBox
             // 
+            this.FlashcheckBox.AutoCheck = false;
             this.FlashcheckBox.AutoSize = true;
             this.FlashcheckBox.Location = new System.Drawing.Point(501, 23);
             this.FlashcheckBox.Name = "FlashcheckBox";
@@ -1191,6 +1257,7 @@
             // 
             // EyeTucheckBox
             // 
+            this.EyeTucheckBox.AutoCheck = false;
             this.EyeTucheckBox.AutoSize = true;
             this.EyeTucheckBox.Location = new System.Drawing.Point(15, 24);
             this.EyeTucheckBox.Name = "EyeTucheckBox";
@@ -1203,6 +1270,7 @@
             // 
             this.EyeDistancetextBox.Location = new System.Drawing.Point(409, 21);
             this.EyeDistancetextBox.Name = "EyeDistancetextBox";
+            this.EyeDistancetextBox.ReadOnly = true;
             this.EyeDistancetextBox.Size = new System.Drawing.Size(34, 29);
             this.EyeDistancetextBox.TabIndex = 11;
             // 
@@ -1219,6 +1287,7 @@
             // 
             this.EyeRighttextBox.Location = new System.Drawing.Point(272, 21);
             this.EyeRighttextBox.Name = "EyeRighttextBox";
+            this.EyeRighttextBox.ReadOnly = true;
             this.EyeRighttextBox.Size = new System.Drawing.Size(33, 29);
             this.EyeRighttextBox.TabIndex = 8;
             // 
@@ -1244,6 +1313,7 @@
             // 
             this.EyeLefttextBox.Location = new System.Drawing.Point(130, 21);
             this.EyeLefttextBox.Name = "EyeLefttextBox";
+            this.EyeLefttextBox.ReadOnly = true;
             this.EyeLefttextBox.Size = new System.Drawing.Size(42, 29);
             this.EyeLefttextBox.TabIndex = 5;
             // 
@@ -1301,6 +1371,7 @@
             // 
             // LeftLungcheckBox
             // 
+            this.LeftLungcheckBox.AutoCheck = false;
             this.LeftLungcheckBox.AutoSize = true;
             this.LeftLungcheckBox.Location = new System.Drawing.Point(533, 122);
             this.LeftLungcheckBox.Name = "LeftLungcheckBox";
@@ -1311,6 +1382,7 @@
             // 
             // BreathShicheckBox
             // 
+            this.BreathShicheckBox.AutoCheck = false;
             this.BreathShicheckBox.AutoSize = true;
             this.BreathShicheckBox.Location = new System.Drawing.Point(450, 121);
             this.BreathShicheckBox.Name = "BreathShicheckBox";
@@ -1323,11 +1395,13 @@
             // 
             this.BloodHightextBox.Location = new System.Drawing.Point(135, 72);
             this.BloodHightextBox.Name = "BloodHightextBox";
+            this.BloodHightextBox.ReadOnly = true;
             this.BloodHightextBox.Size = new System.Drawing.Size(50, 29);
             this.BloodHightextBox.TabIndex = 61;
             // 
             // BreathGancheckBox
             // 
+            this.BreathGancheckBox.AutoCheck = false;
             this.BreathGancheckBox.AutoSize = true;
             this.BreathGancheckBox.Location = new System.Drawing.Point(351, 121);
             this.BreathGancheckBox.Name = "BreathGancheckBox";
@@ -1338,6 +1412,7 @@
             // 
             // RightLungcheckBox
             // 
+            this.RightLungcheckBox.AutoCheck = false;
             this.RightLungcheckBox.AutoSize = true;
             this.RightLungcheckBox.Location = new System.Drawing.Point(600, 121);
             this.RightLungcheckBox.Name = "RightLungcheckBox";
@@ -1348,6 +1423,7 @@
             // 
             // BreathClearcheckBox
             // 
+            this.BreathClearcheckBox.AutoCheck = false;
             this.BreathClearcheckBox.AutoSize = true;
             this.BreathClearcheckBox.Location = new System.Drawing.Point(230, 121);
             this.BreathClearcheckBox.Name = "BreathClearcheckBox";
@@ -1367,6 +1443,7 @@
             // 
             // BorderMorecheckBox
             // 
+            this.BorderMorecheckBox.AutoCheck = false;
             this.BorderMorecheckBox.AutoSize = true;
             this.BorderMorecheckBox.Location = new System.Drawing.Point(118, 121);
             this.BorderMorecheckBox.Name = "BorderMorecheckBox";
@@ -1377,6 +1454,7 @@
             // 
             // BorderFormalcheckBox
             // 
+            this.BorderFormalcheckBox.AutoCheck = false;
             this.BorderFormalcheckBox.AutoSize = true;
             this.BorderFormalcheckBox.Location = new System.Drawing.Point(13, 121);
             this.BorderFormalcheckBox.Name = "BorderFormalcheckBox";
@@ -1389,11 +1467,13 @@
             // 
             this.BloodLowtextBox.Location = new System.Drawing.Point(67, 72);
             this.BloodLowtextBox.Name = "BloodLowtextBox";
+            this.BloodLowtextBox.ReadOnly = true;
             this.BloodLowtextBox.Size = new System.Drawing.Size(50, 29);
             this.BloodLowtextBox.TabIndex = 59;
             // 
             // DiastolecheckBox
             // 
+            this.DiastolecheckBox.AutoCheck = false;
             this.DiastolecheckBox.AutoSize = true;
             this.DiastolecheckBox.Location = new System.Drawing.Point(386, 75);
             this.DiastolecheckBox.Name = "DiastolecheckBox";
@@ -1404,6 +1484,7 @@
             // 
             // SystolecheckBox
             // 
+            this.SystolecheckBox.AutoCheck = false;
             this.SystolecheckBox.AutoSize = true;
             this.SystolecheckBox.Location = new System.Drawing.Point(289, 76);
             this.SystolecheckBox.Name = "SystolecheckBox";
@@ -1434,11 +1515,13 @@
             // 
             this.NoiseLeveltextBox.Location = new System.Drawing.Point(581, 26);
             this.NoiseLeveltextBox.Name = "NoiseLeveltextBox";
+            this.NoiseLeveltextBox.ReadOnly = true;
             this.NoiseLeveltextBox.Size = new System.Drawing.Size(50, 29);
             this.NoiseLeveltextBox.TabIndex = 48;
             // 
             // NoiseHascheckBox
             // 
+            this.NoiseHascheckBox.AutoCheck = false;
             this.NoiseHascheckBox.AutoSize = true;
             this.NoiseHascheckBox.Location = new System.Drawing.Point(507, 28);
             this.NoiseHascheckBox.Name = "NoiseHascheckBox";
@@ -1449,6 +1532,7 @@
             // 
             // NoiseNonecheckBox
             // 
+            this.NoiseNonecheckBox.AutoCheck = false;
             this.NoiseNonecheckBox.AutoSize = true;
             this.NoiseNonecheckBox.Location = new System.Drawing.Point(424, 28);
             this.NoiseNonecheckBox.Name = "NoiseNonecheckBox";
@@ -1459,6 +1543,7 @@
             // 
             // HeartEarlycheckBox
             // 
+            this.HeartEarlycheckBox.AutoCheck = false;
             this.HeartEarlycheckBox.AutoSize = true;
             this.HeartEarlycheckBox.Location = new System.Drawing.Point(334, 28);
             this.HeartEarlycheckBox.Name = "HeartEarlycheckBox";
@@ -1469,6 +1554,7 @@
             // 
             // HeartInformalcheckBox
             // 
+            this.HeartInformalcheckBox.AutoCheck = false;
             this.HeartInformalcheckBox.AutoSize = true;
             this.HeartInformalcheckBox.Location = new System.Drawing.Point(242, 28);
             this.HeartInformalcheckBox.Name = "HeartInformalcheckBox";
@@ -1479,6 +1565,7 @@
             // 
             // HeartFormalcheckBox
             // 
+            this.HeartFormalcheckBox.AutoCheck = false;
             this.HeartFormalcheckBox.AutoSize = true;
             this.HeartFormalcheckBox.Location = new System.Drawing.Point(180, 28);
             this.HeartFormalcheckBox.Name = "HeartFormalcheckBox";
@@ -1500,6 +1587,7 @@
             // 
             this.HeartRatetextBox.Location = new System.Drawing.Point(61, 26);
             this.HeartRatetextBox.Name = "HeartRatetextBox";
+            this.HeartRatetextBox.ReadOnly = true;
             this.HeartRatetextBox.Size = new System.Drawing.Size(50, 29);
             this.HeartRatetextBox.TabIndex = 43;
             // 
@@ -1560,6 +1648,7 @@
             // 
             this.RighttextBox.Location = new System.Drawing.Point(189, 68);
             this.RighttextBox.Name = "RighttextBox";
+            this.RighttextBox.ReadOnly = true;
             this.RighttextBox.Size = new System.Drawing.Size(36, 29);
             this.RighttextBox.TabIndex = 41;
             // 
@@ -1585,6 +1674,7 @@
             // 
             this.LefttextBox.Location = new System.Drawing.Point(59, 68);
             this.LefttextBox.Name = "LefttextBox";
+            this.LefttextBox.ReadOnly = true;
             this.LefttextBox.Size = new System.Drawing.Size(36, 29);
             this.LefttextBox.TabIndex = 38;
             // 
@@ -1610,6 +1700,7 @@
             // 
             this.BiggertextBox.Location = new System.Drawing.Point(166, 25);
             this.BiggertextBox.Name = "BiggertextBox";
+            this.BiggertextBox.ReadOnly = true;
             this.BiggertextBox.Size = new System.Drawing.Size(36, 29);
             this.BiggertextBox.TabIndex = 28;
             // 
@@ -1624,6 +1715,7 @@
             // 
             // DissymmetrycheckBox
             // 
+            this.DissymmetrycheckBox.AutoCheck = false;
             this.DissymmetrycheckBox.AutoSize = true;
             this.DissymmetrycheckBox.Location = new System.Drawing.Point(547, 27);
             this.DissymmetrycheckBox.Name = "DissymmetrycheckBox";
@@ -1634,6 +1726,7 @@
             // 
             // RightcheckBox
             // 
+            this.RightcheckBox.AutoCheck = false;
             this.RightcheckBox.AutoSize = true;
             this.RightcheckBox.Location = new System.Drawing.Point(372, 117);
             this.RightcheckBox.Name = "RightcheckBox";
@@ -1644,6 +1737,7 @@
             // 
             // LeftcheckBox
             // 
+            this.LeftcheckBox.AutoCheck = false;
             this.LeftcheckBox.AutoSize = true;
             this.LeftcheckBox.Location = new System.Drawing.Point(277, 117);
             this.LeftcheckBox.Name = "LeftcheckBox";
@@ -1654,6 +1748,7 @@
             // 
             // PainMorecheckBox
             // 
+            this.PainMorecheckBox.AutoCheck = false;
             this.PainMorecheckBox.AutoSize = true;
             this.PainMorecheckBox.Location = new System.Drawing.Point(564, 72);
             this.PainMorecheckBox.Name = "PainMorecheckBox";
@@ -1664,6 +1759,7 @@
             // 
             // PainLesscheckBox
             // 
+            this.PainLesscheckBox.AutoCheck = false;
             this.PainLesscheckBox.AutoSize = true;
             this.PainLesscheckBox.Location = new System.Drawing.Point(523, 72);
             this.PainLesscheckBox.Name = "PainLesscheckBox";
@@ -1674,6 +1770,7 @@
             // 
             // PainNonecheckBox
             // 
+            this.PainNonecheckBox.AutoCheck = false;
             this.PainNonecheckBox.AutoSize = true;
             this.PainNonecheckBox.Location = new System.Drawing.Point(451, 72);
             this.PainNonecheckBox.Name = "PainNonecheckBox";
@@ -1684,6 +1781,7 @@
             // 
             // NoduleMorecheckBox
             // 
+            this.NoduleMorecheckBox.AutoCheck = false;
             this.NoduleMorecheckBox.AutoSize = true;
             this.NoduleMorecheckBox.Location = new System.Drawing.Point(190, 116);
             this.NoduleMorecheckBox.Name = "NoduleMorecheckBox";
@@ -1694,6 +1792,7 @@
             // 
             // NoduleLesscheckBox
             // 
+            this.NoduleLesscheckBox.AutoCheck = false;
             this.NoduleLesscheckBox.AutoSize = true;
             this.NoduleLesscheckBox.Location = new System.Drawing.Point(101, 116);
             this.NoduleLesscheckBox.Name = "NoduleLesscheckBox";
@@ -1704,6 +1803,7 @@
             // 
             // NoduleNonecheckBox
             // 
+            this.NoduleNonecheckBox.AutoCheck = false;
             this.NoduleNonecheckBox.AutoSize = true;
             this.NoduleNonecheckBox.Location = new System.Drawing.Point(18, 117);
             this.NoduleNonecheckBox.Name = "NoduleNonecheckBox";
@@ -1714,6 +1814,7 @@
             // 
             // VesselcheckBox
             // 
+            this.VesselcheckBox.AutoCheck = false;
             this.VesselcheckBox.AutoSize = true;
             this.VesselcheckBox.Location = new System.Drawing.Point(352, 72);
             this.VesselcheckBox.Name = "VesselcheckBox";
@@ -1724,6 +1825,7 @@
             // 
             // DiffusiblecheckBox
             // 
+            this.DiffusiblecheckBox.AutoCheck = false;
             this.DiffusiblecheckBox.AutoSize = true;
             this.DiffusiblecheckBox.Location = new System.Drawing.Point(452, 28);
             this.DiffusiblecheckBox.Name = "DiffusiblecheckBox";
@@ -1734,6 +1836,7 @@
             // 
             // QuantityMorecheckBox
             // 
+            this.QuantityMorecheckBox.AutoCheck = false;
             this.QuantityMorecheckBox.AutoSize = true;
             this.QuantityMorecheckBox.Location = new System.Drawing.Point(372, 28);
             this.QuantityMorecheckBox.Name = "QuantityMorecheckBox";
@@ -1744,6 +1847,7 @@
             // 
             // TremblecheckBox
             // 
+            this.TremblecheckBox.AutoCheck = false;
             this.TremblecheckBox.AutoSize = true;
             this.TremblecheckBox.Location = new System.Drawing.Point(285, 72);
             this.TremblecheckBox.Name = "TremblecheckBox";
@@ -1754,6 +1858,7 @@
             // 
             // QuantityFormalcheckBox
             // 
+            this.QuantityFormalcheckBox.AutoCheck = false;
             this.QuantityFormalcheckBox.AutoSize = true;
             this.QuantityFormalcheckBox.Location = new System.Drawing.Point(330, 28);
             this.QuantityFormalcheckBox.Name = "QuantityFormalcheckBox";
@@ -1764,6 +1869,7 @@
             // 
             // QuantityLesscheckBox
             // 
+            this.QuantityLesscheckBox.AutoCheck = false;
             this.QuantityLesscheckBox.AutoSize = true;
             this.QuantityLesscheckBox.Location = new System.Drawing.Point(256, 28);
             this.QuantityLesscheckBox.Name = "QuantityLesscheckBox";
@@ -1774,6 +1880,7 @@
             // 
             // BigcheckBox
             // 
+            this.BigcheckBox.AutoCheck = false;
             this.BigcheckBox.AutoSize = true;
             this.BigcheckBox.Location = new System.Drawing.Point(18, 28);
             this.BigcheckBox.Name = "BigcheckBox";
@@ -1789,7 +1896,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(694, 643);
+            this.tabPage6.Size = new System.Drawing.Size(694, 640);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "治疗计划";
             // 
@@ -1842,6 +1949,7 @@
             // 
             this.elserichTextBox.Location = new System.Drawing.Point(21, 358);
             this.elserichTextBox.Name = "elserichTextBox";
+            this.elserichTextBox.ReadOnly = true;
             this.elserichTextBox.Size = new System.Drawing.Size(610, 211);
             this.elserichTextBox.TabIndex = 119;
             this.elserichTextBox.Text = "";
@@ -1861,11 +1969,13 @@
             // 
             this.ElsethingtextBox.Location = new System.Drawing.Point(346, 280);
             this.ElsethingtextBox.Name = "ElsethingtextBox";
+            this.ElsethingtextBox.ReadOnly = true;
             this.ElsethingtextBox.Size = new System.Drawing.Size(285, 21);
             this.ElsethingtextBox.TabIndex = 117;
             // 
             // qitacheckBox
             // 
+            this.qitacheckBox.AutoCheck = false;
             this.qitacheckBox.AutoSize = true;
             this.qitacheckBox.Location = new System.Drawing.Point(292, 284);
             this.qitacheckBox.Name = "qitacheckBox";
@@ -1876,6 +1986,7 @@
             // 
             // JiejiecheckBox
             // 
+            this.JiejiecheckBox.AutoCheck = false;
             this.JiejiecheckBox.AutoSize = true;
             this.JiejiecheckBox.Location = new System.Drawing.Point(225, 284);
             this.JiejiecheckBox.Name = "JiejiecheckBox";
@@ -1886,6 +1997,7 @@
             // 
             // JiacheckBox
             // 
+            this.JiacheckBox.AutoCheck = false;
             this.JiacheckBox.AutoSize = true;
             this.JiacheckBox.Location = new System.Drawing.Point(117, 284);
             this.JiacheckBox.Name = "JiacheckBox";
@@ -1896,6 +2008,7 @@
             // 
             // fufacheckBox
             // 
+            this.fufacheckBox.AutoCheck = false;
             this.fufacheckBox.AutoSize = true;
             this.fufacheckBox.Location = new System.Drawing.Point(589, 251);
             this.fufacheckBox.Name = "fufacheckBox";
@@ -1906,6 +2019,7 @@
             // 
             // ATDcheckBox
             // 
+            this.ATDcheckBox.AutoCheck = false;
             this.ATDcheckBox.AutoSize = true;
             this.ATDcheckBox.Location = new System.Drawing.Point(490, 250);
             this.ATDcheckBox.Name = "ATDcheckBox";
@@ -1916,6 +2030,7 @@
             // 
             // shoushucheckBox
             // 
+            this.shoushucheckBox.AutoCheck = false;
             this.shoushucheckBox.AutoSize = true;
             this.shoushucheckBox.Location = new System.Drawing.Point(415, 251);
             this.shoushucheckBox.Name = "shoushucheckBox";
@@ -1926,6 +2041,7 @@
             // 
             // BingcheckBox
             // 
+            this.BingcheckBox.AutoCheck = false;
             this.BingcheckBox.AutoSize = true;
             this.BingcheckBox.Location = new System.Drawing.Point(341, 251);
             this.BingcheckBox.Name = "BingcheckBox";
@@ -1936,6 +2052,7 @@
             // 
             // HecheckBox
             // 
+            this.HecheckBox.AutoCheck = false;
             this.HecheckBox.AutoSize = true;
             this.HecheckBox.Location = new System.Drawing.Point(263, 251);
             this.HecheckBox.Name = "HecheckBox";
@@ -1946,6 +2063,7 @@
             // 
             // ZhengcheckBox
             // 
+            this.ZhengcheckBox.AutoCheck = false;
             this.ZhengcheckBox.AutoSize = true;
             this.ZhengcheckBox.Location = new System.Drawing.Point(187, 251);
             this.ZhengcheckBox.Name = "ZhengcheckBox";
@@ -1956,6 +2074,7 @@
             // 
             // AgecheckBox
             // 
+            this.AgecheckBox.AutoCheck = false;
             this.AgecheckBox.AutoSize = true;
             this.AgecheckBox.Location = new System.Drawing.Point(119, 251);
             this.AgecheckBox.Name = "AgecheckBox";
@@ -1988,6 +2107,7 @@
             // 
             this.RealtextBox.Location = new System.Drawing.Point(407, 202);
             this.RealtextBox.Name = "RealtextBox";
+            this.RealtextBox.ReadOnly = true;
             this.RealtextBox.Size = new System.Drawing.Size(100, 21);
             this.RealtextBox.TabIndex = 104;
             // 
@@ -2016,6 +2136,7 @@
             // 
             this.CaltextBox.Location = new System.Drawing.Point(122, 201);
             this.CaltextBox.Name = "CaltextBox";
+            this.CaltextBox.ReadOnly = true;
             this.CaltextBox.Size = new System.Drawing.Size(100, 21);
             this.CaltextBox.TabIndex = 101;
             // 
@@ -2044,6 +2165,7 @@
             // 
             this.PlantextBox.Location = new System.Drawing.Point(476, 155);
             this.PlantextBox.Name = "PlantextBox";
+            this.PlantextBox.ReadOnly = true;
             this.PlantextBox.Size = new System.Drawing.Size(100, 21);
             this.PlantextBox.TabIndex = 98;
             // 
@@ -2071,6 +2193,7 @@
             // 
             this.RecomtextBox.Location = new System.Drawing.Point(102, 155);
             this.RecomtextBox.Name = "RecomtextBox";
+            this.RecomtextBox.ReadOnly = true;
             this.RecomtextBox.Size = new System.Drawing.Size(100, 21);
             this.RecomtextBox.TabIndex = 95;
             // 
@@ -2086,6 +2209,7 @@
             // 
             // LesscheckBox
             // 
+            this.LesscheckBox.AutoCheck = false;
             this.LesscheckBox.AutoSize = true;
             this.LesscheckBox.Location = new System.Drawing.Point(586, 47);
             this.LesscheckBox.Name = "LesscheckBox";
@@ -2096,6 +2220,7 @@
             // 
             // MorecheckBox
             // 
+            this.MorecheckBox.AutoCheck = false;
             this.MorecheckBox.AutoSize = true;
             this.MorecheckBox.Location = new System.Drawing.Point(511, 47);
             this.MorecheckBox.Name = "MorecheckBox";
@@ -2106,6 +2231,7 @@
             // 
             // NormalcheckBox
             // 
+            this.NormalcheckBox.AutoCheck = false;
             this.NormalcheckBox.AutoSize = true;
             this.NormalcheckBox.Location = new System.Drawing.Point(441, 47);
             this.NormalcheckBox.Name = "NormalcheckBox";
@@ -2128,6 +2254,7 @@
             // 
             this.TwoFhtextBox.Location = new System.Drawing.Point(298, 45);
             this.TwoFhtextBox.Name = "TwoFhtextBox";
+            this.TwoFhtextBox.ReadOnly = true;
             this.TwoFhtextBox.Size = new System.Drawing.Size(100, 21);
             this.TwoFhtextBox.TabIndex = 89;
             // 
@@ -2155,6 +2282,7 @@
             // 
             this.twohtextBox.Location = new System.Drawing.Point(83, 44);
             this.twohtextBox.Name = "twohtextBox";
+            this.twohtextBox.ReadOnly = true;
             this.twohtextBox.Size = new System.Drawing.Size(100, 21);
             this.twohtextBox.TabIndex = 86;
             // 
