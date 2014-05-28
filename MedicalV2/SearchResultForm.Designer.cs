@@ -31,7 +31,6 @@
             this.SuicideLabel = new System.Windows.Forms.Label();
             this.AgetextBox = new System.Windows.Forms.TextBox();
             this.AgeLabel = new System.Windows.Forms.Label();
-            this.SexcomboBox = new System.Windows.Forms.ComboBox();
             this.SexLabel = new System.Windows.Forms.Label();
             this.NametextBox = new System.Windows.Forms.TextBox();
             this.NaneLabel = new System.Windows.Forms.Label();
@@ -220,6 +219,7 @@
             this.AddFVBtn = new System.Windows.Forms.Button();
             this.UpdateBtn = new System.Windows.Forms.Button();
             this.ShowPanel = new System.Windows.Forms.Panel();
+            this.SexTextBox = new System.Windows.Forms.TextBox();
             this.tabControlAll.SuspendLayout();
             this.PresentHistorytabPage.SuspendLayout();
             this.PresentHistorygroupBox.SuspendLayout();
@@ -238,103 +238,102 @@
             // SuicideLabel
             // 
             this.SuicideLabel.AutoSize = true;
-            this.SuicideLabel.Location = new System.Drawing.Point(301, 15);
+            this.SuicideLabel.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SuicideLabel.Location = new System.Drawing.Point(318, 18);
             this.SuicideLabel.Name = "SuicideLabel";
-            this.SuicideLabel.Size = new System.Drawing.Size(17, 12);
+            this.SuicideLabel.Size = new System.Drawing.Size(28, 19);
             this.SuicideLabel.TabIndex = 15;
             this.SuicideLabel.Text = "岁";
             // 
             // AgetextBox
             // 
-            this.AgetextBox.Location = new System.Drawing.Point(237, 10);
+            this.AgetextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AgetextBox.Location = new System.Drawing.Point(269, 13);
             this.AgetextBox.Name = "AgetextBox";
             this.AgetextBox.ReadOnly = true;
-            this.AgetextBox.Size = new System.Drawing.Size(47, 21);
+            this.AgetextBox.Size = new System.Drawing.Size(47, 29);
             this.AgetextBox.TabIndex = 14;
             // 
             // AgeLabel
             // 
             this.AgeLabel.AutoSize = true;
-            this.AgeLabel.Location = new System.Drawing.Point(201, 15);
+            this.AgeLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AgeLabel.Location = new System.Drawing.Point(219, 18);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(41, 12);
+            this.AgeLabel.Size = new System.Drawing.Size(58, 21);
             this.AgeLabel.TabIndex = 13;
             this.AgeLabel.Text = "年龄：";
-            // 
-            // SexcomboBox
-            // 
-            this.SexcomboBox.FormattingEnabled = true;
-            this.SexcomboBox.Items.AddRange(new object[] {
-            "男",
-            "女"});
-            this.SexcomboBox.Location = new System.Drawing.Point(143, 12);
-            this.SexcomboBox.Name = "SexcomboBox";
-            this.SexcomboBox.Size = new System.Drawing.Size(52, 20);
-            this.SexcomboBox.TabIndex = 12;
             // 
             // SexLabel
             // 
             this.SexLabel.AutoSize = true;
-            this.SexLabel.Location = new System.Drawing.Point(106, 15);
+            this.SexLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SexLabel.Location = new System.Drawing.Point(120, 18);
             this.SexLabel.Name = "SexLabel";
-            this.SexLabel.Size = new System.Drawing.Size(41, 12);
+            this.SexLabel.Size = new System.Drawing.Size(58, 21);
             this.SexLabel.TabIndex = 11;
             this.SexLabel.Text = "性别：";
             // 
             // NametextBox
             // 
-            this.NametextBox.Location = new System.Drawing.Point(46, 12);
+            this.NametextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.NametextBox.Location = new System.Drawing.Point(60, 13);
             this.NametextBox.Name = "NametextBox";
             this.NametextBox.ReadOnly = true;
-            this.NametextBox.Size = new System.Drawing.Size(54, 21);
+            this.NametextBox.Size = new System.Drawing.Size(54, 29);
             this.NametextBox.TabIndex = 10;
             // 
             // NaneLabel
             // 
             this.NaneLabel.AutoSize = true;
-            this.NaneLabel.Location = new System.Drawing.Point(12, 18);
+            this.NaneLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.NaneLabel.Location = new System.Drawing.Point(8, 18);
             this.NaneLabel.Name = "NaneLabel";
-            this.NaneLabel.Size = new System.Drawing.Size(41, 12);
+            this.NaneLabel.Size = new System.Drawing.Size(58, 21);
             this.NaneLabel.TabIndex = 9;
             this.NaneLabel.Text = "姓名：";
             // 
             // TeletextBox
             // 
-            this.TeletextBox.Location = new System.Drawing.Point(544, 9);
+            this.TeletextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TeletextBox.Location = new System.Drawing.Point(573, 13);
             this.TeletextBox.Name = "TeletextBox";
             this.TeletextBox.ReadOnly = true;
-            this.TeletextBox.Size = new System.Drawing.Size(84, 21);
+            this.TeletextBox.Size = new System.Drawing.Size(127, 29);
             this.TeletextBox.TabIndex = 26;
             // 
             // TeleLabel
             // 
             this.TeleLabel.AutoSize = true;
-            this.TeleLabel.Location = new System.Drawing.Point(462, 12);
+            this.TeleLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TeleLabel.Location = new System.Drawing.Point(482, 18);
             this.TeleLabel.Name = "TeleLabel";
-            this.TeleLabel.Size = new System.Drawing.Size(65, 12);
+            this.TeleLabel.Size = new System.Drawing.Size(90, 21);
             this.TeleLabel.TabIndex = 25;
             this.TeleLabel.Text = "联系电话：";
             // 
             // HosIDtextBox
             // 
-            this.HosIDtextBox.Location = new System.Drawing.Point(383, 9);
+            this.HosIDtextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HosIDtextBox.Location = new System.Drawing.Point(420, 13);
             this.HosIDtextBox.Name = "HosIDtextBox";
             this.HosIDtextBox.ReadOnly = true;
-            this.HosIDtextBox.Size = new System.Drawing.Size(56, 21);
+            this.HosIDtextBox.Size = new System.Drawing.Size(56, 29);
             this.HosIDtextBox.TabIndex = 30;
             // 
             // HosIDLabel
             // 
             this.HosIDLabel.AutoSize = true;
-            this.HosIDLabel.Location = new System.Drawing.Point(324, 15);
+            this.HosIDLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HosIDLabel.Location = new System.Drawing.Point(349, 18);
             this.HosIDLabel.Name = "HosIDLabel";
-            this.HosIDLabel.Size = new System.Drawing.Size(53, 12);
+            this.HosIDLabel.Size = new System.Drawing.Size(74, 21);
             this.HosIDLabel.TabIndex = 29;
             this.HosIDLabel.Text = "门诊号：";
             // 
             // ShowAllBtn
             // 
-            this.ShowAllBtn.Location = new System.Drawing.Point(417, 692);
+            this.ShowAllBtn.Location = new System.Drawing.Point(148, 692);
             this.ShowAllBtn.Name = "ShowAllBtn";
             this.ShowAllBtn.Size = new System.Drawing.Size(93, 32);
             this.ShowAllBtn.TabIndex = 27;
@@ -2318,7 +2317,7 @@
             // 
             // AddFVBtn
             // 
-            this.AddFVBtn.Location = new System.Drawing.Point(167, 694);
+            this.AddFVBtn.Location = new System.Drawing.Point(472, 693);
             this.AddFVBtn.Name = "AddFVBtn";
             this.AddFVBtn.Size = new System.Drawing.Size(93, 30);
             this.AddFVBtn.TabIndex = 34;
@@ -2328,7 +2327,7 @@
             // 
             // UpdateBtn
             // 
-            this.UpdateBtn.Location = new System.Drawing.Point(167, 694);
+            this.UpdateBtn.Location = new System.Drawing.Point(472, 691);
             this.UpdateBtn.Name = "UpdateBtn";
             this.UpdateBtn.Size = new System.Drawing.Size(93, 32);
             this.UpdateBtn.TabIndex = 33;
@@ -2340,18 +2339,28 @@
             // 
             this.ShowPanel.AutoScroll = true;
             this.ShowPanel.Controls.Add(this.tabControlAll);
-            this.ShowPanel.Location = new System.Drawing.Point(12, 33);
+            this.ShowPanel.Location = new System.Drawing.Point(12, 51);
             this.ShowPanel.Name = "ShowPanel";
             this.ShowPanel.Size = new System.Drawing.Size(709, 637);
             this.ShowPanel.TabIndex = 31;
+            // 
+            // SexTextBox
+            // 
+            this.SexTextBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SexTextBox.Location = new System.Drawing.Point(180, 13);
+            this.SexTextBox.Name = "SexTextBox";
+            this.SexTextBox.ReadOnly = true;
+            this.SexTextBox.Size = new System.Drawing.Size(33, 29);
+            this.SexTextBox.TabIndex = 35;
             // 
             // SearchResultForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 726);
-            this.Controls.Add(this.AddFVBtn);
             this.Controls.Add(this.UpdateBtn);
+            this.Controls.Add(this.AddFVBtn);
+            this.Controls.Add(this.SexTextBox);
             this.Controls.Add(this.ShowAllBtn);
             this.Controls.Add(this.ShowPanel);
             this.Controls.Add(this.HosIDtextBox);
@@ -2361,7 +2370,6 @@
             this.Controls.Add(this.SuicideLabel);
             this.Controls.Add(this.AgetextBox);
             this.Controls.Add(this.AgeLabel);
-            this.Controls.Add(this.SexcomboBox);
             this.Controls.Add(this.SexLabel);
             this.Controls.Add(this.NametextBox);
             this.Controls.Add(this.NaneLabel);
@@ -2398,7 +2406,6 @@
         private System.Windows.Forms.Label SuicideLabel;
         private System.Windows.Forms.TextBox AgetextBox;
         private System.Windows.Forms.Label AgeLabel;
-        private System.Windows.Forms.ComboBox SexcomboBox;
         private System.Windows.Forms.Label SexLabel;
         private System.Windows.Forms.TextBox NametextBox;
         private System.Windows.Forms.Label NaneLabel;
@@ -2587,5 +2594,6 @@
         private System.Windows.Forms.Button AddFVBtn;
         private System.Windows.Forms.Button UpdateBtn;
         private System.Windows.Forms.Panel ShowPanel;
+        private System.Windows.Forms.TextBox SexTextBox;
     }
 }

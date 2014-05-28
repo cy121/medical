@@ -1231,6 +1231,7 @@ namespace MedicalV2
             cureplan.insertCurePlan(Convert.ToString(cfId.Trim()));
             physical.insertPhysicalInspect(Convert.ToString(cfId.Trim())); //插入logid
             MessageBox.Show("保存成功！");
+            this.Close();
         }
 
       
@@ -1358,7 +1359,7 @@ namespace MedicalV2
         private void readLabel(string s)
         {
             SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak("你的" + s);
+            synth.Speak("请输入" + s);
         }
 
        
@@ -1421,7 +1422,7 @@ namespace MedicalV2
         private void RelationtextBox_Click(object sender, EventArgs e)
         {
             SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak("你与患者的关系");
+            synth.Speak("请输入与患者的关系");
         }
 
        

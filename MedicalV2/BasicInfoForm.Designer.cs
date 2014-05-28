@@ -2183,15 +2183,14 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Location = new System.Drawing.Point(122, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(978, 50);
+            this.label1.Size = new System.Drawing.Size(506, 50);
             this.label1.TabIndex = 0;
-            this.label1.Text = "                   Graves  甲  亢  病  历  管  理  系  统             ";
+            this.label1.Text = "Graves  甲  亢  病  历  管  理  系  统             ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PresentHistorypanel
@@ -5583,7 +5582,6 @@
             this.ThyroidLabgroupBox.ResumeLayout(false);
             this.ThyroidLabgroupBox.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

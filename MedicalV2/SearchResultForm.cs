@@ -130,7 +130,10 @@ namespace MedicalV2
             id = logId;
             bi.readBasicInfoById(logId);
             NametextBox.Text = bi.P_name;
-            SexcomboBox.Text = Convert.ToString(bi.P_sex);
+            //SexcomboBox.Text = Convert.ToString(bi.P_sex);
+            if (bi.P_sex == '1') SexTextBox.Text = "男";
+            else SexTextBox.Text = "女";
+            //SexTextBox.Text = Convert.ToString(bi.P_sex);
             AgetextBox.Text = Convert.ToString(bi.P_age);
             TeletextBox.Text = bi.P_tel;
             HosIDtextBox.Text = Convert.ToString(bi.Hos_id);
