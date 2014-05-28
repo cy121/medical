@@ -2134,6 +2134,7 @@ namespace MedicalV2
             labinspect.updateLabInspect(logId);
             cureplan.updateCurePlan(logId);
             physical.updatePhysicalInspect(logId);
+            MessageBox.Show("复治成功！");
         }
     }
 }

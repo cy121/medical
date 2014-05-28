@@ -191,12 +191,12 @@ namespace MedicalV2
                 {
                     con.Open();
                     command.ExecuteNonQuery();
-                    MessageBox.Show("保存成功！");
+                    //MessageBox.Show("保存成功！");
                 }
                 catch (MySqlException e)
                 {
                     e.Message.ToString();
-                    MessageBox.Show("无法保存！");
+                    MessageBox.Show("基本信息保存失败！");
                 }
                 con.Close();
                 return true;

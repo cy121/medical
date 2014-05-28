@@ -6,6 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Speech.Synthesis;
+using MySql.Data.MySqlClient;
+using System.Data.SqlClient;
+using MySql;
 
 namespace MedicalV2
 {
@@ -1216,7 +1220,7 @@ namespace MedicalV2
             cureplan.Ef_factor = effect;
             cureplan.Ef_else = ElsethingtextBox.Text.Trim();
 
-            
+            //MySqlConnection con = CommonFunc.getConnection();
             
             basicinfo.insertBasicInfo();
             presenthistory.insertPhysicalInspect(Convert.ToString(cfId.Trim()));
@@ -1226,6 +1230,7 @@ namespace MedicalV2
             imageinspect.insertImageInspect(Convert.ToString(cfId.Trim()));
             cureplan.insertCurePlan(Convert.ToString(cfId.Trim()));
             physical.insertPhysicalInspect(Convert.ToString(cfId.Trim())); //插入logid
+            MessageBox.Show("保存成功！");
         }
 
       
@@ -1350,7 +1355,74 @@ namespace MedicalV2
             else this.BPanel.Visible = true;
         }
 
-        
+        private void readLabel(string s)
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak("你的" + s);
+        }
+
+       
+
+        private void NametextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("姓名");
+        }
+
+        private void AgetextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("年龄");
+        }
+
+        private void RadicaltextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("民族");
+        }
+
+        private void HometextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("籍贯");
+        }
+
+        private void BorntextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("出身地");
+        }
+
+        private void JobtextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("职业");
+        }
+
+        private void JodaddrtextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("工作单位及邮编");
+        }
+
+        private void HomeaddrtextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("家庭地址及邮编");
+        }
+
+        private void EmailtextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("电子邮件");
+        }
+
+        private void TeletextBox_Click(object sender, EventArgs e)
+        {
+            readLabel("联系电话");
+        }
+
+        private void ContacttextBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RelationtextBox_Click(object sender, EventArgs e)
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak("你与患者的关系");
+        }
 
        
     }

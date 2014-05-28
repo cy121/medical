@@ -1254,7 +1254,7 @@
             this.MenophaniagroupBox.TabIndex = 28;
             this.MenophaniagroupBox.TabStop = false;
             this.MenophaniagroupBox.Text = "月经史";
-            this.MenophaniagroupBox.Enter += new System.EventHandler(this.MenophaniagroupBox_Enter);
+            
             // 
             // MenoIrregularHascheckBox
             // 
@@ -2899,7 +2899,7 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "肝肾功能";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            
             // 
             // GLUtextBox
             // 

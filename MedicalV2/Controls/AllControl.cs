@@ -1194,7 +1194,7 @@ namespace MedicalV2.Controls
 
 
 
-            basicinfo.insertBasicInfo();
+            //basicinfo.insertBasicInfo();
             presenthistory.insertPhysicalInspect(Convert.ToString(cfId.Trim()));
             consthistory.insertConstHistory(Convert.ToString(cfId.Trim())); //插入logid
 

@@ -151,7 +151,7 @@ namespace MedicalV2
             basicinfo.P_contact = ContacttextBox.Text.Trim();
             basicinfo.P_relation = RelationtextBox.Text.Trim();
 
-            basicinfo.insertBasicInfo();
+            //basicinfo.insertBasicInfo();
 
         }
  

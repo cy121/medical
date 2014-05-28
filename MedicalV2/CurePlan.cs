@@ -135,12 +135,12 @@ namespace MedicalV2
                 {
                     con.Open();
                     command.ExecuteNonQuery();
-                    MessageBox.Show("保存成功！");
+                    //MessageBox.Show("保存成功！");
                 }
                 catch (MySqlException e)
                 {
                     e.Message.ToString();
-                    MessageBox.Show("无法保存！");
+                    MessageBox.Show("治疗计划保存失败！");
                 }
                 con.Close();
                 return true;
@@ -165,12 +165,12 @@ namespace MedicalV2
                 {
                     con.Open();
                     command.ExecuteNonQuery();
-                    MessageBox.Show("更新成功！");
+                    //MessageBox.Show("更新成功！");
                 }
                 catch (MySqlException e)
                 {
                     e.Message.ToString();
-                    MessageBox.Show("更新失败！");
+                    MessageBox.Show("治疗计划更新失败！");
                 }
                 con.Close();
                 return true;
