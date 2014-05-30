@@ -93,7 +93,7 @@ namespace MedicalV2
                         "PhotophobiacheckBox",
                         "TearscheckBox",
                         "StackcheckBox",
-                        "StackcheckBox",
+                        "AsthenopiacheckBox",
                         "EyesightcheckBox",
                         "DiplopiacheckBox",
                         "StrabismuscheckBox",

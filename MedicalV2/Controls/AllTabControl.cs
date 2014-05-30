@@ -100,7 +100,7 @@ namespace MedicalV2.Controls
                         "PhotophobiacheckBox",
                         "TearscheckBox",
                         "StackcheckBox",
-                        "StackcheckBox",
+                        "AsthenopiacheckBox",
                         "EyesightcheckBox",
                         "DiplopiacheckBox",
                         "StrabismuscheckBox",

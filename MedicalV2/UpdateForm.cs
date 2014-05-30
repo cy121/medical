@@ -694,6 +694,7 @@ namespace MedicalV2
 
             physical.Thyroid_bigger = Convert.ToInt32(BiggertextBox.Text.Trim());
             physical.Thyroid_left = Convert.ToInt32(LefttextBox.Text.Trim());
+            physical.Thyroid_right = Convert.ToInt32(RighttextBox.Text.Trim());
             char[] thyroid = new char[16];
             if (BigcheckBox.Checked)
             {
@@ -1598,7 +1599,7 @@ namespace MedicalV2
              ***************************/
 
             physical.Thyroid_bigger = Convert.ToInt32(BiggertextBox.Text.Trim());
-            physical.Thyroid_left = Convert.ToInt32(LefttextBox.Text.Trim());
+            
             char[] thyroid = new char[16];
             if (BigcheckBox.Checked)
             {
@@ -1708,6 +1709,8 @@ namespace MedicalV2
             if (DissymmetrycheckBox.Checked)
             {
                 thyroid[15] = '1';
+                physical.Thyroid_left = Convert.ToInt32(LefttextBox.Text.Trim());
+                physical.Thyroid_right = Convert.ToInt32(RighttextBox.Text.Trim());
             }
             else
                 thyroid[15] = '0';
@@ -2032,7 +2035,7 @@ namespace MedicalV2
 
             if (AgecheckBox.Checked)
             {
-                ef[1] = '1';
+                ef[0] = '1';
             }
             else
             {

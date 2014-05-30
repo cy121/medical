@@ -1125,7 +1125,7 @@ namespace MedicalV2
 
             if (AgecheckBox.Checked)
             {
-                ef[1] = '1';
+                ef[0] = '1';
             }
             else
             {
