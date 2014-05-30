@@ -19,9 +19,21 @@ namespace MedicalV2
         private void SearchBtn_Click(object sender, EventArgs e)
         {
             string id = LogIdTextBox.Text;
-            SearchResultForm fvf = new SearchResultForm(id, 1);
-            fvf.Show();
-            this.Hide();
+            BasicInfo bi = new BasicInfo();
+            bi.readBasicInfoById(id);
+            try {
+                string fid = bi.Log_id;
+                SearchResultForm fvf = new SearchResultForm(id, 1);
+                fvf.Show();
+                this.Hide();
+            }catch (NullReferenceException ee)
+            {
+                MessageBox.Show("查询不存在！");
+            }
+
+            
+               
+            
         }
     }
 }

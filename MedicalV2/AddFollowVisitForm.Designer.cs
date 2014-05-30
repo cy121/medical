@@ -35,7 +35,6 @@
             this.SuicideLabel = new System.Windows.Forms.Label();
             this.AgetextBox = new System.Windows.Forms.TextBox();
             this.AgeLabel = new System.Windows.Forms.Label();
-            this.SexcomboBox = new System.Windows.Forms.ComboBox();
             this.SexLabel = new System.Windows.Forms.Label();
             this.NametextBox = new System.Windows.Forms.TextBox();
             this.NaneLabel = new System.Windows.Forms.Label();
@@ -148,11 +147,12 @@
             this.FT3textBox = new System.Windows.Forms.TextBox();
             this.FT3Label = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.MainReportTextBox = new System.Windows.Forms.TextBox();
+            this.MainReportLabel = new System.Windows.Forms.Label();
             this.HandleTextBox = new System.Windows.Forms.TextBox();
             this.HandleLabel = new System.Windows.Forms.Label();
             this.FinishBtn = new System.Windows.Forms.Button();
-            this.MainReportLabel = new System.Windows.Forms.Label();
-            this.MainReportTextBox = new System.Windows.Forms.TextBox();
+            this.SexTextBox = new System.Windows.Forms.TextBox();
             this.LabInspectpanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -165,116 +165,113 @@
             // 
             this.HosIDtextBox.Location = new System.Drawing.Point(520, 3);
             this.HosIDtextBox.Name = "HosIDtextBox";
-            this.HosIDtextBox.Size = new System.Drawing.Size(118, 21);
+            this.HosIDtextBox.Size = new System.Drawing.Size(118, 29);
             this.HosIDtextBox.TabIndex = 41;
             // 
             // HosIDLabel
             // 
             this.HosIDLabel.AutoSize = true;
-            this.HosIDLabel.Location = new System.Drawing.Point(461, 6);
+            this.HosIDLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HosIDLabel.Location = new System.Drawing.Point(438, 6);
             this.HosIDLabel.Name = "HosIDLabel";
-            this.HosIDLabel.Size = new System.Drawing.Size(53, 12);
+            this.HosIDLabel.Size = new System.Drawing.Size(74, 21);
             this.HosIDLabel.TabIndex = 40;
             this.HosIDLabel.Text = "门诊号：";
             // 
             // TeletextBox
             // 
-            this.TeletextBox.Location = new System.Drawing.Point(94, 37);
+            this.TeletextBox.Location = new System.Drawing.Point(105, 37);
             this.TeletextBox.Name = "TeletextBox";
-            this.TeletextBox.Size = new System.Drawing.Size(171, 21);
+            this.TeletextBox.Size = new System.Drawing.Size(171, 29);
             this.TeletextBox.TabIndex = 39;
             // 
             // TeleLabel
             // 
             this.TeleLabel.AutoSize = true;
+            this.TeleLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TeleLabel.Location = new System.Drawing.Point(10, 40);
             this.TeleLabel.Name = "TeleLabel";
-            this.TeleLabel.Size = new System.Drawing.Size(65, 12);
+            this.TeleLabel.Size = new System.Drawing.Size(90, 21);
             this.TeleLabel.TabIndex = 38;
             this.TeleLabel.Text = "联系电话：";
             // 
             // SuicideLabel
             // 
             this.SuicideLabel.AutoSize = true;
-            this.SuicideLabel.Location = new System.Drawing.Point(429, 6);
+            this.SuicideLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SuicideLabel.Location = new System.Drawing.Point(401, 5);
             this.SuicideLabel.Name = "SuicideLabel";
-            this.SuicideLabel.Size = new System.Drawing.Size(17, 12);
+            this.SuicideLabel.Size = new System.Drawing.Size(26, 21);
             this.SuicideLabel.TabIndex = 37;
             this.SuicideLabel.Text = "岁";
             // 
             // AgetextBox
             // 
-            this.AgetextBox.Location = new System.Drawing.Point(375, 2);
+            this.AgetextBox.Location = new System.Drawing.Point(346, 3);
             this.AgetextBox.Name = "AgetextBox";
-            this.AgetextBox.Size = new System.Drawing.Size(37, 21);
+            this.AgetextBox.Size = new System.Drawing.Size(37, 29);
             this.AgetextBox.TabIndex = 36;
             // 
             // AgeLabel
             // 
             this.AgeLabel.AutoSize = true;
-            this.AgeLabel.Location = new System.Drawing.Point(313, 6);
+            this.AgeLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AgeLabel.Location = new System.Drawing.Point(287, 6);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(41, 12);
+            this.AgeLabel.Size = new System.Drawing.Size(58, 21);
             this.AgeLabel.TabIndex = 35;
             this.AgeLabel.Text = "年龄：";
-            // 
-            // SexcomboBox
-            // 
-            this.SexcomboBox.FormattingEnabled = true;
-            this.SexcomboBox.Items.AddRange(new object[] {
-            "男",
-            "女"});
-            this.SexcomboBox.Location = new System.Drawing.Point(239, 3);
-            this.SexcomboBox.Name = "SexcomboBox";
-            this.SexcomboBox.Size = new System.Drawing.Size(52, 20);
-            this.SexcomboBox.TabIndex = 34;
             // 
             // SexLabel
             // 
             this.SexLabel.AutoSize = true;
-            this.SexLabel.Location = new System.Drawing.Point(175, 6);
+            this.SexLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.SexLabel.Location = new System.Drawing.Point(142, 6);
             this.SexLabel.Name = "SexLabel";
-            this.SexLabel.Size = new System.Drawing.Size(41, 12);
+            this.SexLabel.Size = new System.Drawing.Size(58, 21);
             this.SexLabel.TabIndex = 33;
             this.SexLabel.Text = "性别：";
             // 
             // NametextBox
             // 
-            this.NametextBox.Location = new System.Drawing.Point(53, 2);
+            this.NametextBox.Location = new System.Drawing.Point(71, 3);
             this.NametextBox.Name = "NametextBox";
-            this.NametextBox.Size = new System.Drawing.Size(100, 21);
+            this.NametextBox.Size = new System.Drawing.Size(53, 29);
             this.NametextBox.TabIndex = 32;
             // 
             // NaneLabel
             // 
             this.NaneLabel.AutoSize = true;
+            this.NaneLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.NaneLabel.Location = new System.Drawing.Point(6, 6);
             this.NaneLabel.Name = "NaneLabel";
-            this.NaneLabel.Size = new System.Drawing.Size(41, 12);
+            this.NaneLabel.Size = new System.Drawing.Size(58, 21);
             this.NaneLabel.TabIndex = 31;
             this.NaneLabel.Text = "姓名：";
             // 
             // HeavyThingLabel
             // 
             this.HeavyThingLabel.AutoSize = true;
+            this.HeavyThingLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.HeavyThingLabel.Location = new System.Drawing.Point(12, 140);
             this.HeavyThingLabel.Name = "HeavyThingLabel";
-            this.HeavyThingLabel.Size = new System.Drawing.Size(53, 12);
+            this.HeavyThingLabel.Size = new System.Drawing.Size(74, 21);
             this.HeavyThingLabel.TabIndex = 43;
             this.HeavyThingLabel.Text = "加重症状";
             // 
             // LightThingLabel
             // 
             this.LightThingLabel.AutoSize = true;
-            this.LightThingLabel.Location = new System.Drawing.Point(360, 140);
+            this.LightThingLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LightThingLabel.Location = new System.Drawing.Point(337, 140);
             this.LightThingLabel.Name = "LightThingLabel";
-            this.LightThingLabel.Size = new System.Drawing.Size(53, 12);
+            this.LightThingLabel.Size = new System.Drawing.Size(74, 21);
             this.LightThingLabel.TabIndex = 44;
             this.LightThingLabel.Text = "减轻症状";
             // 
             // HeavyTextBox
             // 
-            this.HeavyTextBox.Location = new System.Drawing.Point(96, 140);
+            this.HeavyTextBox.Location = new System.Drawing.Point(105, 140);
             this.HeavyTextBox.Multiline = true;
             this.HeavyTextBox.Name = "HeavyTextBox";
             this.HeavyTextBox.Size = new System.Drawing.Size(204, 55);
@@ -282,7 +279,7 @@
             // 
             // LightTextBox
             // 
-            this.LightTextBox.Location = new System.Drawing.Point(424, 140);
+            this.LightTextBox.Location = new System.Drawing.Point(434, 140);
             this.LightTextBox.Multiline = true;
             this.LightTextBox.Name = "LightTextBox";
             this.LightTextBox.Size = new System.Drawing.Size(214, 55);
@@ -291,43 +288,47 @@
             // PhysicalInspectLabel
             // 
             this.PhysicalInspectLabel.AutoSize = true;
+            this.PhysicalInspectLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.PhysicalInspectLabel.Location = new System.Drawing.Point(12, 211);
             this.PhysicalInspectLabel.Name = "PhysicalInspectLabel";
-            this.PhysicalInspectLabel.Size = new System.Drawing.Size(65, 12);
+            this.PhysicalInspectLabel.Size = new System.Drawing.Size(90, 21);
             this.PhysicalInspectLabel.TabIndex = 47;
             this.PhysicalInspectLabel.Text = "体格检查：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(210, 212);
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(245, 213);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 12);
+            this.label3.Size = new System.Drawing.Size(49, 21);
             this.label3.TabIndex = 50;
             this.label3.Text = "次/分";
             // 
             // HeartRatetextBox
             // 
-            this.HeartRatetextBox.Location = new System.Drawing.Point(154, 206);
+            this.HeartRatetextBox.Location = new System.Drawing.Point(189, 207);
             this.HeartRatetextBox.Name = "HeartRatetextBox";
-            this.HeartRatetextBox.Size = new System.Drawing.Size(50, 21);
+            this.HeartRatetextBox.Size = new System.Drawing.Size(50, 29);
             this.HeartRatetextBox.TabIndex = 49;
             // 
             // HeartRatelabel
             // 
             this.HeartRatelabel.AutoSize = true;
-            this.HeartRatelabel.Location = new System.Drawing.Point(83, 211);
+            this.HeartRatelabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HeartRatelabel.Location = new System.Drawing.Point(101, 210);
             this.HeartRatelabel.Name = "HeartRatelabel";
-            this.HeartRatelabel.Size = new System.Drawing.Size(65, 12);
+            this.HeartRatelabel.Size = new System.Drawing.Size(84, 21);
             this.HeartRatelabel.TabIndex = 48;
             this.HeartRatelabel.Text = "心率(脉搏)";
             // 
             // HeartRythmCheckBox
             // 
             this.HeartRythmCheckBox.AutoSize = true;
-            this.HeartRythmCheckBox.Location = new System.Drawing.Point(256, 211);
+            this.HeartRythmCheckBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HeartRythmCheckBox.Location = new System.Drawing.Point(334, 211);
             this.HeartRythmCheckBox.Name = "HeartRythmCheckBox";
-            this.HeartRythmCheckBox.Size = new System.Drawing.Size(72, 16);
+            this.HeartRythmCheckBox.Size = new System.Drawing.Size(93, 25);
             this.HeartRythmCheckBox.TabIndex = 51;
             this.HeartRythmCheckBox.Text = "心率不齐";
             this.HeartRythmCheckBox.UseVisualStyleBackColor = true;
@@ -335,42 +336,45 @@
             // ThyroidSizeLabel
             // 
             this.ThyroidSizeLabel.AutoSize = true;
-            this.ThyroidSizeLabel.Location = new System.Drawing.Point(338, 212);
+            this.ThyroidSizeLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ThyroidSizeLabel.Location = new System.Drawing.Point(438, 212);
             this.ThyroidSizeLabel.Name = "ThyroidSizeLabel";
-            this.ThyroidSizeLabel.Size = new System.Drawing.Size(65, 12);
+            this.ThyroidSizeLabel.Size = new System.Drawing.Size(90, 21);
             this.ThyroidSizeLabel.TabIndex = 52;
             this.ThyroidSizeLabel.Text = "甲状腺大小";
             // 
             // ThyroidSizeTextBox
             // 
-            this.ThyroidSizeTextBox.Location = new System.Drawing.Point(411, 209);
+            this.ThyroidSizeTextBox.Location = new System.Drawing.Point(570, 207);
             this.ThyroidSizeTextBox.Name = "ThyroidSizeTextBox";
-            this.ThyroidSizeTextBox.Size = new System.Drawing.Size(43, 21);
+            this.ThyroidSizeTextBox.Size = new System.Drawing.Size(43, 29);
             this.ThyroidSizeTextBox.TabIndex = 53;
             // 
             // duLabel
             // 
             this.duLabel.AutoSize = true;
-            this.duLabel.Location = new System.Drawing.Point(463, 212);
+            this.duLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.duLabel.Location = new System.Drawing.Point(622, 210);
             this.duLabel.Name = "duLabel";
-            this.duLabel.Size = new System.Drawing.Size(17, 12);
+            this.duLabel.Size = new System.Drawing.Size(26, 21);
             this.duLabel.TabIndex = 54;
             this.duLabel.Text = "度";
             // 
             // ThyroidGrainLabel
             // 
             this.ThyroidGrainLabel.AutoSize = true;
-            this.ThyroidGrainLabel.Location = new System.Drawing.Point(498, 212);
+            this.ThyroidGrainLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ThyroidGrainLabel.Location = new System.Drawing.Point(87, 247);
             this.ThyroidGrainLabel.Name = "ThyroidGrainLabel";
-            this.ThyroidGrainLabel.Size = new System.Drawing.Size(29, 12);
+            this.ThyroidGrainLabel.Size = new System.Drawing.Size(42, 21);
             this.ThyroidGrainLabel.TabIndex = 55;
             this.ThyroidGrainLabel.Text = "质地";
             // 
             // ThyroidGrainTextBox
             // 
-            this.ThyroidGrainTextBox.Location = new System.Drawing.Point(543, 207);
+            this.ThyroidGrainTextBox.Location = new System.Drawing.Point(132, 242);
             this.ThyroidGrainTextBox.Name = "ThyroidGrainTextBox";
-            this.ThyroidGrainTextBox.Size = new System.Drawing.Size(100, 21);
+            this.ThyroidGrainTextBox.Size = new System.Drawing.Size(100, 29);
             this.ThyroidGrainTextBox.TabIndex = 56;
             // 
             // phElseLabel
@@ -1266,7 +1270,7 @@
             // FT3Label
             // 
             this.FT3Label.AutoSize = true;
-            this.FT3Label.Location = new System.Drawing.Point(12, 24);
+            this.FT3Label.Location = new System.Drawing.Point(12, 25);
             this.FT3Label.Name = "FT3Label";
             this.FT3Label.Size = new System.Drawing.Size(37, 21);
             this.FT3Label.TabIndex = 36;
@@ -1275,6 +1279,7 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.SexTextBox);
             this.panel1.Controls.Add(this.MainReportTextBox);
             this.panel1.Controls.Add(this.MainReportLabel);
             this.panel1.Controls.Add(this.HandleTextBox);
@@ -1282,7 +1287,6 @@
             this.panel1.Controls.Add(this.NaneLabel);
             this.panel1.Controls.Add(this.NametextBox);
             this.panel1.Controls.Add(this.SexLabel);
-            this.panel1.Controls.Add(this.SexcomboBox);
             this.panel1.Controls.Add(this.ThyroidGrainTextBox);
             this.panel1.Controls.Add(this.AgeLabel);
             this.panel1.Controls.Add(this.ThyroidGrainLabel);
@@ -1304,25 +1308,45 @@
             this.panel1.Controls.Add(this.PhysicalInspectLabel);
             this.panel1.Controls.Add(this.TeleLabel);
             this.panel1.Controls.Add(this.TeletextBox);
+            this.panel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.panel1.Location = new System.Drawing.Point(14, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(680, 238);
+            this.panel1.Size = new System.Drawing.Size(680, 241);
             this.panel1.TabIndex = 61;
+            // 
+            // MainReportTextBox
+            // 
+            this.MainReportTextBox.Location = new System.Drawing.Point(105, 72);
+            this.MainReportTextBox.Multiline = true;
+            this.MainReportTextBox.Name = "MainReportTextBox";
+            this.MainReportTextBox.Size = new System.Drawing.Size(543, 57);
+            this.MainReportTextBox.TabIndex = 60;
+            // 
+            // MainReportLabel
+            // 
+            this.MainReportLabel.AutoSize = true;
+            this.MainReportLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.MainReportLabel.Location = new System.Drawing.Point(11, 67);
+            this.MainReportLabel.Name = "MainReportLabel";
+            this.MainReportLabel.Size = new System.Drawing.Size(42, 21);
+            this.MainReportLabel.TabIndex = 59;
+            this.MainReportLabel.Text = "主诉";
             // 
             // HandleTextBox
             // 
-            this.HandleTextBox.Location = new System.Drawing.Point(91, 238);
+            this.HandleTextBox.Location = new System.Drawing.Point(105, 275);
             this.HandleTextBox.Multiline = true;
             this.HandleTextBox.Name = "HandleTextBox";
-            this.HandleTextBox.Size = new System.Drawing.Size(555, 65);
+            this.HandleTextBox.Size = new System.Drawing.Size(543, 65);
             this.HandleTextBox.TabIndex = 58;
             // 
             // HandleLabel
             // 
             this.HandleLabel.AutoSize = true;
-            this.HandleLabel.Location = new System.Drawing.Point(12, 247);
+            this.HandleLabel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.HandleLabel.Location = new System.Drawing.Point(17, 271);
             this.HandleLabel.Name = "HandleLabel";
-            this.HandleLabel.Size = new System.Drawing.Size(35, 12);
+            this.HandleLabel.Size = new System.Drawing.Size(46, 21);
             this.HandleLabel.TabIndex = 57;
             this.HandleLabel.Text = "处理:";
             // 
@@ -1336,22 +1360,12 @@
             this.FinishBtn.UseVisualStyleBackColor = true;
             this.FinishBtn.Click += new System.EventHandler(this.FinishBtn_Click);
             // 
-            // MainReportLabel
+            // SexTextBox
             // 
-            this.MainReportLabel.AutoSize = true;
-            this.MainReportLabel.Location = new System.Drawing.Point(11, 67);
-            this.MainReportLabel.Name = "MainReportLabel";
-            this.MainReportLabel.Size = new System.Drawing.Size(29, 12);
-            this.MainReportLabel.TabIndex = 59;
-            this.MainReportLabel.Text = "主诉";
-            // 
-            // MainReportTextBox
-            // 
-            this.MainReportTextBox.Location = new System.Drawing.Point(95, 67);
-            this.MainReportTextBox.Multiline = true;
-            this.MainReportTextBox.Name = "MainReportTextBox";
-            this.MainReportTextBox.Size = new System.Drawing.Size(543, 57);
-            this.MainReportTextBox.TabIndex = 60;
+            this.SexTextBox.Location = new System.Drawing.Point(194, 3);
+            this.SexTextBox.Name = "SexTextBox";
+            this.SexTextBox.Size = new System.Drawing.Size(58, 29);
+            this.SexTextBox.TabIndex = 61;
             // 
             // AddFollowVisitForm
             // 
@@ -1389,7 +1403,6 @@
         private System.Windows.Forms.Label SuicideLabel;
         private System.Windows.Forms.TextBox AgetextBox;
         private System.Windows.Forms.Label AgeLabel;
-        private System.Windows.Forms.ComboBox SexcomboBox;
         private System.Windows.Forms.Label SexLabel;
         private System.Windows.Forms.TextBox NametextBox;
         private System.Windows.Forms.Label NaneLabel;
@@ -1507,5 +1520,6 @@
         private System.Windows.Forms.Button FinishBtn;
         private System.Windows.Forms.TextBox MainReportTextBox;
         private System.Windows.Forms.Label MainReportLabel;
+        private System.Windows.Forms.TextBox SexTextBox;
     }
 }

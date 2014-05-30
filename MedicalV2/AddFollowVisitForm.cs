@@ -78,7 +78,10 @@ namespace MedicalV2
             this.Text = "登记号" + cfId;
             bi.readBasicInfoById(id);
             this.NametextBox.Text= bi.P_name;
-            this.SexcomboBox.Text = Convert.ToString(bi.P_sex);
+            if (bi.P_sex == '1')
+                this.SexTextBox.Text = "男";
+            else 
+                this.SexTextBox.Text = "女";
             this.AgetextBox.Text = Convert.ToString(bi.P_age);
             this.HosIDtextBox.Text = Convert.ToString(bi.Hos_id);
             this.TeletextBox.Text = bi.P_tel;
