@@ -163,12 +163,13 @@ namespace MedicalV2.Controls
             ConstHistory ch = new ConstHistory();
             ch.readConstHistory(id);
             PastrichTextBox.Text = ch.Past_his;
+            ParentHisrichTextBox.Text = ch.Parent_his;
             Char[] personHis = ch.Person_his.ToCharArray();
-            if (personHis[0] == 1)
+            if (personHis[0] == '1')
                 this.ResidentcheckBox.Checked = true;
-            else if (personHis[1] == 1)
+            if (personHis[1] == '1')
                 this.EatSeacheckBox.Checked = true;
-            else if (personHis[2] == 1)
+            if (personHis[2] == '1')
                 this.DrinkcheckBox.Checked = true;
 
             this.MarriAgetextBox.Text = Convert.ToString(ch.Mari_age);
@@ -225,7 +226,14 @@ namespace MedicalV2.Controls
                 MenoIrregularHascheckBox.Checked = true;
             }
 
-
+            BasicInfo bi = new BasicInfo();
+            bi.readBasicInfoById(id);
+            if(bi.P_sex == '1')
+            {
+                this.MarriagegroupBox.Visible = false;
+                this.MenophaniagroupBox.Visible = false;
+            }
+               
 
 
 
@@ -352,7 +360,7 @@ namespace MedicalV2.Controls
             this.ETCAreatextBox.Text = Convert.ToString(ii.Ect_area);
             this.ETCTBtextBox.Text = Convert.ToString(ii.Ect_tb);
             this.ETCWeighttextBox.Text = Convert.ToString(ii.Ect_weight);
-            Char[] etc = ii.Ect_inspect.ToCharArray();
+            char[] etc = ii.Ect_inspect.ToCharArray();
             for (int i = 0; i < etc.Length; i++)
             {
                 if (etc[i] == '1')
@@ -369,13 +377,13 @@ namespace MedicalV2.Controls
             this.ETCNoduleLtextBox.Text = (ii.Ect_nodule.Split('×'))[0];
             this.ETCNoduleRtextBox.Text = (ii.Ect_nodule.Split('×'))[1];
             this.BLeftLtextBox.Text = (ii.B_left.Split('×'))[0];
-            this.BLeftLtextBox.Text = (ii.B_left.Split('×'))[1];
+            this.BLeftRtextBox.Text = (ii.B_left.Split('×'))[1];
             this.BRightLtextBox.Text = (ii.B_right.Split('×'))[0];
             this.BRightRtextBox.Text = (ii.B_right.Split('×'))[1];
             this.BAreatextBox.Text = Convert.ToString(ii.B_area);
             this.BWeighttextBox.Text = Convert.ToString(ii.B_weight);
 
-            Char[] b = ii.B_inspect.ToCharArray();
+            char[] b = ii.B_inspect.ToCharArray();
             for (int i = 0; i < b.Length; i++)
             {
                 if (b[i] == '1')

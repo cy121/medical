@@ -445,38 +445,6 @@
             this.label124 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
             this.label145 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label140 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label142 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label143 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.label146 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label147 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label148 = new System.Windows.Forms.Label();
-            this.label149 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label150 = new System.Windows.Forms.Label();
-            this.label151 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label152 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label153 = new System.Windows.Forms.Label();
-            this.label154 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label155 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label156 = new System.Windows.Forms.Label();
             this.tabControlAll.SuspendLayout();
             this.PresentHistorytabPage.SuspendLayout();
             this.PresentHistorygroupBox.SuspendLayout();
@@ -507,7 +475,6 @@
             this.ETCgroupBox.SuspendLayout();
             this.PlanTabPage.SuspendLayout();
             this.CurePlanpanel.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlAll
@@ -1205,7 +1172,7 @@
             // 
             this.ParentgroupBox.Controls.Add(this.ParentHisrichTextBox);
             this.ParentgroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ParentgroupBox.Location = new System.Drawing.Point(8, 483);
+            this.ParentgroupBox.Location = new System.Drawing.Point(8, 190);
             this.ParentgroupBox.Name = "ParentgroupBox";
             this.ParentgroupBox.Size = new System.Drawing.Size(663, 143);
             this.ParentgroupBox.TabIndex = 1;
@@ -1248,13 +1215,12 @@
             this.MenophaniagroupBox.Controls.Add(this.MenophaniaAgetextBox);
             this.MenophaniagroupBox.Controls.Add(this.Menophanialabel);
             this.MenophaniagroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.MenophaniagroupBox.Location = new System.Drawing.Point(8, 328);
+            this.MenophaniagroupBox.Location = new System.Drawing.Point(8, 476);
             this.MenophaniagroupBox.Name = "MenophaniagroupBox";
             this.MenophaniagroupBox.Size = new System.Drawing.Size(663, 149);
             this.MenophaniagroupBox.TabIndex = 28;
             this.MenophaniagroupBox.TabStop = false;
             this.MenophaniagroupBox.Text = "月经史";
-            
             // 
             // MenoIrregularHascheckBox
             // 
@@ -1511,7 +1477,7 @@
             this.MarriagegroupBox.Controls.Add(this.MarriAgetextBox);
             this.MarriagegroupBox.Controls.Add(this.MarriAgelabel);
             this.MarriagegroupBox.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.MarriagegroupBox.Location = new System.Drawing.Point(8, 180);
+            this.MarriagegroupBox.Location = new System.Drawing.Point(8, 339);
             this.MarriagegroupBox.Name = "MarriagegroupBox";
             this.MarriagegroupBox.Size = new System.Drawing.Size(663, 142);
             this.MarriagegroupBox.TabIndex = 2;
@@ -2899,7 +2865,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "肝肾功能";
-            
             // 
             // GLUtextBox
             // 
@@ -3758,7 +3723,6 @@
             this.ImageInspectpanel.Controls.Add(this.label95);
             this.ImageInspectpanel.Controls.Add(this.ECGtextBox);
             this.ImageInspectpanel.Controls.Add(this.label141);
-            this.ImageInspectpanel.Controls.Add(this.groupBox4);
             this.ImageInspectpanel.Controls.Add(this.ETCgroupBox);
             this.ImageInspectpanel.Location = new System.Drawing.Point(6, 6);
             this.ImageInspectpanel.Name = "ImageInspectpanel";
@@ -3882,7 +3846,7 @@
             // 
             this.label108.AutoSize = true;
             this.label108.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label108.Location = new System.Drawing.Point(186, 104);
+            this.label108.Location = new System.Drawing.Point(557, 114);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(29, 20);
             this.label108.TabIndex = 110;
@@ -3891,7 +3855,7 @@
             // BNoduleRighttextBox
             // 
             this.BNoduleRighttextBox.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BNoduleRighttextBox.Location = new System.Drawing.Point(132, 102);
+            this.BNoduleRighttextBox.Location = new System.Drawing.Point(503, 112);
             this.BNoduleRighttextBox.Name = "BNoduleRighttextBox";
             this.BNoduleRighttextBox.ReadOnly = true;
             this.BNoduleRighttextBox.Size = new System.Drawing.Size(50, 25);
@@ -3901,7 +3865,7 @@
             // 
             this.label109.AutoSize = true;
             this.label109.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label109.Location = new System.Drawing.Point(109, 99);
+            this.label109.Location = new System.Drawing.Point(480, 109);
             this.label109.Name = "label109";
             this.label109.Size = new System.Drawing.Size(27, 27);
             this.label109.TabIndex = 108;
@@ -3910,7 +3874,7 @@
             // BNoduleLtextBox
             // 
             this.BNoduleLtextBox.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BNoduleLtextBox.Location = new System.Drawing.Point(57, 102);
+            this.BNoduleLtextBox.Location = new System.Drawing.Point(428, 112);
             this.BNoduleLtextBox.Name = "BNoduleLtextBox";
             this.BNoduleLtextBox.ReadOnly = true;
             this.BNoduleLtextBox.Size = new System.Drawing.Size(50, 25);
@@ -3919,7 +3883,7 @@
             // label110
             // 
             this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(16, 103);
+            this.label110.Location = new System.Drawing.Point(387, 113);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(42, 21);
             this.label110.TabIndex = 106;
@@ -3929,7 +3893,7 @@
             // 
             this.BHuncheckBox.AutoCheck = false;
             this.BHuncheckBox.AutoSize = true;
-            this.BHuncheckBox.Location = new System.Drawing.Point(492, 66);
+            this.BHuncheckBox.Location = new System.Drawing.Point(297, 112);
             this.BHuncheckBox.Name = "BHuncheckBox";
             this.BHuncheckBox.Size = new System.Drawing.Size(77, 25);
             this.BHuncheckBox.TabIndex = 105;
@@ -3940,7 +3904,7 @@
             // 
             this.BNangcheckBox.AutoCheck = false;
             this.BNangcheckBox.AutoSize = true;
-            this.BNangcheckBox.Location = new System.Drawing.Point(427, 66);
+            this.BNangcheckBox.Location = new System.Drawing.Point(232, 112);
             this.BNangcheckBox.Name = "BNangcheckBox";
             this.BNangcheckBox.Size = new System.Drawing.Size(61, 25);
             this.BNangcheckBox.TabIndex = 104;
@@ -3951,7 +3915,7 @@
             // 
             this.BShiYongcheckBox.AutoCheck = false;
             this.BShiYongcheckBox.AutoSize = true;
-            this.BShiYongcheckBox.Location = new System.Drawing.Point(367, 66);
+            this.BShiYongcheckBox.Location = new System.Drawing.Point(172, 112);
             this.BShiYongcheckBox.Name = "BShiYongcheckBox";
             this.BShiYongcheckBox.Size = new System.Drawing.Size(61, 25);
             this.BShiYongcheckBox.TabIndex = 103;
@@ -3962,7 +3926,7 @@
             // 
             this.BRightcheckBox.AutoCheck = false;
             this.BRightcheckBox.AutoSize = true;
-            this.BRightcheckBox.Location = new System.Drawing.Point(302, 66);
+            this.BRightcheckBox.Location = new System.Drawing.Point(454, 70);
             this.BRightcheckBox.Name = "BRightcheckBox";
             this.BRightcheckBox.Size = new System.Drawing.Size(61, 25);
             this.BRightcheckBox.TabIndex = 102;
@@ -3973,7 +3937,7 @@
             // 
             this.BLeftcheckBox.AutoCheck = false;
             this.BLeftcheckBox.AutoSize = true;
-            this.BLeftcheckBox.Location = new System.Drawing.Point(233, 66);
+            this.BLeftcheckBox.Location = new System.Drawing.Point(385, 70);
             this.BLeftcheckBox.Name = "BLeftcheckBox";
             this.BLeftcheckBox.Size = new System.Drawing.Size(61, 25);
             this.BLeftcheckBox.TabIndex = 101;
@@ -3984,7 +3948,7 @@
             // 
             this.BNoduleMorecheckBox.AutoCheck = false;
             this.BNoduleMorecheckBox.AutoSize = true;
-            this.BNoduleMorecheckBox.Location = new System.Drawing.Point(169, 66);
+            this.BNoduleMorecheckBox.Location = new System.Drawing.Point(321, 70);
             this.BNoduleMorecheckBox.Name = "BNoduleMorecheckBox";
             this.BNoduleMorecheckBox.Size = new System.Drawing.Size(61, 25);
             this.BNoduleMorecheckBox.TabIndex = 100;
@@ -3995,7 +3959,7 @@
             // 
             this.BNoduleLesscheckBox.AutoCheck = false;
             this.BNoduleLesscheckBox.AutoSize = true;
-            this.BNoduleLesscheckBox.Location = new System.Drawing.Point(103, 66);
+            this.BNoduleLesscheckBox.Location = new System.Drawing.Point(255, 70);
             this.BNoduleLesscheckBox.Name = "BNoduleLesscheckBox";
             this.BNoduleLesscheckBox.Size = new System.Drawing.Size(61, 25);
             this.BNoduleLesscheckBox.TabIndex = 99;
@@ -4006,7 +3970,7 @@
             // 
             this.BNoduleNonecheckBox.AutoCheck = false;
             this.BNoduleNonecheckBox.AutoSize = true;
-            this.BNoduleNonecheckBox.Location = new System.Drawing.Point(20, 66);
+            this.BNoduleNonecheckBox.Location = new System.Drawing.Point(172, 70);
             this.BNoduleNonecheckBox.Name = "BNoduleNonecheckBox";
             this.BNoduleNonecheckBox.Size = new System.Drawing.Size(77, 25);
             this.BNoduleNonecheckBox.TabIndex = 98;
@@ -4017,7 +3981,7 @@
             // 
             this.label111.AutoSize = true;
             this.label111.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label111.Location = new System.Drawing.Point(351, 105);
+            this.label111.Location = new System.Drawing.Point(120, 73);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(23, 20);
             this.label111.TabIndex = 97;
@@ -4026,7 +3990,7 @@
             // BWeighttextBox
             // 
             this.BWeighttextBox.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BWeighttextBox.Location = new System.Drawing.Point(295, 103);
+            this.BWeighttextBox.Location = new System.Drawing.Point(64, 71);
             this.BWeighttextBox.Name = "BWeighttextBox";
             this.BWeighttextBox.ReadOnly = true;
             this.BWeighttextBox.Size = new System.Drawing.Size(50, 25);
@@ -4035,7 +3999,7 @@
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(254, 104);
+            this.label112.Location = new System.Drawing.Point(23, 72);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(42, 21);
             this.label112.TabIndex = 95;
@@ -4954,357 +4918,13 @@
             this.label145.TabIndex = 82;
             this.label145.Text = "甲状腺吸碘率";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label140);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.label142);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label143);
-            this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Controls.Add(this.checkBox2);
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox6);
-            this.groupBox4.Controls.Add(this.checkBox7);
-            this.groupBox4.Controls.Add(this.checkBox8);
-            this.groupBox4.Controls.Add(this.label146);
-            this.groupBox4.Controls.Add(this.textBox3);
-            this.groupBox4.Controls.Add(this.label147);
-            this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.label148);
-            this.groupBox4.Controls.Add(this.label149);
-            this.groupBox4.Controls.Add(this.textBox6);
-            this.groupBox4.Controls.Add(this.label150);
-            this.groupBox4.Controls.Add(this.label151);
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.label152);
-            this.groupBox4.Controls.Add(this.textBox8);
-            this.groupBox4.Controls.Add(this.label153);
-            this.groupBox4.Controls.Add(this.label154);
-            this.groupBox4.Controls.Add(this.textBox9);
-            this.groupBox4.Controls.Add(this.label155);
-            this.groupBox4.Controls.Add(this.textBox10);
-            this.groupBox4.Controls.Add(this.label156);
-            this.groupBox4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBox4.Location = new System.Drawing.Point(7, 77);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(653, 150);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "甲状腺ECT";
-            // 
-            // label140
-            // 
-            this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label140.Location = new System.Drawing.Point(466, 118);
-            this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(29, 20);
-            this.label140.TabIndex = 110;
-            this.label140.Text = "cm";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox1.Location = new System.Drawing.Point(414, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(50, 25);
-            this.textBox1.TabIndex = 109;
-            // 
-            // label142
-            // 
-            this.label142.AutoSize = true;
-            this.label142.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label142.Location = new System.Drawing.Point(391, 117);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(27, 27);
-            this.label142.TabIndex = 108;
-            this.label142.Text = "×";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox2.Location = new System.Drawing.Point(342, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(50, 25);
-            this.textBox2.TabIndex = 107;
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(302, 120);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(42, 21);
-            this.label143.TabIndex = 106;
-            this.label143.Text = "大小";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoCheck = false;
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(251, 119);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(45, 25);
-            this.checkBox1.TabIndex = 105;
-            this.checkBox1.Text = "冷";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoCheck = false;
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(200, 119);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(45, 25);
-            this.checkBox2.TabIndex = 104;
-            this.checkBox2.Text = "温";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoCheck = false;
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(154, 119);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(45, 25);
-            this.checkBox3.TabIndex = 103;
-            this.checkBox3.Text = "热";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoCheck = false;
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(87, 119);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(61, 25);
-            this.checkBox4.TabIndex = 102;
-            this.checkBox4.Text = "右叶";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoCheck = false;
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(20, 119);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(61, 25);
-            this.checkBox5.TabIndex = 101;
-            this.checkBox5.Text = "左叶";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoCheck = false;
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(433, 74);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(61, 25);
-            this.checkBox6.TabIndex = 100;
-            this.checkBox6.Text = "多发";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoCheck = false;
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(368, 74);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(61, 25);
-            this.checkBox7.TabIndex = 99;
-            this.checkBox7.Text = "单发";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoCheck = false;
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(288, 74);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(77, 25);
-            this.checkBox8.TabIndex = 98;
-            this.checkBox8.Text = "结节无";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // label146
-            // 
-            this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label146.Location = new System.Drawing.Point(249, 75);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(23, 20);
-            this.label146.TabIndex = 97;
-            this.label146.Text = "克";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox3.Location = new System.Drawing.Point(199, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(50, 25);
-            this.textBox3.TabIndex = 96;
-            // 
-            // label147
-            // 
-            this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(157, 75);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(42, 21);
-            this.label147.TabIndex = 95;
-            this.label147.Text = "估重";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox5.Location = new System.Drawing.Point(84, 74);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(50, 25);
-            this.textBox5.TabIndex = 94;
-            // 
-            // label148
-            // 
-            this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(16, 77);
-            this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(68, 21);
-            this.label148.TabIndex = 93;
-            this.label148.Text = "T/B比值";
-            // 
-            // label149
-            // 
-            this.label149.AutoSize = true;
-            this.label149.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label149.Location = new System.Drawing.Point(531, 27);
-            this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(47, 20);
-            this.label149.TabIndex = 92;
-            this.label149.Text = "cm^2";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox6.Location = new System.Drawing.Point(479, 25);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(50, 25);
-            this.textBox6.TabIndex = 91;
-            // 
-            // label150
-            // 
-            this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(438, 26);
-            this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(42, 21);
-            this.label150.TabIndex = 90;
-            this.label150.Text = "面积";
-            // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label151.Location = new System.Drawing.Point(387, 26);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(29, 20);
-            this.label151.TabIndex = 89;
-            this.label151.Text = "cm";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox7.Location = new System.Drawing.Point(337, 24);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(50, 25);
-            this.textBox7.TabIndex = 88;
-            // 
-            // label152
-            // 
-            this.label152.AutoSize = true;
-            this.label152.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label152.Location = new System.Drawing.Point(317, 22);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(27, 27);
-            this.label152.TabIndex = 87;
-            this.label152.Text = "×";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox8.Location = new System.Drawing.Point(267, 24);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(50, 25);
-            this.textBox8.TabIndex = 86;
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(228, 25);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(42, 21);
-            this.label153.TabIndex = 85;
-            this.label153.Text = "右叶";
-            // 
-            // label154
-            // 
-            this.label154.AutoSize = true;
-            this.label154.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label154.Location = new System.Drawing.Point(180, 26);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(29, 20);
-            this.label154.TabIndex = 84;
-            this.label154.Text = "cm";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox9.Location = new System.Drawing.Point(131, 24);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(50, 25);
-            this.textBox9.TabIndex = 83;
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label155.Location = new System.Drawing.Point(107, 23);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(27, 27);
-            this.label155.TabIndex = 64;
-            this.label155.Text = "×";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox10.Location = new System.Drawing.Point(58, 24);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(50, 25);
-            this.textBox10.TabIndex = 82;
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Location = new System.Drawing.Point(16, 26);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(42, 21);
-            this.label156.TabIndex = 82;
-            this.label156.Text = "左叶";
-            // 
             // AllTabControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControlAll);
             this.Name = "AllTabControl";
-            this.Size = new System.Drawing.Size(710, 683);
+            this.Size = new System.Drawing.Size(949, 683);
             this.tabControlAll.ResumeLayout(false);
             this.PresentHistorytabPage.ResumeLayout(false);
             this.PresentHistorytabPage.PerformLayout();
@@ -5353,8 +4973,6 @@
             this.PlanTabPage.ResumeLayout(false);
             this.CurePlanpanel.ResumeLayout(false);
             this.CurePlanpanel.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -5778,37 +5396,5 @@
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label147;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label148;
-        private System.Windows.Forms.Label label149;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.Label label151;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label156;
     }
 }

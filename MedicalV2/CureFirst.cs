@@ -963,7 +963,7 @@ namespace MedicalV2
             imageinspect.Ect_tb = Convert.ToDouble(ETCTBtextBox.Text.Trim());
             imageinspect.Ect_weight = Convert.ToDouble(ETCWeighttextBox.Text.Trim());
             
-            char[] etc = new char[8];
+            char[] etc = new char[10];
             if (ETCNodeNonecheckBox.Checked)
             {
                 etc[0] = '1';
@@ -1030,7 +1030,7 @@ namespace MedicalV2
             
 
 
-            char[] b = new char[8];
+            char[] b = new char[10];
             if(BNoduleNonecheckBox.Checked)
             {
                 b[0] = '1';

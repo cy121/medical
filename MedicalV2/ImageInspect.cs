@@ -192,8 +192,8 @@ namespace MedicalV2
             {
                 string insert_sql = "insert into image_inspect(log_id,ecg,ect_left,ect_right,ect_area,ect_tb,ect_weight,ect_inspect," +
                 "ect_nodule,b_left,b_right,b_area,b_weight,b_inspect,b_nodule,else_inspect,diagnosis) value('" + lid + "','" + ecg + "','" + ect_left +
-                "','" + ect_right + "'," + ect_area + "," + ect_tb + "," + ect_weight + "," + ect_inspect + ",'" + ect_nodule + "','" + b_left + "','" +
-                b_right + "'," + b_area + "," + b_weight + "," + b_inspect + ",'" + b_nodule + "'," + else_inspect + ",'" + diagnosis + "')";
+                "','" + ect_right + "'," + ect_area + "," + ect_tb + "," + ect_weight + ",'" + ect_inspect + "','" + ect_nodule + "','" + b_left + "','" +
+                b_right + "'," + b_area + "," + b_weight + ",'" + b_inspect + "','" + b_nodule + "'," + else_inspect + ",'" + diagnosis + "')";
                 MySqlCommand command = new MySqlCommand(insert_sql, con);
                 try
                 {
