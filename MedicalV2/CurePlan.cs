@@ -81,6 +81,19 @@ namespace MedicalV2
             set { else_things = value; }
         }
 
+        private int illness_states;
+        public int Illness_states
+        {
+            get { return illness_states; }
+            set { illness_states = value; }
+        }
+
+        private int illness_course;
+        public int Illness_course
+        {
+            get { return illness_course; }
+            set { illness_course = value; }
+        }
         public bool readCurePlan(string lid)
         {
             MySqlConnection con = CommonFunc.getConnection();
@@ -105,6 +118,9 @@ namespace MedicalV2
                     ef_factor = reader.GetString(7);
                     ef_else = reader.GetString(8);
                     else_things = reader.GetString(9);
+                    plan_dose = reader.GetDouble(10);
+                    illness_course = reader.GetInt32(11);
+                    illness_states = reader.GetInt32(12);
                     reader.Close();
                     con.Close();
                     return true;
@@ -128,8 +144,8 @@ namespace MedicalV2
             else
             {
                 string insert_sql = "insert into cure_plan(log_id,twoh_rate,twentyfourh_rate,rate_level,recom_dose," +
-                "cal_dose,real_dose,ef_factor,ef_else,else_things) value('" + lid + "'," + twoh_rate + "," + twentyfourh_rate +
-                "," + rate_level + "," + recom_dose + "," + cal_dose + "," + real_dose + ",'" + ef_factor + "','" + ef_else + "','" + else_things + "')";
+                "cal_dose,real_dose,ef_factor,ef_else,else_things,plan_dose,illness_course,illness_states) value('" + lid + "'," + twoh_rate + "," + twentyfourh_rate +
+                "," + rate_level + "," + recom_dose + "," + cal_dose + "," + real_dose + ",'" + ef_factor + "','" + ef_else + "','" + else_things + "'," + plan_dose + "," + illness_course + "," + illness_states + ")";
                 MySqlCommand command = new MySqlCommand(insert_sql, con);
                 try
                 {
@@ -158,7 +174,7 @@ namespace MedicalV2
             {
                 string update_sql = "update cure_plan set twoh_rate=" + twoh_rate + ", twentyfourh_rate=" + twentyfourh_rate + ",rate_level=" + rate_level +
                     ",recom_dose=" + recom_dose + ",cal_dose=" + cal_dose + ",real_dose=" + real_dose + ",ef_factor='" + ef_factor + "',ef_else='" + ef_else + "',else_things='" +
-                    else_things + "' where log_id='" + lid + "'";
+                    else_things + "',plan_dose=" + plan_dose + ",illness_course=" + illness_course + ",illness_states=" + illness_states + " where log_id='" + lid + "'";
                 
                 MySqlCommand command = new MySqlCommand(update_sql, con);
                 try

@@ -443,6 +443,42 @@ namespace MedicalV2.Controls
             }
             this.ElsethingtextBox.Text = cp.Ef_else;
             this.elserichTextBox.Text = cp.Else_things;
+
+
+            if (cp.Illness_course == 1)
+            {
+                this.IDosageCoursetextBox.Text = "≤1年";
+            }
+            else if (cp.Illness_course == 2)
+            {
+                IDosageCoursetextBox.Text = ">1≤2年";
+            }
+            else if (cp.Illness_course == 3)
+            {
+                IDosageCoursetextBox.Text = ">2≤3年";
+            }
+            else if (cp.Illness_course == 4)
+            {
+                IDosageCoursetextBox.Text = ">3≤4年";
+            }
+            else
+            {
+                IDosageCoursetextBox.Text = ">4年";
+            }
+            if (cp.Illness_states == 1)
+            {
+                this.IDosageStatetextBox.Text = "轻";
+            }
+            else if (cp.Illness_states == 2)
+            {
+                IDosageStatetextBox.Text = "中";
+            }
+            else
+            {
+                IDosageStatetextBox.Text = "重";
+            }
+
+            this.PlantextBox.Text = Convert.ToString(cp.Plan_dose);
             
         }
 

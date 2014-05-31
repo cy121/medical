@@ -321,6 +321,41 @@ namespace MedicalV2
             this.ElsethingtextBox.Text = cp.Ef_else;
             this.elserichTextBox.Text = cp.Else_things;
 
+            if (cp.Illness_course == 1)
+            {
+                IDosageCourseComboBox.Text = "≤1年";
+            }
+            else if (cp.Illness_course == 2)
+            {
+                IDosageCourseComboBox.Text = ">1≤2年";
+            }
+            else if (cp.Illness_course == 3)
+            {
+                IDosageCourseComboBox.Text = ">2≤3年";
+            }
+            else if (cp.Illness_course == 4)
+            {
+                IDosageCourseComboBox.Text = ">3≤4年";
+            }
+            else
+            {
+                IDosageCourseComboBox.Text = ">4年";
+            }
+            if (cp.Illness_states == 1)
+            {
+                IDosageStateComboBox.Text = "轻";
+            }
+            else if (cp.Illness_states == 2)
+            {
+                IDosageStateComboBox.Text = "中";
+            }
+            else
+            {
+                IDosageStateComboBox.Text = "重";
+            }
+
+            this.PlantextBox.Text = Convert.ToString(cp.Plan_dose);
+
         }
 
         public void Update()
@@ -1607,10 +1642,11 @@ namespace MedicalV2
             }
             else
                 thyroid[0] = '0';
-
+            int thyroidstatus = 1;
             if (QuantityLesscheckBox.Checked)
             {
                 thyroid[1] = '1';
+                thyroidstatus = 1;
             }
             else
                 thyroid[1] = '0';
@@ -1618,6 +1654,7 @@ namespace MedicalV2
             if (QuantityFormalcheckBox.Checked)
             {
                 thyroid[2] = '1';
+                thyroidstatus = 2;
             }
             else
                 thyroid[2] = '0';
@@ -1625,6 +1662,7 @@ namespace MedicalV2
             if (QuantityMorecheckBox.Checked)
             {
                 thyroid[3] = '1';
+                thyroidstatus = 1;
             }
             else
                 thyroid[3] = '0';
@@ -2129,7 +2167,64 @@ namespace MedicalV2
 
             cureplan.Ef_factor = effect;
             cureplan.Ef_else = ElsethingtextBox.Text.Trim();
+            
+            int illnesscourse;
+            if (IDosageCourseComboBox.Text == "≤1年")
+            {
+                illnesscourse = 1;
+            }
+            else if (IDosageCourseComboBox.Text == ">1≤2年")
+            {
+                illnesscourse = 2;
+            }
+            else if (IDosageCourseComboBox.Text == ">2≤3年")
+            {
+                illnesscourse = 3;
+            }
+            else if (IDosageCourseComboBox.Text == ">3≤4年")
+            {
+                illnesscourse = 4;
+            }
+            else
+            {
+                illnesscourse = 5;
+            }
+            cureplan.Illness_course = illnesscourse;
 
+            int illnessstates;
+            if (IDosageStateComboBox.Text == "轻")
+            {
+                illnessstates = 1;
+            }
+            else if (IDosageStateComboBox.Text == "中")
+            {
+                illnessstates = 2;
+            }
+            else
+            {
+                illnessstates = 3;
+            }
+            cureplan.Illness_states = illnessstates;
+            //计算
+            ImageInspect imageinspect = new ImageInspect();
+            imageinspect.readImageInspect(logId);
+            double thyroidweight = imageinspect.Ect_weight;
+            double ariu6h = Math.Round(Convert.ToDouble(this.twohtextBox.Text), 1);
+            double raiu24h = Math.Round(Convert.ToDouble(this.TwoFhtextBox.Text), 1);
+            double raiuratio = Math.Round(ariu6h / raiu24h, 2);
+            double temp1 = (-0.267 + 0.047 * illnesscourse + 0.159 * thyroidstatus + 0.132 * thyroidweight * 10 + 0.059 * raiuratio * 10 + 0.287 * illnessstates) * 75;
+            double idosageplan = Math.Round(temp1, 1);
+            cureplan.Plan_dose = idosageplan;
+            double temp2;
+            if ((raiuratio - 1) > 0)
+            {
+                temp2 = idosageplan * thyroidweight / (10 * ariu6h);
+            }
+            else
+            {
+                temp2 = idosageplan * thyroidweight / (10 * raiu24h);
+            }
+            double idosagetake = Math.Round(temp2, 1);
 
 
 
