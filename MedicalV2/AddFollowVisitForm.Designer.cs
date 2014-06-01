@@ -147,12 +147,12 @@
             this.FT3textBox = new System.Windows.Forms.TextBox();
             this.FT3Label = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SexTextBox = new System.Windows.Forms.TextBox();
             this.MainReportTextBox = new System.Windows.Forms.TextBox();
             this.MainReportLabel = new System.Windows.Forms.Label();
             this.HandleTextBox = new System.Windows.Forms.TextBox();
             this.HandleLabel = new System.Windows.Forms.Label();
             this.FinishBtn = new System.Windows.Forms.Button();
-            this.SexTextBox = new System.Windows.Forms.TextBox();
             this.LabInspectpanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -1314,6 +1314,13 @@
             this.panel1.Size = new System.Drawing.Size(680, 241);
             this.panel1.TabIndex = 61;
             // 
+            // SexTextBox
+            // 
+            this.SexTextBox.Location = new System.Drawing.Point(194, 3);
+            this.SexTextBox.Name = "SexTextBox";
+            this.SexTextBox.Size = new System.Drawing.Size(58, 29);
+            this.SexTextBox.TabIndex = 61;
+            // 
             // MainReportTextBox
             // 
             this.MainReportTextBox.Location = new System.Drawing.Point(105, 72);
@@ -1360,13 +1367,6 @@
             this.FinishBtn.UseVisualStyleBackColor = true;
             this.FinishBtn.Click += new System.EventHandler(this.FinishBtn_Click);
             // 
-            // SexTextBox
-            // 
-            this.SexTextBox.Location = new System.Drawing.Point(194, 3);
-            this.SexTextBox.Name = "SexTextBox";
-            this.SexTextBox.Size = new System.Drawing.Size(58, 29);
-            this.SexTextBox.TabIndex = 61;
-            // 
             // AddFollowVisitForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1379,6 +1379,7 @@
             this.Controls.Add(this.phElseLabel);
             this.Name = "AddFollowVisitForm";
             this.Text = "随访病历";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddFollowVisitForm_FormClosed);
             this.LabInspectpanel.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

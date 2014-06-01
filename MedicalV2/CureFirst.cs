@@ -1225,63 +1225,7 @@ namespace MedicalV2
             cureplan.Ef_factor = effect;
             cureplan.Ef_else = ElsethingtextBox.Text.Trim();
 
-            //病程
-            int illnesscourse;
-            if (IDosageCourseComboBox.Text == "≤1年")
-            {
-                illnesscourse = 1;
-            }
-            else if (IDosageCourseComboBox.Text == ">1≤2年")
-            {
-                illnesscourse = 2;
-            }
-            else if (IDosageCourseComboBox.Text == ">2≤3年")
-            {
-                illnesscourse = 3;
-            }
-            else if (IDosageCourseComboBox.Text == ">3≤4年")
-            {
-                illnesscourse = 4;
-            }
-            else
-            {
-                illnesscourse = 5;
-            }
-            cureplan.Illness_course = illnesscourse;
-
-            int illnessstates;
-            if (IDosageStateComboBox.Text == "轻")
-            {
-                illnessstates = 1;
-            }
-            else if (IDosageStateComboBox.Text == "中")
-            {
-                illnessstates = 2;
-            }
-            else
-            {
-                illnessstates = 3;
-            }
-            cureplan.Illness_states = illnessstates;
-            //计算
-            double thyroidweight = imageinspect.Ect_weight;
-            double ariu6h = Math.Round(Convert.ToDouble(this.twohtextBox.Text), 1);
-            double raiu24h = Math.Round(Convert.ToDouble(this.TwoFhtextBox.Text), 1);
-            double raiuratio = Math.Round(ariu6h / raiu24h, 2);
-            double temp1 = (-0.267 + 0.047 * illnesscourse + 0.159 * thyroidstatus + 0.132 * thyroidweight * 10 + 0.059 * raiuratio * 10 + 0.287 * illnessstates) * 75;
-            double idosageplan = Math.Round(temp1, 1);
-            cureplan.Plan_dose = idosageplan;
-            double temp2;
-            if ((raiuratio - 1) > 0)
-            {
-                temp2 = idosageplan * thyroidweight / (10 * ariu6h);
-            }
-            else
-            {
-                temp2 = idosageplan * thyroidweight / (10 * raiu24h);
-            }
-            double idosagetake = Math.Round(temp2, 1);
-            //MySqlConnection con = CommonFunc.getConnection();
+            cureplan.Plan_dose = Convert.ToDouble(this.PlantextBox.Text);
             
             basicinfo.insertBasicInfo();
             presenthistory.insertPhysicalInspect(Convert.ToString(cfId.Trim()));
@@ -1291,8 +1235,9 @@ namespace MedicalV2
             imageinspect.insertImageInspect(Convert.ToString(cfId.Trim()));
             cureplan.insertCurePlan(Convert.ToString(cfId.Trim()));
             physical.insertPhysicalInspect(Convert.ToString(cfId.Trim())); //插入logid
-            MessageBox.Show("保存成功！");
-            this.Close();
+            //MessageBox.Show("保存成功！");
+            //this.Close();
+            new Msg("保存成功！", basicinfo.P_name, cfId, this).Show();
         }
 
       
@@ -1486,91 +1431,164 @@ namespace MedicalV2
             //synth.Speak("请输入与患者的关系");
         }
 
-        private void PlantextBox_Click(object sender, EventArgs e)
+        
+
+
+        private void count()
         {
+            if ((this.QuantityLesscheckBox.Checked || this.QuantityFormalcheckBox.Checked || this.QuantityMorecheckBox.Checked)
+                && (this.ETCWeighttextBox.Text != null && this.ETCWeighttextBox.Text.Length != 0)
+                && (this.twohtextBox.Text != null && this.twohtextBox.Text.Length != 0)
+                && (this.TwoFhtextBox.Text != null && this.TwoFhtextBox.Text.Length != 0)
+                && (this.IDosageCourseComboBox.Text != null && this.IDosageCourseComboBox.Text.Length != 0)
+                && (this.IDosageStateComboBox.Text != null && this.IDosageStateComboBox.Text.Length != 0)
+                )
+            {
+                int thyroidstatus = 1;
+                if (QuantityLesscheckBox.Checked)
+                {
 
-            int thyroidstatus = 1;
-            if (QuantityLesscheckBox.Checked)
-            {
-                
-                thyroidstatus = 1;
-            }
-            
-                
+                    thyroidstatus = 1;
+                }
 
-            else if (QuantityFormalcheckBox.Checked)
-            {
-                
-                thyroidstatus = 2;
-            }
-            
 
-            else 
-            {
-                
-                thyroidstatus = 3;
-            }
-                
-            
-            
-            //病程
-            int illnesscourse;
-            if (IDosageCourseComboBox.Text == "≤1年")
-            {
-                illnesscourse = 1;
-            }
-            else if (IDosageCourseComboBox.Text == ">1≤2年")
-            {
-                illnesscourse = 2;
-            }
-            else if (IDosageCourseComboBox.Text == ">2≤3年")
-            {
-                illnesscourse = 3;
-            }
-            else if (IDosageCourseComboBox.Text == ">3≤4年")
-            {
-                illnesscourse = 4;
-            }
-            else
-            {
-                illnesscourse = 5;
-            }
-            
 
-            int illnessstates;
-            if (IDosageStateComboBox.Text == "轻")
-            {
-                illnessstates = 1;
+                else if (QuantityFormalcheckBox.Checked)
+                {
+
+                    thyroidstatus = 2;
+                }
+
+
+                else
+                {
+
+                    thyroidstatus = 3;
+                }
+
+
+
+                //病程
+                int illnesscourse;
+                if (IDosageCourseComboBox.Text == "≤1年")
+                {
+                    illnesscourse = 1;
+                }
+                else if (IDosageCourseComboBox.Text == ">1≤2年")
+                {
+                    illnesscourse = 2;
+                }
+                else if (IDosageCourseComboBox.Text == ">2≤3年")
+                {
+                    illnesscourse = 3;
+                }
+                else if (IDosageCourseComboBox.Text == ">3≤4年")
+                {
+                    illnesscourse = 4;
+                }
+                else
+                {
+                    illnesscourse = 5;
+                }
+
+
+                int illnessstates;
+                if (IDosageStateComboBox.Text == "轻")
+                {
+                    illnessstates = 1;
+                }
+                else if (IDosageStateComboBox.Text == "中")
+                {
+                    illnessstates = 2;
+                }
+                else
+                {
+                    illnessstates = 3;
+                }
+
+                //计算
+                double thyroidweight = Math.Round(Convert.ToDouble(ETCWeighttextBox.Text), 1);
+                double ariu6h = Math.Round(Convert.ToDouble(this.twohtextBox.Text), 1);
+                double raiu24h = Math.Round(Convert.ToDouble(this.TwoFhtextBox.Text), 1);
+                double raiuratio = Math.Round(ariu6h / raiu24h, 2);
+                double temp1 = (-0.267 + 0.047 * illnesscourse + 0.159 * thyroidstatus + 0.132 * thyroidweight * 10 + 0.059 * raiuratio * 10 + 0.287 * illnessstates) * 75;
+                double idosageplan = Math.Round(temp1, 1);
+                double temp2;
+                if ((raiuratio - 1) > 0)
+                {
+                    temp2 = idosageplan * thyroidweight / (10 * ariu6h);
+                }
+                else
+                {
+                    temp2 = idosageplan * thyroidweight / (10 * raiu24h);
+                }
+                double idosagetake = Math.Round(temp2, 1);
+                this.PlantextBox.Text = Convert.ToString(idosageplan);
+                this.RecomtextBox.Text = Convert.ToString(idosagetake);
             }
-            else if (IDosageStateComboBox.Text == "中")
-            {
-                illnessstates = 2;
-            }
-            else
-            {
-                illnessstates = 3;
-            }
-            
-            //计算
-            double thyroidweight = Math.Round(Convert.ToDouble(ETCWeighttextBox.Text),1);
-            double ariu6h = Math.Round(Convert.ToDouble(this.twohtextBox.Text), 1);
-            double raiu24h = Math.Round(Convert.ToDouble(this.TwoFhtextBox.Text), 1);
-            double raiuratio = Math.Round(ariu6h / raiu24h, 2);
-            double temp1 = (-0.267 + 0.047 * illnesscourse + 0.159 * thyroidstatus + 0.132 * thyroidweight * 10 + 0.059 * raiuratio * 10 + 0.287 * illnessstates) * 75;
-            double idosageplan = Math.Round(temp1, 1);
-            double temp2;
-            if ((raiuratio - 1) > 0)
-            {
-                temp2 = idosageplan * thyroidweight / (10 * ariu6h);
-            }
-            else
-            {
-                temp2 = idosageplan * thyroidweight / (10 * raiu24h);
-            }
-            double idosagetake = Math.Round(temp2, 1);
-            this.PlantextBox.Text = Convert.ToString(idosageplan);
         }
 
+        private void QuantityLesscheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.QuantityLesscheckBox.Checked)
+            {
+                this.QuantityFormalcheckBox.Checked = false;
+                this.QuantityMorecheckBox.Checked = false;
+                count();
+            }
+        }
+
+        private void QuantityFormalcheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.QuantityFormalcheckBox.Checked)
+            {
+                this.QuantityLesscheckBox.Checked = false;
+                this.QuantityMorecheckBox.Checked = false;
+                count();
+            }
+        }
+
+        private void QuantityMorecheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.QuantityMorecheckBox.Checked)
+            {
+                this.QuantityLesscheckBox.Checked = false;
+                this.QuantityFormalcheckBox.Checked = false;
+                count();
+            }
+        }
+
+        private void ETCWeighttextBox_TextChanged(object sender, EventArgs e)
+        {
+            count();
+        }
+
+        private void twohtextBox_TextChanged(object sender, EventArgs e)
+        {
+            count();
+        }
+
+        private void TwoFhtextBox_TextChanged(object sender, EventArgs e)
+        {
+            count();
+        }
+
+        private void IDosageCourseComboBox_TextChanged(object sender, EventArgs e)
+        {
+            count();
+        }
+
+        private void IDosageStateComboBox_TextChanged(object sender, EventArgs e)
+        {
+            count();
+        }
+
+        
+
+        private void CureFirst_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainForm.CreateMF().Show();
+        }
        
     }
 }

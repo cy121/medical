@@ -59,7 +59,7 @@
             this.SearchBtn.UseVisualStyleBackColor = true;
             this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
             // 
-            // SearchForm
+            // SearchUpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -67,8 +67,9 @@
             this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.LogIdLabel);
             this.Controls.Add(this.LogIdTextBox);
-            this.Name = "SearchForm";
+            this.Name = "SearchUpdateForm";
             this.Text = "查询";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SearchUpdateForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

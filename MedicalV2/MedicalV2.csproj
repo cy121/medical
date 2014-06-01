@@ -157,6 +157,12 @@
     <Compile Include="FollowVisitForm.Designer.cs">
       <DependentUpon>FollowVisitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Msg.Designer.cs">
+      <DependentUpon>Msg.cs</DependentUpon>
+    </Compile>
     <Compile Include="SearchFollowVisitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CureFirst.resx">
       <DependentUpon>CureFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Msg.resx">
+      <DependentUpon>Msg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchFollowVisitForm.resx">
       <DependentUpon>SearchFollowVisitForm.cs</DependentUpon>

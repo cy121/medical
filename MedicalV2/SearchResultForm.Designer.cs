@@ -2540,6 +2540,7 @@
             this.Controls.Add(this.NaneLabel);
             this.Name = "SearchResultForm";
             this.Text = "查询结果";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SearchResultForm_FormClosed);
             this.tabControlAll.ResumeLayout(false);
             this.PresentHistorytabPage.ResumeLayout(false);
             this.PresentHistorytabPage.PerformLayout();

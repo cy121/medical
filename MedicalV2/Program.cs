@@ -16,7 +16,7 @@ namespace MedicalV2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new BasicInfoForm());
-            Application.Run(new MainForm());
+            Application.Run(MainForm.CreateMF());
         }
     }
 }

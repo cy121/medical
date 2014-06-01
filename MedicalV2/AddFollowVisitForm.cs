@@ -139,5 +139,10 @@ namespace MedicalV2
             fv.Handle = this.HandleTextBox.Text;
             fv.insertFollowVisit(cfId);
         }
+
+        private void AddFollowVisitForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainForm.CreateMF().Show();
+        }
     }
 }

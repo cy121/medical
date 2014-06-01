@@ -11,9 +11,12 @@ namespace MedicalV2
 {
     public partial class SearchFollowVisitForm : Form
     {
+        
+
         public SearchFollowVisitForm()
         {
             InitializeComponent();
+            
         }
 
         private void FVSearchBtn_Click(object sender, EventArgs e)
@@ -36,6 +39,11 @@ namespace MedicalV2
             {
                 MessageBox.Show("查询不存在！");
             }
+        }
+
+        private void SearchFollowVisitForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainForm.CreateMF().Show();
         }
 
         

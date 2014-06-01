@@ -11,15 +11,27 @@ namespace MedicalV2
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        private static MainForm mf;
+
+        private MainForm()
         {
             InitializeComponent();
+        }
+
+        public static MainForm CreateMF()
+        {
+            if (mf == null || mf.IsDisposed)
+            {
+                mf = new MainForm();
+            }
+            return mf;
         }
 
         private void CureFirstBtn_Click(object sender, EventArgs e)
         {
             CureFirst cf = new CureFirst();
             cf.Show();
+            this.Hide();
             //AddForm af = new AddForm();
             //af.Show();
         }
@@ -28,6 +40,8 @@ namespace MedicalV2
         {
             SearchUpdateForm suf = new SearchUpdateForm();
             suf.Show();
+            this.Hide();
+            
         }
 
         
@@ -36,6 +50,7 @@ namespace MedicalV2
         {
             SearchFollowVisitForm sfvf = new SearchFollowVisitForm();
             sfvf.Show();
+            this.Hide();
         }
 
         

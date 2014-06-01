@@ -1842,6 +1842,7 @@
             this.QuantityMorecheckBox.TabIndex = 13;
             this.QuantityMorecheckBox.Text = "硬";
             this.QuantityMorecheckBox.UseVisualStyleBackColor = true;
+            this.QuantityMorecheckBox.CheckedChanged += new System.EventHandler(this.QuantityMorecheckBox_CheckedChanged);
             // 
             // TremblecheckBox
             // 
@@ -1864,6 +1865,7 @@
             this.QuantityFormalcheckBox.TabIndex = 12;
             this.QuantityFormalcheckBox.Text = "中";
             this.QuantityFormalcheckBox.UseVisualStyleBackColor = true;
+            this.QuantityFormalcheckBox.CheckedChanged += new System.EventHandler(this.QuantityFormalcheckBox_CheckedChanged);
             // 
             // QuantityLesscheckBox
             // 
@@ -1875,6 +1877,7 @@
             this.QuantityLesscheckBox.TabIndex = 11;
             this.QuantityLesscheckBox.Text = "质地软";
             this.QuantityLesscheckBox.UseVisualStyleBackColor = true;
+            this.QuantityLesscheckBox.CheckedChanged += new System.EventHandler(this.QuantityLesscheckBox_CheckedChanged);
             // 
             // BigcheckBox
             // 
@@ -2952,6 +2955,7 @@
             this.IDosageStateComboBox.Name = "IDosageStateComboBox";
             this.IDosageStateComboBox.Size = new System.Drawing.Size(132, 20);
             this.IDosageStateComboBox.TabIndex = 127;
+            this.IDosageStateComboBox.TextChanged += new System.EventHandler(this.IDosageStateComboBox_TextChanged);
             // 
             // IDosageStateLabel
             // 
@@ -2976,6 +2980,7 @@
             this.IDosageCourseComboBox.Name = "IDosageCourseComboBox";
             this.IDosageCourseComboBox.Size = new System.Drawing.Size(132, 20);
             this.IDosageCourseComboBox.TabIndex = 125;
+            this.IDosageCourseComboBox.TextChanged += new System.EventHandler(this.IDosageCourseComboBox_TextChanged);
             // 
             // IDosageCourseLabel
             // 
@@ -3303,6 +3308,7 @@
             this.TwoFhtextBox.Name = "TwoFhtextBox";
             this.TwoFhtextBox.Size = new System.Drawing.Size(100, 21);
             this.TwoFhtextBox.TabIndex = 89;
+            this.TwoFhtextBox.TextChanged += new System.EventHandler(this.TwoFhtextBox_TextChanged);
             // 
             // label128
             // 
@@ -3330,6 +3336,7 @@
             this.twohtextBox.Name = "twohtextBox";
             this.twohtextBox.Size = new System.Drawing.Size(100, 21);
             this.twohtextBox.TabIndex = 86;
+            this.twohtextBox.TextChanged += new System.EventHandler(this.twohtextBox_TextChanged);
             // 
             // label124
             // 
@@ -3369,6 +3376,7 @@
             this.Controls.Add(this.tabControlAll);
             this.Name = "UpdateForm";
             this.Text = "复治";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UpdateForm_FormClosed);
             this.tabControlAll.ResumeLayout(false);
             this.PresentHistorytabPage.ResumeLayout(false);
             this.PresentHistorytabPage.PerformLayout();

@@ -11,9 +11,12 @@ namespace MedicalV2
 {
     public partial class SearchUpdateForm : Form
     {
+        
+
         public SearchUpdateForm()
         {
             InitializeComponent();
+            
         }
 
         private void SearchBtn_Click(object sender, EventArgs e)
@@ -34,6 +37,11 @@ namespace MedicalV2
             
                
             
+        }
+
+        private void SearchUpdateForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainForm.CreateMF().Show();
         }
     }
 }

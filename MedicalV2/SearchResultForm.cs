@@ -365,13 +365,18 @@ namespace MedicalV2
             /***********************更新操作************************/
             //allTabControl.Update();
             new UpdateForm(id).Show();
-            this.Close();
+            this.Hide();
         }
 
         private void AddFVBtn_Click(object sender, EventArgs e)
         {
             new AddFollowVisitForm(id).Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void SearchResultForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            MainForm.CreateMF().Show();
         }
 
         

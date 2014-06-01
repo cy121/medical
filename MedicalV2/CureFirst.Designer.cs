@@ -2932,6 +2932,7 @@
             this.QuantityMorecheckBox.TabIndex = 13;
             this.QuantityMorecheckBox.Text = "硬";
             this.QuantityMorecheckBox.UseVisualStyleBackColor = true;
+            this.QuantityMorecheckBox.CheckedChanged += new System.EventHandler(this.QuantityMorecheckBox_CheckedChanged);
             // 
             // TremblecheckBox
             // 
@@ -2954,17 +2955,19 @@
             this.QuantityFormalcheckBox.TabIndex = 12;
             this.QuantityFormalcheckBox.Text = "中";
             this.QuantityFormalcheckBox.UseVisualStyleBackColor = true;
+            this.QuantityFormalcheckBox.CheckedChanged += new System.EventHandler(this.QuantityFormalcheckBox_CheckedChanged);
             // 
             // QuantityLesscheckBox
             // 
             this.QuantityLesscheckBox.AutoSize = true;
-            this.QuantityLesscheckBox.Location = new System.Drawing.Point(247, 28);
+            this.QuantityLesscheckBox.Location = new System.Drawing.Point(241, 28);
             this.QuantityLesscheckBox.Name = "QuantityLesscheckBox";
             this.QuantityLesscheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.QuantityLesscheckBox.Size = new System.Drawing.Size(77, 25);
+            this.QuantityLesscheckBox.Size = new System.Drawing.Size(81, 25);
             this.QuantityLesscheckBox.TabIndex = 11;
-            this.QuantityLesscheckBox.Text = "质地软";
+            this.QuantityLesscheckBox.Text = "质地:软";
             this.QuantityLesscheckBox.UseVisualStyleBackColor = true;
+            this.QuantityLesscheckBox.CheckedChanged += new System.EventHandler(this.QuantityLesscheckBox_CheckedChanged);
             // 
             // BigcheckBox
             // 
@@ -4588,6 +4591,7 @@
             this.ETCWeighttextBox.Name = "ETCWeighttextBox";
             this.ETCWeighttextBox.Size = new System.Drawing.Size(50, 25);
             this.ETCWeighttextBox.TabIndex = 96;
+            this.ETCWeighttextBox.TextChanged += new System.EventHandler(this.ETCWeighttextBox_TextChanged);
             // 
             // label103
             // 
@@ -4944,6 +4948,7 @@
             this.IDosageStateComboBox.Name = "IDosageStateComboBox";
             this.IDosageStateComboBox.Size = new System.Drawing.Size(132, 20);
             this.IDosageStateComboBox.TabIndex = 123;
+            this.IDosageStateComboBox.TextChanged += new System.EventHandler(this.IDosageStateComboBox_TextChanged);
             // 
             // IDosageStateLabel
             // 
@@ -4968,6 +4973,7 @@
             this.IDosageCourseComboBox.Name = "IDosageCourseComboBox";
             this.IDosageCourseComboBox.Size = new System.Drawing.Size(132, 20);
             this.IDosageCourseComboBox.TabIndex = 121;
+            this.IDosageCourseComboBox.TextChanged += new System.EventHandler(this.IDosageCourseComboBox_TextChanged);
             // 
             // IDosageCourseLabel
             // 
@@ -5197,7 +5203,6 @@
             this.PlantextBox.Name = "PlantextBox";
             this.PlantextBox.Size = new System.Drawing.Size(100, 21);
             this.PlantextBox.TabIndex = 98;
-            this.PlantextBox.Click += new System.EventHandler(this.PlantextBox_Click);
             // 
             // label132
             // 
@@ -5285,6 +5290,7 @@
             this.TwoFhtextBox.Name = "TwoFhtextBox";
             this.TwoFhtextBox.Size = new System.Drawing.Size(100, 21);
             this.TwoFhtextBox.TabIndex = 89;
+            this.TwoFhtextBox.TextChanged += new System.EventHandler(this.TwoFhtextBox_TextChanged);
             // 
             // label128
             // 
@@ -5312,6 +5318,7 @@
             this.twohtextBox.Name = "twohtextBox";
             this.twohtextBox.Size = new System.Drawing.Size(100, 21);
             this.twohtextBox.TabIndex = 86;
+            this.twohtextBox.TextChanged += new System.EventHandler(this.twohtextBox_TextChanged);
             // 
             // label124
             // 
@@ -5353,6 +5360,8 @@
             this.Controls.Add(this.saveAllBtn);
             this.Name = "CureFirst";
             this.Text = "初治";
+            
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CureFirst_FormClosed);
             this.Load += new System.EventHandler(this.CureFirst_Load);
             this.BasicInfopanel.ResumeLayout(false);
             this.BasicInfogroupBox.ResumeLayout(false);

@@ -69,6 +69,7 @@
             this.Controls.Add(this.LogIdTextBox);
             this.Name = "SearchFollowVisitForm";
             this.Text = "查询";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SearchFollowVisitForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
